@@ -7,6 +7,7 @@
 //
 
 #import "SearchController.h"
+#import "QuickDoubanAppDelegate.h"
 
 @implementation SearchController
 
@@ -33,6 +34,12 @@
 		[self doSearch];
         result = YES;
     }
+	else if (commandSelector == @selector(cancelOperation:))
+	{
+		// TODO: refactor
+		[(QuickDoubanAppDelegate *)[[NSApplication sharedApplication] delegate] show:NO];
+		result = YES;
+	}
 	
     return result;
 }
