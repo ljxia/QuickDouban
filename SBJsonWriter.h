@@ -28,6 +28,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "SBJsonBase.h"
 
 /**
  @brief The JSON writer class.
@@ -51,33 +52,11 @@
  way you would expect.
  
  */
-@interface SBJsonWriter : NSObject {
-	
-@protected
-    NSString *error;
-    NSUInteger maxDepth;
-	
+@interface SBJsonWriter : SBJsonBase {
+
 @private
     BOOL sortKeys, humanReadable;
 }
-
-/**
- @brief The maximum recursing depth.
- 
- Defaults to 512. If the input is nested deeper than this the input will be deemed to be
- malicious and the parser returns nil, signalling an error. ("Nested too deep".) You can
- turn off this security feature by setting the maxDepth value to 0.
- */
-@property NSUInteger maxDepth;
-
-/**
- @brief Return an error trace, or nil if there was no errors.
- 
- Note that this method returns the trace of the last method that failed.
- You need to check the return value of the call you're making to figure out
- if the call actually failed, before you know call this method.
- */
-@property(copy) NSString *error;
 
 /**
  @brief Whether we are generating human-readable (multiline) JSON.
@@ -98,23 +77,15 @@
 @property BOOL sortKeys;
 
 /**
- @brief Return JSON representation for the given object.
+ @brief Return JSON representation (or fragment) for the given object.
  
  Returns a string containing JSON representation of the passed in value, or nil on error.
  If nil is returned and @p error is not NULL, @p *error can be interrogated to find the cause of the error.
  
- @param value any instance that can be represented as JSON text.
+ @param value any instance that can be represented as a JSON fragment
+ 
  */
 - (NSString*)stringWithObject:(id)value;
-
-/**
- @brief Return JSON representation for the given object.
- 
- Returns an NSData object containing JSON represented as UTF8 text, or nil on error.
- 
- @param value any instance that can be represented as JSON text.
- */
-- (NSData*)dataWithObject:(id)value;
 
 /**
  @brief Return JSON representation (or fragment) for the given object.
@@ -130,3 +101,27 @@
 
 
 @end
+
+/**
+ @brief Allows generation of JSON for otherwise unsupported classes.
+ 
+ If you have a custom class that you want to create a JSON representation for you can implement
+ this method in your class. It should return a representation of your object defined
+ in terms of objects that can be translated into JSON. For example, a Person
+ object might implement it like this:
+ 
+ @code
+ - (id)proxyForJson {
+    return [NSDictionary dictionaryWithObjectsAndKeys:
+        name, @"name",
+        phone, @"phone",
+        email, @"email",
+        nil];
+ }
+ @endcode
+ 
+ */
+@interface NSObject (SBProxyForJson)
+- (id)proxyForJson;
+@end
+

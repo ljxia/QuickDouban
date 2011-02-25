@@ -8,11 +8,38 @@
 
 #import "SearchController.h"
 #import "QuickDoubanAppDelegate.h"
+#import "RestService.h"
 
 @implementation SearchController
 
 - (void) doSearch{
 	NSLog(@"Search %@!", [searchTextField stringValue]);
+	NSString *keyword = [searchTextField stringValue];
+	
+	keyword = [keyword stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	NSString *url = [NSString stringWithFormat:@"http://api.douban.com/movie/subjects?q=%@&alt=json",keyword];
+	RestService *restRequest = [[RestService alloc] init];	
+	NSHTTPURLResponse * response = [[NSHTTPURLResponse alloc] init];
+	NSString *responseText = [restRequest requestToURL:url response:&response];
+	
+	NSDictionary *searchResult = [responseText JSONValue];
+	
+	NSLog(@"%@", searchResult);
+	
+	NSArray *entries = (NSArray *)[searchResult objectForKey:@"entry"];
+	
+	for (int i = 0; i < [entries count]; i++)
+	{
+		NSDictionary *entry = (NSDictionary *)[entries objectAtIndex:i];
+		
+		NSString *title = [[entry objectForKey:@"title"] objectForKey:@"$t"];
+		
+		NSLog(@"%@",title);
+		
+	}
+	
+	
+	
 }
 
 - (IBAction)search:(id)sender {

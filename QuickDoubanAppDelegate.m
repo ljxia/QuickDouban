@@ -32,7 +32,7 @@
 										   handler:^(NSEvent *incomingEvent){		
 											   if ([incomingEvent type] == NSKeyDown) {
 												   
-												   NSLog(@"%d",[incomingEvent keyCode]);
+												   //NSLog(@"%d",[incomingEvent keyCode]);
 
 												   if ([[incomingEvent charactersIgnoringModifiers] isEqualTo: @" "] 
 													   && (0 != ([incomingEvent modifierFlags] & (NSCommandKeyMask | NSAlternateKeyMask)))
