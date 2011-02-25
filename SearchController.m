@@ -12,6 +12,8 @@
 
 @implementation SearchController
 
+@synthesize delegate;
+
 - (void) doSearch{
 	NSLog(@"Search %@!", [searchTextField stringValue]);
 	NSString *keyword = [searchTextField stringValue];
@@ -24,22 +26,14 @@
 	
 	NSDictionary *searchResult = [responseText JSONValue];
 	
-	NSLog(@"%@", searchResult);
+	//NSLog(@"%@", searchResult);
 	
 	NSArray *entries = (NSArray *)[searchResult objectForKey:@"entry"];
 	
-	for (int i = 0; i < [entries count]; i++)
+	if (entries && [entries count])
 	{
-		NSDictionary *entry = (NSDictionary *)[entries objectAtIndex:i];
-		
-		NSString *title = [[entry objectForKey:@"title"] objectForKey:@"$t"];
-		
-		NSLog(@"%@",title);
-		
+		[delegate searchResultDidReturn:entries ofType:QDBEntryTypeMovie];
 	}
-	
-	
-	
 }
 
 - (IBAction)search:(id)sender {
@@ -54,7 +48,7 @@
     if (commandSelector == @selector(insertNewline:))
     {
 		[self doSearch];
-        result = NO;
+        result = YES;
     }
     else if (commandSelector == @selector(insertTab:))
     {
@@ -64,7 +58,9 @@
 	else if (commandSelector == @selector(cancelOperation:))
 	{
 		// TODO: refactor
-		[(QuickDoubanAppDelegate *)[[NSApplication sharedApplication] delegate] show:NO];
+		//[(QuickDoubanAppDelegate *)[[NSApplication sharedApplication] delegate] show:NO];
+		
+		[delegate escapeKeyPressed];
 		result = YES;
 	}
 	

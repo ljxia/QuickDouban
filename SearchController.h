@@ -7,14 +7,26 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "QuickDoubanBase.h"
 
+@protocol SearchControllerDelegate;
 
 @interface SearchController : NSObjectController <NSTextFieldDelegate> {
+	id <SearchControllerDelegate> delegate;
 	IBOutlet NSTextField *searchTextField;
 }
 
-- (IBAction)search:(id)sender;
+@property (nonatomic, assign) id <SearchControllerDelegate> delegate;
 
+- (IBAction)search:(id)sender;
 - (void) doSearch;
 
 @end
+
+@protocol SearchControllerDelegate
+
+- (void)searchResultDidReturn:(NSArray *)entries ofType:(QDBEntryType)type;
+- (void)escapeKeyPressed;
+
+@end
+

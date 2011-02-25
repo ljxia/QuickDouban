@@ -268,12 +268,11 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>DC217D83130CF5D60084C7CD</string>
-								<string>DC217D85130CF5DD0084C7CD</string>
+								<string>DC866D5713175A6B0053100C</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>DC217E9D13106FF00084C7CD</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>089C165CFE840E0CC02AAC07</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1058C7A0FEA54F0111CA2CBB</string>
 								<string>1058C7A2FEA54F0111CA2CBB</string>
@@ -284,8 +283,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>19</integer>
-									<integer>15</integer>
+									<integer>17</integer>
+									<integer>12</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -327,7 +326,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SearchController.m</string>
+								<string>QuickDoubanCardViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -335,11 +334,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SearchController.m</string>
+										<string>QuickDoubanCardViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC866D501317571A0053100C</string>
+										<string>DC86708913178B830053100C</string>
 										<key>history</key>
 										<array>
 											<string>DC9F4732130CD93700B81679</string>
@@ -349,14 +348,19 @@
 											<string>DC217DD0130CF86C0084C7CD</string>
 											<string>DC217DD1130CF86C0084C7CD</string>
 											<string>DC217DD3130CF86C0084C7CD</string>
-											<string>DC217EC4131079950084C7CD</string>
-											<string>DC217ECB131079BC0084C7CD</string>
-											<string>DC217ED713107AF50084C7CD</string>
-											<string>DC217EDC13107C2B0084C7CD</string>
 											<string>DC217EDD13107C2B0084C7CD</string>
 											<string>DC866D4D1317571A0053100C</string>
-											<string>DC866D4E1317571A0053100C</string>
-											<string>DC866D4F1317571A0053100C</string>
+											<string>DC866EFD131762D70053100C</string>
+											<string>DC866F21131767700053100C</string>
+											<string>DC866F3213176A100053100C</string>
+											<string>DC866F9F131777F70053100C</string>
+											<string>DC866FE9131780A90053100C</string>
+											<string>DC866FEA131780A90053100C</string>
+											<string>DC866FF41317810B0053100C</string>
+											<string>DC867064131789890053100C</string>
+											<string>DC86706C131789DA0053100C</string>
+											<string>DC86707913178A240053100C</string>
+											<string>DC86707A13178A240053100C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -554,11 +558,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DC866D511317571A0053100C</string>
+		<string>DC86708A13178B830053100C</string>
+		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>DC866C8F131625810053100C</string>
 		<string>DC866C90131625810053100C</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>DC9F46F7130CCC1400B81679</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban.xcodeproj</string>
@@ -585,7 +589,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>QuickDoubanCardViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -869,7 +873,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C530D57069F1CE1000CFCEE</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

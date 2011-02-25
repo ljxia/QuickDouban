@@ -20,6 +20,8 @@
 		DC866D3B131756770053100C /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D35131756770053100C /* SBJsonParser.m */; };
 		DC866D3C131756770053100C /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D37131756770053100C /* SBJsonWriter.m */; };
 		DC866D5B13175A7D0053100C /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D5A13175A7D0053100C /* MAAttachedWindow.m */; };
+		DC866FC513177A8B0053100C /* QuickDoubanCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC866FC413177A8B0053100C /* QuickDoubanCardView.xib */; };
+		DC866FC913177D460053100C /* QuickDoubanCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */; };
 		DC9F473B130CDA8B00B81679 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9F473A130CDA8B00B81679 /* SearchController.m */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,10 @@
 		DC866D37131756770053100C /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = SOURCE_ROOT; };
 		DC866D5913175A7D0053100C /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
 		DC866D5A13175A7D0053100C /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
+		DC866EEE131761AF0053100C /* QuickDoubanBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDoubanBase.h; sourceTree = "<group>"; };
+		DC866FC413177A8B0053100C /* QuickDoubanCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickDoubanCardView.xib; sourceTree = "<group>"; };
+		DC866FC713177D460053100C /* QuickDoubanCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDoubanCardViewController.h; sourceTree = "<group>"; };
+		DC866FC813177D460053100C /* QuickDoubanCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickDoubanCardViewController.m; sourceTree = "<group>"; };
 		DC9F4739130CDA8B00B81679 /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
 		DC9F473A130CDA8B00B81679 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +141,7 @@
 				8D1107310486CEB800E47090 /* QuickDouban-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				DC866FC413177A8B0053100C /* QuickDoubanCardView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -190,6 +197,9 @@
 			children = (
 				DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */,
 				DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */,
+				DC866EEE131761AF0053100C /* QuickDoubanBase.h */,
+				DC866FC713177D460053100C /* QuickDoubanCardViewController.h */,
+				DC866FC813177D460053100C /* QuickDoubanCardViewController.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -255,6 +265,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				DC866FC513177A8B0053100C /* QuickDoubanCardView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +287,7 @@
 				DC866D3B131756770053100C /* SBJsonParser.m in Sources */,
 				DC866D3C131756770053100C /* SBJsonWriter.m in Sources */,
 				DC866D5B13175A7D0053100C /* MAAttachedWindow.m in Sources */,
+				DC866FC913177D460053100C /* QuickDoubanCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

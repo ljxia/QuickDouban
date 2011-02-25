@@ -8,12 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 #import "JSON.h"
+#import "SearchController.h"
 
-@interface QuickDoubanAppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate> {
+@interface QuickDoubanAppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate, SearchControllerDelegate> {
     NSWindow *window;
+	SearchController *searchController;
+	IBOutlet NSView *floatView;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet SearchController *searchController;
 
 - (void) show:(BOOL)toShow;
 

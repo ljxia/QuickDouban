@@ -7,11 +7,13 @@
 //
 
 #import "QuickDoubanAppDelegate.h"
+//#import "MAAttachedWindow.h"
+#import "QuickDoubanCardViewController.h"
 
 @implementation QuickDoubanAppDelegate
 
 @synthesize window;
-
+@synthesize searchController;
 
 - (void)awakeFromNib{
 	NSLog(@"Awake From Nib");
@@ -21,7 +23,7 @@
 	[window setDelegate:self];
 	[window setAlphaValue:0];
 	
-
+	[searchController setDelegate:self];
 	
 }
 
@@ -89,6 +91,71 @@
 }
 
 - (void) applicationDidResignActive:(NSNotification *)notification{
+	[self show:NO];
+}
+
+- (void)searchResultDidReturn:(NSArray *)entries ofType:(QDBEntryType)type{
+	
+	
+	
+	for (int i = 0; i < [entries count]; i++)
+	{
+		NSDictionary *entry = (NSDictionary *)[entries objectAtIndex:i];
+		
+		NSString *title = [[entry objectForKey:@"title"] objectForKey:@"$t"];
+		NSArray *url = [entry objectForKey:@"link"];
+		
+		NSLog(@"%@",title);
+		
+		NSRect windowRect = NSMakeRect(0 + i * 220, -250 ,200,200);
+		
+		windowRect.origin = [window convertBaseToScreen:windowRect.origin];
+		
+		
+		QuickDoubanCardViewController *cardController = [[QuickDoubanCardViewController alloc] initWithNibName:@"QuickDoubanCardView" bundle:nil];
+		[cardController retain];
+		
+		NSPanel *cardWindow = [[NSPanel alloc] initWithContentRect:windowRect 
+														   styleMask:NSHUDWindowMask | NSUtilityWindowMask
+															 backing:NSBackingStoreBuffered 
+															   defer:YES];
+		
+		//NSBorderlessWindowMask | NSClosableWindowMask
+		
+		[cardController setNextResponder:[cardWindow nextResponder]];
+		[cardWindow setNextResponder:cardController];
+		
+		[cardWindow setContentView:[cardController view]];
+		[[cardController title] setStringValue:title];
+		[cardController setUrl:url];
+		 
+		[window addChildWindow:cardWindow ordered:NSWindowAbove];
+		
+		//NSPoint buttonPoint = NSMakePoint(0 + i * 300,0);
+		
+//        MAAttachedWindow *attachedWindow = [[MAAttachedWindow alloc] initWithView:floatView
+//                                                attachedToPoint:buttonPoint 
+//                                                       inWindow:window 
+//                                                         onSide:MAPositionBottom 
+//                                                     atDistance:0];
+//		
+//		[attachedWindow retain];
+//		[attachedWindow setAlphaValue:0.8f];
+//        [attachedWindow setBorderColor:[NSColor whiteColor]];
+//        [attachedWindow setBackgroundColor:[NSColor blackColor]];
+//        [attachedWindow setViewMargin:30];
+//        [attachedWindow setBorderWidth:3];
+//        [attachedWindow setCornerRadius:14];
+//        [attachedWindow setHasArrow:NO];
+//        [attachedWindow setDrawsRoundCornerBesideArrow:NO];
+//        [attachedWindow setArrowBaseWidth:20];
+//        [attachedWindow setArrowHeight:20];
+//        
+//        [window addChildWindow:attachedWindow ordered:NSWindowAbove];
+	}
+}
+
+- (void)escapeKeyPressed{
 	[self show:NO];
 }
 
