@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="1"/>
+			<integer value="2"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -40,14 +40,15 @@
 			</object>
 			<object class="NSCustomView" id="1005">
 				<reference key="NSNextResponder"/>
-				<int key="NSvFlags">8460</int>
+				<int key="NSvFlags">8448</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="NSTextField" id="595668207">
 						<reference key="NSNextResponder" ref="1005"/>
-						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{17, 20}, {166, 160}}</string>
+						<int key="NSvFlags">274</int>
+						<string key="NSFrame">{{20, 20}, {260, 260}}</string>
 						<reference key="NSSuperview" ref="1005"/>
+						<bool key="NSViewIsLayerTreeHost">YES</bool>
 						<int key="NSViewLayerContentsRedrawPolicy">2</int>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="791206106">
@@ -60,7 +61,11 @@
 								<int key="NSfFlags">16</int>
 							</object>
 							<reference key="NSControlView" ref="595668207"/>
-							<object class="NSColor" key="NSBackgroundColor" id="327800807">
+							<object class="NSColor" key="NSBackgroundColor">
+								<int key="NSColorSpace">1</int>
+								<bytes key="NSRGB">MC4yMjMwODAxMTUyIDAuMTA4NjMzODg0MiAwLjMxNTIxNzM5MTMAA</bytes>
+							</object>
+							<object class="NSColor" key="NSTextColor">
 								<int key="NSColorSpace">6</int>
 								<string key="NSCatalogName">System</string>
 								<string key="NSColorName">textBackgroundColor</string>
@@ -69,16 +74,16 @@
 									<bytes key="NSWhite">MQA</bytes>
 								</object>
 							</object>
-							<reference key="NSTextColor" ref="327800807"/>
 						</object>
 					</object>
 				</object>
-				<string key="NSFrameSize">{200, 200}</string>
+				<string key="NSFrameSize">{300, 300}</string>
 				<reference key="NSSuperview"/>
 				<bool key="NSViewIsLayerTreeHost">YES</bool>
 				<object class="NSArray" key="NSViewBackgroundFilters">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="CIColorInvert">
+					<object class="CIGaussianBlur">
+						<real value="10" key="CI_inputRadius"/>
 						<bool key="CIEnabled">YES</bool>
 					</object>
 				</object>
@@ -176,7 +181,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<string>{{633, 940}, {200, 200}}</string>
+					<string>{{633, 840}, {300, 300}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<real value="0.0"/>
 					<object class="NSColor">
@@ -189,7 +194,7 @@
 					<string>{{217, 442}, {480, 272}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABCUAAAwwcAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAw5UAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 				</object>
@@ -210,7 +215,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">7</int>
+			<int key="maxID">9</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

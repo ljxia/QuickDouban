@@ -14,11 +14,13 @@
     NSWindow *window;
 	SearchController *searchController;
 	IBOutlet NSView *floatView;
+	NSMutableArray *cardWindows;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet SearchController *searchController;
+@property (retain) NSMutableArray *cardWindows;
 
 - (void) show:(BOOL)toShow;
-
+- (void) organizeChildWindows;
 @end
