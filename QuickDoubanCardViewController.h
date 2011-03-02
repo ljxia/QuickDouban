@@ -10,16 +10,19 @@
 #import <Quartz/Quartz.h>
 
 @interface QuickDoubanCardViewController : NSViewController {
-	IBOutlet NSTextField *title;
+	IBOutlet NSTextField *titleField;
 	IBOutlet IKImageView *cardImage;
 	
+	NSDictionary *entryData;
 	NSArray *url;
 }
 
-@property (retain) IBOutlet NSTextField *title;
+@property (retain) IBOutlet NSTextField *titleField;
 @property (retain) IBOutlet IKImageView *cardImage;
 @property (retain) NSArray *url;
+@property (retain) NSDictionary *entryData;
 
+- (id) initWithNibName:(NSString *)nibNameOrNil cardData:(NSDictionary *)data;
 - (void) mouseUp:(NSEvent *)theEvent;
 
 @end

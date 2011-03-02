@@ -8,7 +8,7 @@
 
 #import "QuickDoubanAppDelegate.h"
 //#import "MAAttachedWindow.h"
-#import "QuickDoubanCardViewController.h"
+#import "QuickDoubanCardWindow.h"
 
 #include <dispatch/dispatch.h>
 
@@ -127,46 +127,17 @@
 			
 			NSDictionary *entry = (NSDictionary *)[entries objectAtIndex:i];
 			
-			NSString *title = [[entry objectForKey:@"title"] objectForKey:@"$t"];
-			NSArray *url = [entry objectForKey:@"link"];
-			
-			NSLog(@"%@",title);
-			
 			NSRect windowRect = NSMakeRect([window frame].size.width / 2, 0, 300, 300);
 			
 			windowRect.origin = [window convertBaseToScreen:windowRect.origin];
 			
-			
-			QuickDoubanCardViewController *cardController = [[QuickDoubanCardViewController alloc] initWithNibName:@"QuickDoubanCardView" bundle:nil];
-			[cardController retain];
-			
-			NSPanel *cardWindow = [[NSPanel alloc] initWithContentRect:windowRect 
-															 styleMask:NSClosableWindowMask | NSHUDWindowMask
+			QuickDoubanCardWindow *cardWindow = [[QuickDoubanCardWindow alloc] initWithContentRect:windowRect 
+															 styleMask:NSUtilityWindowMask | NSTexturedBackgroundWindowMask
 															   backing:NSBackingStoreBuffered 
-																 defer:YES];
-			
-			//NSBorderlessWindowMask | NSClosableWindowMask
-			
-			[cardController setNextResponder:[cardWindow nextResponder]];
-			[cardWindow setNextResponder:cardController];
-			
-			[cardWindow setContentView:[cardController view]];
-			[cardWindow setReleasedWhenClosed:YES];
+																 defer:NO
+																  data:entry];
 			[cardWindow setAlphaValue:0];
-			
-			NSString *imageUrlString = [(NSDictionary *)[url objectAtIndex:2] objectForKey:@"@href"];
-			imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"/spic/" withString:@"/lpic/"];
-			imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"default-small" withString:@"default-medium	"];
-			NSURL *imageUrl = [NSURL URLWithString:imageUrlString];
-			[[cardController cardImage] setImageWithURL:imageUrl];
-			[[cardController cardImage] zoomImageToFit:nil];
-			NSLog(@"%@",imageUrl);
-			[imageUrl release];
-			
-			[[cardController title] setStringValue:title];
-			[[cardController title] setNeedsDisplay:YES];
-			
-			[cardController setUrl:url];
+			[entry autorelease];
 			
 			[window addChildWindow:cardWindow ordered:NSWindowBelow];
 			
@@ -178,7 +149,7 @@
 	//
 	
 	dispatch_group_notify( myGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-		//NSLog(@"%@", [window childWindows]);
+		NSLog(@"%@", [window childWindows]);
 		[self organizeChildWindows];
 	});
 	
@@ -210,7 +181,7 @@
 	
 	for (int i = 0; i < [cardWindows count];i++)
 	{			
-		NSPanel *cardWindow = (NSPanel *)[cardWindows objectAtIndex:i];
+		QuickDoubanCardWindow *cardWindow = (QuickDoubanCardWindow *)[cardWindows objectAtIndex:i];
 		
 		NSLog(@"%@", cardWindow);
 		NSRect newLocationFrame = NSMakeRect(actualScreenMarginHorizontal + (cardSide + cardMargin) * (int)(i % maxCardInRow), 
@@ -220,20 +191,29 @@
 		
 		
 		[cardWindow setFrameOrigin:newLocationFrame.origin];
+		
+		
 		[cardWindow setAlphaValue:1.0];
 
 		//[[cardWindow contentView] setFrame:NSMakeRect(0, 0, cardSide, cardSide)];
 		
-//		NSDictionary *windowResizeFade;
-//		windowResizeFade = [NSDictionary dictionaryWithObjectsAndKeys:cardWindow, NSViewAnimationTargetKey,
-////						[NSValue valueWithRect: newLocationFrame],NSViewAnimationEndFrameKey,
-//						NSViewAnimationFadeInEffect,NSViewAnimationEffectKey,
+//		NSDictionary *windowResize;
+//		windowResize = [NSDictionary dictionaryWithObjectsAndKeys:
+//						cardWindow, NSViewAnimationTargetKey,
+//						[NSValue valueWithRect: newLocationFrame], NSViewAnimationEndFrameKey,
+//						nil];
+		
+//		NSDictionary *windowFade;
+//		windowFade = [NSDictionary dictionaryWithObjectsAndKeys:
+//					    cardWindow, NSViewAnimationTargetKey,
+//						NSViewAnimationFadeInEffect, NSViewAnimationEffectKey,
 //						nil];
 //		
 //		NSViewAnimation *theAnim;
-//		theAnim = [[NSViewAnimation alloc] initWithViewAnimations:[NSArray arrayWithObjects:windowResizeFade, nil]];
+//		theAnim = [[NSViewAnimation alloc] initWithViewAnimations:[NSArray arrayWithObjects:windowFade, nil]];
 //		
-//		[theAnim setDuration:.5];
+//		[theAnim setAnimationBlockingMode: NSAnimationNonblocking];
+//		[theAnim setDuration:0.3];
 //		[theAnim setAnimationCurve:NSAnimationEaseInOut];
 //		[theAnim startAnimation];
 //		[theAnim release];	

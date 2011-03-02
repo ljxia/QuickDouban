@@ -41,17 +41,12 @@
 	});
 	
 	dispatch_group_notify(taskGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-		
-		NSLog(@"Search Finished");
-		
 		NSArray *entries = [NSMutableArray arrayWithArray:[searchResult objectForKey:@"entry"]];
 		
 		if (entries && [entries count])
 		{
 			[delegate searchResultDidReturn:entries ofType:QDBEntryTypeMovie];
 		}
-		
-		NSLog(@"Delegate Notified");
 	});
 	
 	

@@ -17,6 +17,7 @@
 		DC804F0E131CC85100DE8FD6 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC804F0D131CC85100DE8FD6 /* Quartz.framework */; };
 		DC805017131DF0C800DE8FD6 /* SearchBarWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */; };
 		DC80501C131DF0F700DE8FD6 /* SearchBarWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC80501B131DF0F700DE8FD6 /* SearchBarWindowController.xib */; };
+		DC805227131E209B00DE8FD6 /* QuickDoubanCardWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */; };
 		DC866D38131756770053100C /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D2F131756770053100C /* NSObject+SBJSON.m */; };
 		DC866D39131756770053100C /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D31131756770053100C /* NSString+SBJSON.m */; };
 		DC866D3A131756770053100C /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D33131756770053100C /* SBJsonBase.m */; };
@@ -48,6 +49,8 @@
 		DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarWindowController.h; sourceTree = "<group>"; };
 		DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarWindowController.m; sourceTree = "<group>"; };
 		DC80501B131DF0F700DE8FD6 /* SearchBarWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBarWindowController.xib; sourceTree = "<group>"; };
+		DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDoubanCardWindow.h; sourceTree = "<group>"; };
+		DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickDoubanCardWindow.m; sourceTree = "<group>"; };
 		DC866D2D131756770053100C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = SOURCE_ROOT; };
 		DC866D2E131756770053100C /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = SOURCE_ROOT; };
 		DC866D2F131756770053100C /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = SOURCE_ROOT; };
@@ -202,6 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				DC866EEE131761AF0053100C /* QuickDoubanBase.h */,
+				DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */,
+				DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */,
 				DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */,
 				DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */,
 			);
@@ -304,6 +309,7 @@
 				DC866D5B13175A7D0053100C /* MAAttachedWindow.m in Sources */,
 				DC866FC913177D460053100C /* QuickDoubanCardViewController.m in Sources */,
 				DC805017131DF0C800DE8FD6 /* SearchBarWindowController.m in Sources */,
+				DC805227131E209B00DE8FD6 /* QuickDoubanCardWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
