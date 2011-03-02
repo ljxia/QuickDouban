@@ -9,6 +9,7 @@
 #import "QuickDoubanAppDelegate.h"
 //#import "MAAttachedWindow.h"
 #import "QuickDoubanCardViewController.h"
+
 #include <dispatch/dispatch.h>
 
 
@@ -19,13 +20,20 @@
 @synthesize cardWindows;
 
 - (void)awakeFromNib{
+	
+	searchController = [SearchBarWindowController sharedSearchBar];
+	[searchController setDelegate:self];
+	
+	
+	window = [searchController window];
+	
 	[window setBackgroundColor:[NSColor colorWithDeviceRed:0.1 green:0.1 blue:0.1 alpha:0.9]];
 	[window setDelegate:self];
 	[window setAlphaValue:0];
 	NSLog(@"%d, %d",(int)[window frame].origin.x, (int)[window frame].origin.y);
 	
 	
-	[searchController setDelegate:self];
+	
 	cardWindows = [[NSMutableArray alloc] initWithCapacity:100]; 
 }
 
@@ -109,7 +117,7 @@
 		
 	}
 	
-	dispatch_queue_t myQueue = dispatch_queue_create("myQueue", NULL);
+	//dispatch_queue_t myQueue = dispatch_queue_create("myQueue", NULL);
 	dispatch_group_t myGroup = dispatch_group_create();
 	
 	for (int i = 0; i < [entries count]; i++)
@@ -148,7 +156,7 @@
 			
 			NSString *imageUrlString = [(NSDictionary *)[url objectAtIndex:2] objectForKey:@"@href"];
 			imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"/spic/" withString:@"/lpic/"];
-			imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"default-small" withString:@"default-medium"];
+			imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"default-small" withString:@"default-medium	"];
 			NSURL *imageUrl = [NSURL URLWithString:imageUrlString];
 			[[cardController cardImage] setImageWithURL:imageUrl];
 			[[cardController cardImage] zoomImageToFit:nil];

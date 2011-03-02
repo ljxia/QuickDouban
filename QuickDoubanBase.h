@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "JSON.h"
 
 typedef enum _QDBEntryType {
     QDBEntryTypeMovie       = 0, 

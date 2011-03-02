@@ -15,6 +15,8 @@
 		DC217E9C13106CC90084C7CD /* RestService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC217E9B13106CC90084C7CD /* RestService.m */; };
 		DC217EC11310771C0084C7CD /* BaseDoubanSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */; };
 		DC804F0E131CC85100DE8FD6 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC804F0D131CC85100DE8FD6 /* Quartz.framework */; };
+		DC805017131DF0C800DE8FD6 /* SearchBarWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */; };
+		DC80501C131DF0F700DE8FD6 /* SearchBarWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC80501B131DF0F700DE8FD6 /* SearchBarWindowController.xib */; };
 		DC866D38131756770053100C /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D2F131756770053100C /* NSObject+SBJSON.m */; };
 		DC866D39131756770053100C /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D31131756770053100C /* NSString+SBJSON.m */; };
 		DC866D3A131756770053100C /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D33131756770053100C /* SBJsonBase.m */; };
@@ -44,6 +46,9 @@
 		DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDoubanSearcher.h; sourceTree = "<group>"; };
 		DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDoubanSearcher.m; sourceTree = "<group>"; };
 		DC804F0D131CC85100DE8FD6 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarWindowController.h; sourceTree = "<group>"; };
+		DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarWindowController.m; sourceTree = "<group>"; };
+		DC80501B131DF0F700DE8FD6 /* SearchBarWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBarWindowController.xib; sourceTree = "<group>"; };
 		DC866D2D131756770053100C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = SOURCE_ROOT; };
 		DC866D2E131756770053100C /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = SOURCE_ROOT; };
 		DC866D2F131756770053100C /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = SOURCE_ROOT; };
@@ -144,6 +149,7 @@
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				DC866FC413177A8B0053100C /* QuickDoubanCardView.xib */,
+				DC80501B131DF0F700DE8FD6 /* SearchBarWindowController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -202,6 +208,8 @@
 				DC866EEE131761AF0053100C /* QuickDoubanBase.h */,
 				DC9F4739130CDA8B00B81679 /* SearchController.h */,
 				DC9F473A130CDA8B00B81679 /* SearchController.m */,
+				DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */,
+				DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */,
 				DC866FC713177D460053100C /* QuickDoubanCardViewController.h */,
 				DC866FC813177D460053100C /* QuickDoubanCardViewController.m */,
 			);
@@ -270,6 +278,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				DC866FC513177A8B0053100C /* QuickDoubanCardView.xib in Resources */,
+				DC80501C131DF0F700DE8FD6 /* SearchBarWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +301,7 @@
 				DC866D3C131756770053100C /* SBJsonWriter.m in Sources */,
 				DC866D5B13175A7D0053100C /* MAAttachedWindow.m in Sources */,
 				DC866FC913177D460053100C /* QuickDoubanCardViewController.m in Sources */,
+				DC805017131DF0C800DE8FD6 /* SearchBarWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
