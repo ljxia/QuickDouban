@@ -17,9 +17,9 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1380, 3172}}";
-			sepNavSelRange = "{5524, 0}";
-			sepNavVisRange = "{4717, 1443}";
+			sepNavIntBoundsRect = "{{0, 0}, {1214, 3107}}";
+			sepNavSelRange = "{6157, 0}";
+			sepNavVisRange = "{5802, 706}";
 		};
 	};
 	256AC3F00F4B6AF500CF3369 /* QuickDouban_Prefix.pch */ = {
@@ -1620,9 +1620,9 @@
 	};
 	DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1342, 1105}}";
-			sepNavSelRange = "{190, 0}";
-			sepNavVisRange = "{0, 2071}";
+			sepNavIntBoundsRect = "{{0, 0}, {1380, 1105}}";
+			sepNavSelRange = "{1194, 0}";
+			sepNavVisRange = "{151, 1313}";
 		};
 	};
 	DC805018131DF0D000DE8FD6 /* PBXTextBookmark */ = {
@@ -2102,8 +2102,8 @@
 	};
 	DC866EEE131761AF0053100C /* QuickDoubanBase.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1342, 974}}";
-			sepNavSelRange = "{183, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1342, 997}}";
+			sepNavSelRange = "{272, 0}";
 			sepNavVisRange = "{0, 561}";
 		};
 	};
@@ -2330,13 +2330,26 @@
 		vrLoc = 0;
 	};
 	DC9F4739130CDA8B00B81679 /* SearchController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = SearchController.h;
+		path = /Users/liangjie/Projects/Mac/QuickDouban/SearchController.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1224}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1247}}";
 			sepNavSelRange = "{713, 0}";
 			sepNavVisRange = "{0, 713}";
+			sepNavWindowFrame = "{{15, 38}, {1278, 1375}}";
 		};
 	};
 	DC9F473A130CDA8B00B81679 /* SearchController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SearchController.m;
+		path = /Users/liangjie/Projects/Mac/QuickDouban/SearchController.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1342, 997}}";
 			sepNavSelRange = "{263, 0}";

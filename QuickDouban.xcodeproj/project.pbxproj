@@ -25,7 +25,6 @@
 		DC866D5B13175A7D0053100C /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D5A13175A7D0053100C /* MAAttachedWindow.m */; };
 		DC866FC513177A8B0053100C /* QuickDoubanCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC866FC413177A8B0053100C /* QuickDoubanCardView.xib */; };
 		DC866FC913177D460053100C /* QuickDoubanCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */; };
-		DC9F473B130CDA8B00B81679 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9F473A130CDA8B00B81679 /* SearchController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,8 +65,6 @@
 		DC866FC413177A8B0053100C /* QuickDoubanCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickDoubanCardView.xib; sourceTree = "<group>"; };
 		DC866FC713177D460053100C /* QuickDoubanCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDoubanCardViewController.h; sourceTree = "<group>"; };
 		DC866FC813177D460053100C /* QuickDoubanCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickDoubanCardViewController.m; sourceTree = "<group>"; };
-		DC9F4739130CDA8B00B81679 /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
-		DC9F473A130CDA8B00B81679 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,8 +203,6 @@
 				DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */,
 				DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */,
 				DC866EEE131761AF0053100C /* QuickDoubanBase.h */,
-				DC9F4739130CDA8B00B81679 /* SearchController.h */,
-				DC9F473A130CDA8B00B81679 /* SearchController.m */,
 				DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */,
 				DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */,
 				DC866FC713177D460053100C /* QuickDoubanCardViewController.h */,
@@ -291,7 +286,6 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* QuickDoubanAppDelegate.m in Sources */,
-				DC9F473B130CDA8B00B81679 /* SearchController.m in Sources */,
 				DC217E9C13106CC90084C7CD /* RestService.m in Sources */,
 				DC217EC11310771C0084C7CD /* BaseDoubanSearcher.m in Sources */,
 				DC866D38131756770053100C /* NSObject+SBJSON.m in Sources */,
