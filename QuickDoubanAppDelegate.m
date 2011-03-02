@@ -17,9 +17,6 @@
 @synthesize cardWindows;
 
 - (void)awakeFromNib{
-	//NSLog(@"Awake From Nib");
-	//NSLog(@"Parsed some JSON: %@", [@"[1,2,3,true,false,null]" JSONValue]);
-
 	[window setBackgroundColor:[NSColor colorWithDeviceRed:0.1 green:0.1 blue:0.1 alpha:0.9]];
 	[window setDelegate:self];
 	[window setAlphaValue:0];
@@ -140,7 +137,18 @@
 		[cardWindow setContentView:[cardController view]];
 		[cardWindow setReleasedWhenClosed:YES];
 		[cardWindow setAlphaValue:0];
+		
+		NSString *imageUrlString = [(NSDictionary *)[url objectAtIndex:2] objectForKey:@"@href"];
+		imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"/spic/" withString:@"/lpic/"];
+		NSURL *imageUrl = [NSURL URLWithString:imageUrlString];
+		[[cardController cardImage] setImageWithURL:imageUrl];
+		[[cardController cardImage] zoomImageToFit:nil];
+		NSLog(@"%@",imageUrl);
+		[imageUrl release];
+		
 		[[cardController title] setStringValue:title];
+		[[cardController title] setNeedsDisplay:YES];
+		
 		[cardController setUrl:url];
 		
 		[window addChildWindow:cardWindow ordered:NSWindowBelow];
@@ -202,7 +210,7 @@
 	{			
 		NSPanel *cardWindow = (NSPanel *)[cardWindows objectAtIndex:i];
 		NSRect newLocationFrame = NSMakeRect(actualScreenMarginHorizontal + (cardSide + cardMargin) * (int)(i % maxCardInRow), 
-											 [window frame].origin.y - screenMargin - (cardSide + cardMargin) * ((int)(i / maxCardInRow) + 1), 
+											 [window frame].origin.y - 30 - (cardSide + cardMargin) * ((int)(i / maxCardInRow) + 1), 
 											 cardSide, 
 											 cardSide);
 		

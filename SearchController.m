@@ -19,7 +19,7 @@
 	NSString *keyword = [searchTextField stringValue];
 	
 	keyword = [keyword stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-	NSString *url = [NSString stringWithFormat:@"http://api.douban.com/movie/subjects?q=%@&alt=json",keyword];
+	NSString *url = [NSString stringWithFormat:@"http://api.douban.com/music/subjects?q=%@&alt=json&max-results=21",keyword];
 	RestService *restRequest = [[RestService alloc] init];	
 	NSHTTPURLResponse * response = [[NSHTTPURLResponse alloc] init];
 	NSString *responseText = [restRequest requestToURL:url response:&response];

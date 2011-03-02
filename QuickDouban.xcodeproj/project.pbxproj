@@ -14,6 +14,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC217E9C13106CC90084C7CD /* RestService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC217E9B13106CC90084C7CD /* RestService.m */; };
 		DC217EC11310771C0084C7CD /* BaseDoubanSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */; };
+		DC804F0E131CC85100DE8FD6 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC804F0D131CC85100DE8FD6 /* Quartz.framework */; };
 		DC866D38131756770053100C /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D2F131756770053100C /* NSObject+SBJSON.m */; };
 		DC866D39131756770053100C /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D31131756770053100C /* NSString+SBJSON.m */; };
 		DC866D3A131756770053100C /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D33131756770053100C /* SBJsonBase.m */; };
@@ -42,6 +43,7 @@
 		DC217E9B13106CC90084C7CD /* RestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestService.m; path = RestService/RestService.m; sourceTree = SOURCE_ROOT; };
 		DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDoubanSearcher.h; sourceTree = "<group>"; };
 		DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDoubanSearcher.m; sourceTree = "<group>"; };
+		DC804F0D131CC85100DE8FD6 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		DC866D2D131756770053100C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = SOURCE_ROOT; };
 		DC866D2E131756770053100C /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = SOURCE_ROOT; };
 		DC866D2F131756770053100C /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = SOURCE_ROOT; };
@@ -69,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				DC804F0E131CC85100DE8FD6 /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +83,6 @@
 			children = (
 				256AC3D80F4B6AC300CF3369 /* QuickDoubanAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */,
-				DC9F4739130CDA8B00B81679 /* SearchController.h */,
-				DC9F473A130CDA8B00B81679 /* SearchController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -97,6 +98,7 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC804F0D131CC85100DE8FD6 /* Quartz.framework */,
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
@@ -198,6 +200,8 @@
 				DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */,
 				DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */,
 				DC866EEE131761AF0053100C /* QuickDoubanBase.h */,
+				DC9F4739130CDA8B00B81679 /* SearchController.h */,
+				DC9F473A130CDA8B00B81679 /* SearchController.m */,
 				DC866FC713177D460053100C /* QuickDoubanCardViewController.h */,
 				DC866FC813177D460053100C /* QuickDoubanCardViewController.m */,
 			);

@@ -7,14 +7,17 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import <Quartz/Quartz.h>
 
 @interface QuickDoubanCardViewController : NSViewController {
 	IBOutlet NSTextField *title;
+	IBOutlet IKImageView *cardImage;
+	
 	NSArray *url;
 }
 
 @property (retain) IBOutlet NSTextField *title;
+@property (retain) IBOutlet IKImageView *cardImage;
 @property (retain) NSArray *url;
 
 - (void) mouseUp:(NSEvent *)theEvent;

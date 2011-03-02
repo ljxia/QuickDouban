@@ -13,12 +13,15 @@
 
 @synthesize title;
 @synthesize url;
+@synthesize cardImage;
+
 
 - (void) mouseUp:(NSEvent *)theEvent{
 	if ([theEvent clickCount] >= 2) {
 		NSString *entryUrl = [(NSDictionary *)[url objectAtIndex:1] objectForKey:@"@href"];
 		NSLog(@"%@", entryUrl);
 		[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:entryUrl]];
+		[entryUrl release];
 	}
 }
 
