@@ -19,7 +19,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1219, 3289}}";
 			sepNavSelRange = "{5638, 0}";
-			sepNavVisRange = "{2824, 2980}";
+			sepNavVisRange = "{2824, 3067}";
 		};
 	};
 	256AC3F00F4B6AF500CF3369 /* QuickDouban_Prefix.pch */ = {
@@ -272,6 +272,10 @@
 			DC8051FC131E068100DE8FD6 /* XCBuildMessageTextBookmark */ = DC8051FC131E068100DE8FD6 /* XCBuildMessageTextBookmark */;
 			DC8051FD131E068100DE8FD6 /* PBXTextBookmark */ = DC8051FD131E068100DE8FD6 /* PBXTextBookmark */;
 			DC805200131E068100DE8FD6 /* PBXTextBookmark */ = DC805200131E068100DE8FD6 /* PBXTextBookmark */;
+			DC805203131E0AB700DE8FD6 /* PBXTextBookmark */ = DC805203131E0AB700DE8FD6 /* PBXTextBookmark */;
+			DC805204131E0AB700DE8FD6 /* PBXTextBookmark */ = DC805204131E0AB700DE8FD6 /* PBXTextBookmark */;
+			DC805205131E0AB700DE8FD6 /* PBXTextBookmark */ = DC805205131E0AB700DE8FD6 /* PBXTextBookmark */;
+			DC805206131E0AB700DE8FD6 /* PBXTextBookmark */ = DC805206131E0AB700DE8FD6 /* PBXTextBookmark */;
 			DC866D4D1317571A0053100C = DC866D4D1317571A0053100C /* PBXTextBookmark */;
 			DC866EFD131762D70053100C = DC866EFD131762D70053100C /* PBXTextBookmark */;
 			DC866F21131767700053100C = DC866F21131767700053100C /* PBXTextBookmark */;
@@ -1645,8 +1649,8 @@
 	};
 	DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1342, 974}}";
-			sepNavSelRange = "{822, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1342, 997}}";
+			sepNavSelRange = "{264, 0}";
 			sepNavVisRange = "{0, 822}";
 		};
 	};
@@ -2366,6 +2370,46 @@
 		rLoc = 5638;
 		rType = 0;
 		vrLen = 2980;
+		vrLoc = 2824;
+	};
+	DC805203131E0AB700DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */;
+		name = "SearchBarWindowController.h: 13";
+		rLen = 0;
+		rLoc = 264;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	DC805204131E0AB700DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */;
+		name = "BaseDoubanSearcher.h: 18";
+		rLen = 0;
+		rLoc = 382;
+		rType = 0;
+		vrLen = 577;
+		vrLoc = 0;
+	};
+	DC805205131E0AB700DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */;
+		name = "BaseDoubanSearcher.h: 18";
+		rLen = 0;
+		rLoc = 382;
+		rType = 0;
+		vrLen = 577;
+		vrLoc = 0;
+	};
+	DC805206131E0AB700DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 181";
+		rLen = 0;
+		rLoc = 5638;
+		rType = 0;
+		vrLen = 3067;
 		vrLoc = 2824;
 	};
 	DC866CF513163A7C0053100C /* SBJsonTokeniser.m:353 */ = {

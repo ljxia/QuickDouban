@@ -121,6 +121,7 @@
 			children = (
 				DC217D83130CF5D60084C7CD /* lib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
+				DC805202131E0A9B00DE8FD6 /* Controllers */,
 				DC217E9D13106FF00084C7CD /* Models */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -203,12 +204,19 @@
 				DC866EEE131761AF0053100C /* QuickDoubanBase.h */,
 				DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */,
 				DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DC805202131E0A9B00DE8FD6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */,
 				DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */,
 				DC866FC713177D460053100C /* QuickDoubanCardViewController.h */,
 				DC866FC813177D460053100C /* QuickDoubanCardViewController.m */,
 			);
-			name = Models;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		DC866D5713175A6B0053100C /* MAAttachedWindow */ = {
