@@ -8,12 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 #import "JSON.h"
+#import "QuickDoubanBase.h"
 
 @interface BaseDoubanSearcher : NSObject {
-
+	QDBEntryType entryType;
 }
+@property QDBEntryType entryType;
 
-//- (void) constructURL: (NSString *)keyword;
-//- (NSDictionary *) query: (NSString *) keyword withParams: (NSDictionary *)params;
++ (BaseDoubanSearcher *)initWithType:(QDBEntryType)searchType;
+- (NSString *) constructURL: (NSString *) keyword withItems:(int)itemCount startingFrom:(int)startIndex;
+- (NSDictionary *) query: (NSString *) keyword withParams: (NSDictionary *)params;
 
 @end

@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "QuickDoubanBase.h"
 #import "RestService.h"
 #import "QuickDoubanBase.h"
 
@@ -16,9 +15,12 @@
 @interface SearchBarWindowController : NSWindowController {
 	id <SearchControllerDelegate> delegate;
 	IBOutlet NSTextField *searchTextField;
+	
+	NSMutableDictionary *searchResult;
 }
 
 @property (nonatomic, assign) id <SearchControllerDelegate> delegate;
+@property (assign) NSMutableDictionary *searchResult;
 
 + (SearchBarWindowController *) sharedSearchBar;
 - (IBAction)search:(id)sender;

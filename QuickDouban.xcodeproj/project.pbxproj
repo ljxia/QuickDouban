@@ -200,9 +200,9 @@
 		DC217E9D13106FF00084C7CD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DC866EEE131761AF0053100C /* QuickDoubanBase.h */,
 				DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */,
 				DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */,
-				DC866EEE131761AF0053100C /* QuickDoubanBase.h */,
 				DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */,
 				DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */,
 				DC866FC713177D460053100C /* QuickDoubanCardViewController.h */,

@@ -21,7 +21,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="2"/>
+			<integer value="3"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -88,11 +88,11 @@
 					</object>
 					<object class="IKImageView" id="802114747">
 						<reference key="NSNextResponder" ref="1005"/>
-						<int key="NSvFlags">286</int>
+						<int key="NSvFlags">4126</int>
 						<string key="NSFrameSize">{300, 300}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<bool key="NSViewIsLayerTreeHost">YES</bool>
-						<float key="zoomFactor">0.1171875</float>
+						<float key="zoomFactor">1</float>
 						<float key="rotationAngle">0.0</float>
 						<string key="currentToolMode">IKToolModeNone</string>
 						<bool key="autoresizes">NO</bool>

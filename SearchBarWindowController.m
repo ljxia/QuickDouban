@@ -7,10 +7,11 @@
 //
 
 #import "SearchBarWindowController.h"
-
+#import "BaseDoubanSearcher.h"
 
 @implementation SearchBarWindowController
 @synthesize delegate;
+@synthesize searchResult;
 
 + (SearchBarWindowController *) sharedSearchBar
 {
@@ -31,23 +32,29 @@
 - (void) doSearch{
 	NSLog(@"Search %@!", [searchTextField stringValue]);
 	NSString *keyword = [searchTextField stringValue];
+	BaseDoubanSearcher *searcher = [BaseDoubanSearcher initWithType:QDBEntryTypeMovie];
+
+	dispatch_group_t taskGroup = dispatch_group_create();
 	
-	keyword = [keyword stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-	NSString *url = [NSString stringWithFormat:@"http://api.douban.com/music/subjects?q=%@&alt=json&max-results=21",keyword];
-	RestService *restRequest = [[RestService alloc] init];	
-	NSHTTPURLResponse * response = [[NSHTTPURLResponse alloc] init];
-	NSString *responseText = [restRequest requestToURL:url response:&response];
+	dispatch_group_async(taskGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+		searchResult = [NSMutableDictionary dictionaryWithDictionary:[searcher query:keyword withParams:nil]];		
+	});
 	
-	NSDictionary *searchResult = [responseText JSONValue];
+	dispatch_group_notify(taskGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+		
+		NSLog(@"Search Finished");
+		
+		NSArray *entries = [NSMutableArray arrayWithArray:[searchResult objectForKey:@"entry"]];
+		
+		if (entries && [entries count])
+		{
+			[delegate searchResultDidReturn:entries ofType:QDBEntryTypeMovie];
+		}
+		
+		NSLog(@"Delegate Notified");
+	});
 	
-	//NSLog(@"%@", searchResult);
 	
-	NSArray *entries = (NSArray *)[searchResult objectForKey:@"entry"];
-	
-	if (entries && [entries count])
-	{
-		[delegate searchResultDidReturn:entries ofType:QDBEntryTypeMovie];
-	}
 }
 
 - (IBAction)search:(id)sender {

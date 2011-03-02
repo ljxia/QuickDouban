@@ -202,24 +202,24 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>DC80502E131DF3D500DE8FD6</string>
+				<string>DC8051FE131E068100DE8FD6</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>SearchController.h</string>
+				<string>QuickDoubanAppDelegate.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>DC80502F131DF3D500DE8FD6</string>
+						<string>DC8051FF131E068100DE8FD6</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>SearchController.h</string>
+						<string>QuickDoubanAppDelegate.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>DC8051A5131DF84B00DE8FD6</string>
+						<string>DC805200131E068100DE8FD6</string>
 						<key>history</key>
 						<array>
-							<string>DC805027131DF33E00DE8FD6</string>
+							<string>DC8051D5131E041F00DE8FD6</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -235,7 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>15 94 1278 1319 0 0 2560 1418 </string>
+				<string>38 73 1278 1319 0 0 2560 1418 </string>
 			</dict>
 		</dict>
 	</array>
@@ -316,19 +316,17 @@
 								<string>DC217E9D13106FF00084C7CD</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>1DDD58140DA1D0A300B32029</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1058C7A0FEA54F0111CA2CBB</string>
 								<string>1058C7A2FEA54F0111CA2CBB</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90041110B</string>
-								<string>1DDD58140DA1D0A300B32029</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
+									<integer>15</integer>
 									<integer>10</integer>
 									<integer>0</integer>
 								</array>
@@ -371,7 +369,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>QuickDoubanBase.h</string>
+								<string>SearchBarWindowController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -379,11 +377,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>QuickDoubanBase.h</string>
+										<string>SearchBarWindowController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC8051A4131DF84B00DE8FD6</string>
+										<string>DC8051FD131E068100DE8FD6</string>
 										<key>history</key>
 										<array>
 											<string>DC9F4732130CD93700B81679</string>
@@ -396,17 +394,15 @@
 											<string>DC866D4D1317571A0053100C</string>
 											<string>DC866F21131767700053100C</string>
 											<string>DC866F9F131777F70053100C</string>
-											<string>DC804FAC131CD2E400DE8FD6</string>
-											<string>DC804FC9131CD8BF00DE8FD6</string>
-											<string>DC80519B131DF84B00DE8FD6</string>
-											<string>DC80519C131DF84B00DE8FD6</string>
-											<string>DC80519D131DF84B00DE8FD6</string>
-											<string>DC80519E131DF84B00DE8FD6</string>
-											<string>DC80519F131DF84B00DE8FD6</string>
-											<string>DC8051A0131DF84B00DE8FD6</string>
-											<string>DC8051A1131DF84B00DE8FD6</string>
-											<string>DC8051A2131DF84B00DE8FD6</string>
-											<string>DC8051A3131DF84B00DE8FD6</string>
+											<string>DC8051B6131E00DA00DE8FD6</string>
+											<string>DC8051C8131E020300DE8FD6</string>
+											<string>DC8051F6131E068100DE8FD6</string>
+											<string>DC8051F7131E068100DE8FD6</string>
+											<string>DC8051F8131E068100DE8FD6</string>
+											<string>DC8051F9131E068100DE8FD6</string>
+											<string>DC8051FA131E068100DE8FD6</string>
+											<string>DC8051FB131E068100DE8FD6</string>
+											<string>DC8051FC131E068100DE8FD6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -604,14 +600,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DC8051A6131DF84B00DE8FD6</string>
+		<string>DC805201131E068100DE8FD6</string>
 		<string>DC804D901319886700DE8FD6</string>
 		<string>DC804E1C13199F6D00DE8FD6</string>
 		<string>DC804E1D13199F6D00DE8FD6</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DC9F46F7130CCC1400B81679</string>
+		<string>DC8051FE131E068100DE8FD6</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>DC80502E131DF3D500DE8FD6</string>
 		<string>/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -631,12 +627,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SearchBarWindowController.m</string>
+								<string>SearchBarWindowController.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -653,8 +651,6 @@
 							<string>587pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

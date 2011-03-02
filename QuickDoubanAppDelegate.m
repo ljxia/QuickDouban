@@ -178,7 +178,7 @@
 	//
 	
 	dispatch_group_notify( myGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-		NSLog(@"%@", [window childWindows]);
+		//NSLog(@"%@", [window childWindows]);
 		[self organizeChildWindows];
 	});
 	
