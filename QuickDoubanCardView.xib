@@ -21,7 +21,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="1"/>
+			<integer value="2"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -62,7 +62,7 @@
 						<int key="NSViewLayerContentsRedrawPolicy">2</int>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="791206106">
-							<int key="NSCellFlags">67239424</int>
+							<int key="NSCellFlags">604110336</int>
 							<int key="NSCellFlags2">272629760</int>
 							<string key="NSContents">Title</string>
 							<object class="NSFont" key="NSSupport">
@@ -71,7 +71,6 @@
 								<int key="NSfFlags">16</int>
 							</object>
 							<reference key="NSControlView" ref="595668207"/>
-							<bool key="NSDrawsBackground">YES</bool>
 							<object class="NSColor" key="NSBackgroundColor">
 								<int key="NSColorSpace">1</int>
 								<bytes key="NSRGB">MC4yMjMwODAxMTUyIDAuMTA4NjMzODg0MiAwLjMxNTIxNzM5MTMAA</bytes>
@@ -237,7 +236,7 @@
 					<string>{{633, 840}, {300, 300}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<real value="0.0"/>
-					<object class="NSColor" id="136728366">
+					<object class="NSColor" id="225474285">
 						<int key="NSColorSpace">3</int>
 						<bytes key="NSWhite">MAA</bytes>
 					</object>
@@ -248,7 +247,7 @@
 					<string>com.apple.imagekit.ibplugin</string>
 					<object class="NSAffineTransform"/>
 					<real value="0.0"/>
-					<reference ref="136728366"/>
+					<reference ref="225474285"/>
 					<real value="0.0"/>
 					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>

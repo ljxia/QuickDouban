@@ -9,6 +9,8 @@
 #import "QuickDoubanAppDelegate.h"
 //#import "MAAttachedWindow.h"
 #import "QuickDoubanCardViewController.h"
+#include <dispatch/dispatch.h>
+
 
 @implementation QuickDoubanAppDelegate
 
@@ -107,81 +109,71 @@
 		
 	}
 	
+	dispatch_queue_t myQueue = dispatch_queue_create("myQueue", NULL);
+	dispatch_group_t myGroup = dispatch_group_create();
+	
 	for (int i = 0; i < [entries count]; i++)
 	{
-		NSDictionary *entry = (NSDictionary *)[entries objectAtIndex:i];
 		
-		NSString *title = [[entry objectForKey:@"title"] objectForKey:@"$t"];
-		NSArray *url = [entry objectForKey:@"link"];
-		
-		NSLog(@"%@",title);
-		
-		NSRect windowRect = NSMakeRect([window frame].size.width / 2, 0, 300, 300);
-		
-		windowRect.origin = [window convertBaseToScreen:windowRect.origin];
-		
-		
-		QuickDoubanCardViewController *cardController = [[QuickDoubanCardViewController alloc] initWithNibName:@"QuickDoubanCardView" bundle:nil];
-		[cardController retain];
-		
-		NSPanel *cardWindow = [[NSPanel alloc] initWithContentRect:windowRect 
-														 styleMask:NSClosableWindowMask | NSHUDWindowMask
-														   backing:NSBackingStoreBuffered 
-															 defer:YES];
-		
-		//NSBorderlessWindowMask | NSClosableWindowMask
-		
-		[cardController setNextResponder:[cardWindow nextResponder]];
-		[cardWindow setNextResponder:cardController];
-		
-		[cardWindow setContentView:[cardController view]];
-		[cardWindow setReleasedWhenClosed:YES];
-		[cardWindow setAlphaValue:0];
-		
-		NSString *imageUrlString = [(NSDictionary *)[url objectAtIndex:2] objectForKey:@"@href"];
-		imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"/spic/" withString:@"/lpic/"];
-		NSURL *imageUrl = [NSURL URLWithString:imageUrlString];
-		[[cardController cardImage] setImageWithURL:imageUrl];
-		[[cardController cardImage] zoomImageToFit:nil];
-		NSLog(@"%@",imageUrl);
-		[imageUrl release];
-		
-		[[cardController title] setStringValue:title];
-		[[cardController title] setNeedsDisplay:YES];
-		
-		[cardController setUrl:url];
-		
-		[window addChildWindow:cardWindow ordered:NSWindowBelow];
-		
-		[[self cardWindows] addObject:cardWindow];
-		
-		//NSPoint buttonPoint = NSMakePoint(0 + i * 300,0);
-		
-		//        MAAttachedWindow *attachedWindow = [[MAAttachedWindow alloc] initWithView:floatView
-		//                                                attachedToPoint:buttonPoint 
-		//                                                       inWindow:window 
-		//                                                         onSide:MAPositionBottom 
-		//                                                     atDistance:0];
-		//		
-		//		[attachedWindow retain];
-		//		[attachedWindow setAlphaValue:0.8f];
-		//        [attachedWindow setBorderColor:[NSColor whiteColor]];
-		//        [attachedWindow setBackgroundColor:[NSColor blackColor]];
-		//        [attachedWindow setViewMargin:30];
-		//        [attachedWindow setBorderWidth:3];
-		//        [attachedWindow setCornerRadius:14];
-		//        [attachedWindow setHasArrow:NO];
-		//        [attachedWindow setDrawsRoundCornerBesideArrow:NO];
-		//        [attachedWindow setArrowBaseWidth:20];
-		//        [attachedWindow setArrowHeight:20];
-		//        
-		//        [window addChildWindow:attachedWindow ordered:NSWindowAbove];
+		dispatch_group_async(myGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{ 
+			
+			NSDictionary *entry = (NSDictionary *)[entries objectAtIndex:i];
+			
+			NSString *title = [[entry objectForKey:@"title"] objectForKey:@"$t"];
+			NSArray *url = [entry objectForKey:@"link"];
+			
+			NSLog(@"%@",title);
+			
+			NSRect windowRect = NSMakeRect([window frame].size.width / 2, 0, 300, 300);
+			
+			windowRect.origin = [window convertBaseToScreen:windowRect.origin];
+			
+			
+			QuickDoubanCardViewController *cardController = [[QuickDoubanCardViewController alloc] initWithNibName:@"QuickDoubanCardView" bundle:nil];
+			[cardController retain];
+			
+			NSPanel *cardWindow = [[NSPanel alloc] initWithContentRect:windowRect 
+															 styleMask:NSClosableWindowMask | NSHUDWindowMask
+															   backing:NSBackingStoreBuffered 
+																 defer:YES];
+			
+			//NSBorderlessWindowMask | NSClosableWindowMask
+			
+			[cardController setNextResponder:[cardWindow nextResponder]];
+			[cardWindow setNextResponder:cardController];
+			
+			[cardWindow setContentView:[cardController view]];
+			[cardWindow setReleasedWhenClosed:YES];
+			[cardWindow setAlphaValue:0];
+			
+			NSString *imageUrlString = [(NSDictionary *)[url objectAtIndex:2] objectForKey:@"@href"];
+			imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"/spic/" withString:@"/lpic/"];
+			imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"default-small" withString:@"default-medium"];
+			NSURL *imageUrl = [NSURL URLWithString:imageUrlString];
+			[[cardController cardImage] setImageWithURL:imageUrl];
+			[[cardController cardImage] zoomImageToFit:nil];
+			NSLog(@"%@",imageUrl);
+			[imageUrl release];
+			
+			[[cardController title] setStringValue:title];
+			[[cardController title] setNeedsDisplay:YES];
+			
+			[cardController setUrl:url];
+			
+			[window addChildWindow:cardWindow ordered:NSWindowBelow];
+			
+			[[self cardWindows] addObject:cardWindow];
+			
+		});
 	}
 	
-	NSLog(@"%@", [self cardWindows]);
+	//
 	
+	dispatch_group_notify( myGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+		NSLog(@"%@", [window childWindows]);
+		[self organizeChildWindows];
+	});
 	
-	[self organizeChildWindows];
 }
 
 - (void) organizeChildWindows
@@ -206,9 +198,13 @@
 	
 	NSLog(@"%d card in row, %d card in column", maxCardInRow, maxCardInColumn);
 	
+	
+	
 	for (int i = 0; i < [cardWindows count];i++)
 	{			
 		NSPanel *cardWindow = (NSPanel *)[cardWindows objectAtIndex:i];
+		
+		NSLog(@"%@", cardWindow);
 		NSRect newLocationFrame = NSMakeRect(actualScreenMarginHorizontal + (cardSide + cardMargin) * (int)(i % maxCardInRow), 
 											 [window frame].origin.y - 30 - (cardSide + cardMargin) * ((int)(i / maxCardInRow) + 1), 
 											 cardSide, 
@@ -216,22 +212,23 @@
 		
 		
 		[cardWindow setFrameOrigin:newLocationFrame.origin];
-		
+		[cardWindow setAlphaValue:1.0];
+
 		//[[cardWindow contentView] setFrame:NSMakeRect(0, 0, cardSide, cardSide)];
 		
-		NSDictionary *windowResizeFade;
-		windowResizeFade = [NSDictionary dictionaryWithObjectsAndKeys:cardWindow, NSViewAnimationTargetKey,
-//						[NSValue valueWithRect: newLocationFrame],NSViewAnimationEndFrameKey,
-						NSViewAnimationFadeInEffect,NSViewAnimationEffectKey,
-						nil];
-		
-		NSViewAnimation *theAnim;
-		theAnim = [[NSViewAnimation alloc] initWithViewAnimations:[NSArray arrayWithObjects:windowResizeFade, nil]];
-		
-		[theAnim setDuration:.5];
-		[theAnim setAnimationCurve:NSAnimationEaseInOut];
-		[theAnim startAnimation];
-		[theAnim release];	
+//		NSDictionary *windowResizeFade;
+//		windowResizeFade = [NSDictionary dictionaryWithObjectsAndKeys:cardWindow, NSViewAnimationTargetKey,
+////						[NSValue valueWithRect: newLocationFrame],NSViewAnimationEndFrameKey,
+//						NSViewAnimationFadeInEffect,NSViewAnimationEffectKey,
+//						nil];
+//		
+//		NSViewAnimation *theAnim;
+//		theAnim = [[NSViewAnimation alloc] initWithViewAnimations:[NSArray arrayWithObjects:windowResizeFade, nil]];
+//		
+//		[theAnim setDuration:.5];
+//		[theAnim setAnimationCurve:NSAnimationEaseInOut];
+//		[theAnim startAnimation];
+//		[theAnim release];	
 		
 	}
 	

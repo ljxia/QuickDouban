@@ -285,8 +285,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
-									<integer>7</integer>
+									<integer>21</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -340,7 +339,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC804FE3131DD4E800DE8FD6</string>
+										<string>DC805010131DE33800DE8FD6</string>
 										<key>history</key>
 										<array>
 											<string>DC9F4732130CD93700B81679</string>
@@ -361,7 +360,7 @@
 											<string>DC804FDF131DD4E800DE8FD6</string>
 											<string>DC804FE0131DD4E800DE8FD6</string>
 											<string>DC804FE1131DD4E800DE8FD6</string>
-											<string>DC804FE2131DD4E800DE8FD6</string>
+											<string>DC80500F131DE33800DE8FD6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -559,11 +558,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>DC805011131DE33800DE8FD6</string>
 		<string>DC804D901319886700DE8FD6</string>
 		<string>DC804E1C13199F6D00DE8FD6</string>
 		<string>DC804E1D13199F6D00DE8FD6</string>
-		<string>DC9F46F7130CCC1400B81679</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>DC9F46F7130CCC1400B81679</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban.xcodeproj</string>
 	</array>
@@ -784,7 +784,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
