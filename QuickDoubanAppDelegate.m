@@ -35,6 +35,9 @@
 	
 	
 	cardWindows = [[NSMutableArray alloc] initWithCapacity:100]; 
+	
+	[[searchController progressIndicator] setUsesThreadedAnimation:YES];
+	
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
@@ -118,12 +121,12 @@
 	}
 	
 	//dispatch_queue_t myQueue = dispatch_queue_create("myQueue", NULL);
-	dispatch_group_t myGroup = dispatch_group_create();
+	//dispatch_group_t myGroup = dispatch_group_create();
 	
 	for (int i = 0; i < [entries count]; i++)
 	{
 		
-		dispatch_group_async(myGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{ 
+		//dispatch_group_async(myGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{ 
 			
 			NSDictionary *entry = (NSDictionary *)[entries objectAtIndex:i];
 			
@@ -142,17 +145,19 @@
 			[window addChildWindow:cardWindow ordered:NSWindowBelow];
 			
 			[[self cardWindows] addObject:cardWindow];
+		
+			//[self organizeChildWindows];
 			
-		});
+		//});
 	}
 	
 	//
 	
-	dispatch_group_notify( myGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+	//dispatch_group_notify( myGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 		NSLog(@"%@", [window childWindows]);
 		[self organizeChildWindows];
-	});
-	
+		[[searchController progressIndicator] stopAnimation:searchController];
+	//});
 }
 
 - (void) organizeChildWindows

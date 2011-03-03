@@ -13,6 +13,8 @@
 
 @synthesize entryData;
 @synthesize titleField;
+@synthesize progressIndicator;
+
 @synthesize url;
 @synthesize cardImage;
 
@@ -20,9 +22,13 @@
 	[super initWithNibName:nibNameOrNil bundle:nil];
 	
 	[data retain];
+
 	[self setEntryData:[NSDictionary dictionaryWithDictionary:data]];
 	
 	url = [entryData objectForKey:@"link"];
+	
+	[progressIndicator usesThreadedAnimation];
+	[progressIndicator startAnimation:self];
 	
 //	
 //	NSRect windowRect = NSMakeRect([window frame].size.width / 2, 0, 300, 300);
@@ -73,6 +79,8 @@
 	NSString *titleText = [[entryData objectForKey:@"title"] objectForKey:@"$t"];
 	NSLog(@"%@",titleText);
 	[titleField setStringValue:titleText];	
+	
+	[progressIndicator stopAnimation:self];
 }
 
 - (void) mouseUp:(NSEvent *)theEvent{

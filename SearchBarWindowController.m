@@ -17,6 +17,8 @@
 @synthesize searchResult;
 @synthesize searchType;
 
+@synthesize progressIndicator;
+
 @synthesize toggleBook;
 @synthesize toggleMovie;
 @synthesize toggleMusic;
@@ -35,6 +37,7 @@
         [g_searchBar showWindow: self];
 		[g_searchBar setToggleButtons:[NSArray arrayWithObjects:[g_searchBar toggleMovie], [g_searchBar toggleBook], [g_searchBar toggleMusic], nil]];
 		[g_searchBar setSearchType:QDBEntryTypeMovie];
+		//[[g_searchBar progressIndicator] setUsesThreadedAnimation:YES];
 		//NSLog(@"All Buttons: %@", [g_searchBar toggleButtons]);
     }
 	
@@ -46,7 +49,11 @@
 	NSString *keyword = [searchTextField stringValue];
 	BaseDoubanSearcher *searcher = [BaseDoubanSearcher initWithType:[self searchType]];
 
+	[[self progressIndicator] startAnimation:self];
+	
 	dispatch_group_t taskGroup = dispatch_group_create();
+	
+	//[progressIndicator startAnimation:self];
 	
 	dispatch_group_async(taskGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 		searchResult = [NSMutableDictionary dictionaryWithDictionary:[searcher query:keyword withParams:nil]];		

@@ -12,6 +12,7 @@
 @interface QuickDoubanCardViewController : NSViewController {
 	IBOutlet NSTextField *titleField;
 	IBOutlet IKImageView *cardImage;
+	IBOutlet NSProgressIndicator *progressIndicator;
 	
 	NSDictionary *entryData;
 	NSArray *url;
@@ -19,6 +20,8 @@
 
 @property (retain) IBOutlet NSTextField *titleField;
 @property (retain) IBOutlet IKImageView *cardImage;
+@property (retain) IBOutlet NSProgressIndicator *progressIndicator;
+
 @property (retain) NSArray *url;
 @property (retain) NSDictionary *entryData;
 

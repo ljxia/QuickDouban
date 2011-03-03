@@ -19,6 +19,8 @@
 	IBOutlet NSButton *toggleMusic;
 	IBOutlet NSButton *toggleMovie;
 	
+	IBOutlet NSProgressIndicator *progressIndicator;
+	
 	QDBEntryType searchType;
 	NSMutableDictionary *searchResult;
 	NSArray *toggleButtons;
@@ -29,6 +31,8 @@
 @property (nonatomic, assign) IBOutlet NSButton *toggleMusic;
 @property (nonatomic, assign) IBOutlet NSButton *toggleMovie;
 @property (retain) NSArray *toggleButtons;
+
+@property (retain) IBOutlet NSProgressIndicator *progressIndicator;
 
 @property (nonatomic, assign) id <SearchControllerDelegate> delegate;
 @property (assign) NSMutableDictionary *searchResult;
