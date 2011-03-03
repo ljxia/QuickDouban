@@ -27,7 +27,7 @@
 	
 	window = [searchController window];
 	
-	[window setBackgroundColor:[NSColor colorWithDeviceRed:0.1 green:0.1 blue:0.1 alpha:0.9]];
+	[window setBackgroundColor:[NSColor colorWithDeviceRed:1 green:1 blue:1 alpha:0.9]];
 	[window setDelegate:self];
 	[window setAlphaValue:0];
 	NSLog(@"%d, %d",(int)[window frame].origin.x, (int)[window frame].origin.y);
@@ -106,7 +106,7 @@
 
 - (void)searchResultDidReturn:(NSArray *)entries ofType:(QDBEntryType)type{
 	
-	if ([entries count] > 0 && [cardWindows count] > 0) 
+	//if ([entries count] > 0 && [cardWindows count] > 0) 
 	{
 		for (int i = 0; i < [cardWindows count];i++)
 		{			

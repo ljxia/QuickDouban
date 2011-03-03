@@ -18,6 +18,12 @@
 		DC805017131DF0C800DE8FD6 /* SearchBarWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */; };
 		DC80501C131DF0F700DE8FD6 /* SearchBarWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC80501B131DF0F700DE8FD6 /* SearchBarWindowController.xib */; };
 		DC805227131E209B00DE8FD6 /* QuickDoubanCardWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */; };
+		DC8053D6131F493100DE8FD6 /* book_alt.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8053D4131F493100DE8FD6 /* book_alt.png */; };
+		DC8053D7131F493100DE8FD6 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8053D5131F493100DE8FD6 /* book.png */; };
+		DC8053E2131F4A6E00DE8FD6 /* movie_alt.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8053DE131F4A6E00DE8FD6 /* movie_alt.png */; };
+		DC8053E3131F4A6E00DE8FD6 /* movie.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8053DF131F4A6E00DE8FD6 /* movie.png */; };
+		DC8053E4131F4A6E00DE8FD6 /* music_alt.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8053E0131F4A6E00DE8FD6 /* music_alt.png */; };
+		DC8053E5131F4A6E00DE8FD6 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8053E1131F4A6E00DE8FD6 /* music.png */; };
 		DC866D38131756770053100C /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D2F131756770053100C /* NSObject+SBJSON.m */; };
 		DC866D39131756770053100C /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D31131756770053100C /* NSString+SBJSON.m */; };
 		DC866D3A131756770053100C /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DC866D33131756770053100C /* SBJsonBase.m */; };
@@ -51,6 +57,12 @@
 		DC80501B131DF0F700DE8FD6 /* SearchBarWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBarWindowController.xib; sourceTree = "<group>"; };
 		DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDoubanCardWindow.h; sourceTree = "<group>"; };
 		DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickDoubanCardWindow.m; sourceTree = "<group>"; };
+		DC8053D4131F493100DE8FD6 /* book_alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_alt.png; sourceTree = SOURCE_ROOT; };
+		DC8053D5131F493100DE8FD6 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = SOURCE_ROOT; };
+		DC8053DE131F4A6E00DE8FD6 /* movie_alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie_alt.png; sourceTree = SOURCE_ROOT; };
+		DC8053DF131F4A6E00DE8FD6 /* movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie.png; sourceTree = SOURCE_ROOT; };
+		DC8053E0131F4A6E00DE8FD6 /* music_alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_alt.png; sourceTree = SOURCE_ROOT; };
+		DC8053E1131F4A6E00DE8FD6 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = SOURCE_ROOT; };
 		DC866D2D131756770053100C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = SOURCE_ROOT; };
 		DC866D2E131756770053100C /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = SOURCE_ROOT; };
 		DC866D2F131756770053100C /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = SOURCE_ROOT; };
@@ -122,6 +134,7 @@
 		29B97314FDCFA39411CA2CEA /* QuickDouban */ = {
 			isa = PBXGroup;
 			children = (
+				DC8053D1131F491800DE8FD6 /* images */,
 				DC217D83130CF5D60084C7CD /* lib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				DC805202131E0A9B00DE8FD6 /* Controllers */,
@@ -224,6 +237,19 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		DC8053D1131F491800DE8FD6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DC8053DE131F4A6E00DE8FD6 /* movie_alt.png */,
+				DC8053DF131F4A6E00DE8FD6 /* movie.png */,
+				DC8053E0131F4A6E00DE8FD6 /* music_alt.png */,
+				DC8053E1131F4A6E00DE8FD6 /* music.png */,
+				DC8053D4131F493100DE8FD6 /* book_alt.png */,
+				DC8053D5131F493100DE8FD6 /* book.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		DC866D5713175A6B0053100C /* MAAttachedWindow */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +313,12 @@
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				DC866FC513177A8B0053100C /* QuickDoubanCardView.xib in Resources */,
 				DC80501C131DF0F700DE8FD6 /* SearchBarWindowController.xib in Resources */,
+				DC8053D6131F493100DE8FD6 /* book_alt.png in Resources */,
+				DC8053D7131F493100DE8FD6 /* book.png in Resources */,
+				DC8053E2131F4A6E00DE8FD6 /* movie_alt.png in Resources */,
+				DC8053E3131F4A6E00DE8FD6 /* movie.png in Resources */,
+				DC8053E4131F4A6E00DE8FD6 /* music_alt.png in Resources */,
+				DC8053E5131F4A6E00DE8FD6 /* music.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

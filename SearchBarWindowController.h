@@ -15,15 +15,30 @@
 @interface SearchBarWindowController : NSWindowController {
 	id <SearchControllerDelegate> delegate;
 	IBOutlet NSTextField *searchTextField;
+	IBOutlet NSButton *toggleBook;
+	IBOutlet NSButton *toggleMusic;
+	IBOutlet NSButton *toggleMovie;
 	
+	QDBEntryType searchType;
 	NSMutableDictionary *searchResult;
+	NSArray *toggleButtons;
 }
+
+@property (nonatomic, assign) IBOutlet NSTextField *searchTextField;
+@property (nonatomic, assign) IBOutlet NSButton *toggleBook;
+@property (nonatomic, assign) IBOutlet NSButton *toggleMusic;
+@property (nonatomic, assign) IBOutlet NSButton *toggleMovie;
+@property (retain) NSArray *toggleButtons;
 
 @property (nonatomic, assign) id <SearchControllerDelegate> delegate;
 @property (assign) NSMutableDictionary *searchResult;
 
+@property QDBEntryType searchType;
+
 + (SearchBarWindowController *) sharedSearchBar;
-- (IBAction)search:(id)sender;
+
+- (IBAction) search:(id)sender;
+- (IBAction) toggleSearchType:(id)sender;
 - (void) doSearch;
 
 @end

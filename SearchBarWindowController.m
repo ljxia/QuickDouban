@@ -10,8 +10,17 @@
 #import "BaseDoubanSearcher.h"
 
 @implementation SearchBarWindowController
+
 @synthesize delegate;
+
+@synthesize searchTextField;
 @synthesize searchResult;
+@synthesize searchType;
+
+@synthesize toggleBook;
+@synthesize toggleMovie;
+@synthesize toggleMusic;
+@synthesize toggleButtons;
 
 + (SearchBarWindowController *) sharedSearchBar
 {
@@ -24,6 +33,9 @@
         assert (g_searchBar != nil); // or other error handling
 		
         [g_searchBar showWindow: self];
+		[g_searchBar setToggleButtons:[NSArray arrayWithObjects:[g_searchBar toggleMovie], [g_searchBar toggleBook], [g_searchBar toggleMusic], nil]];
+		[g_searchBar setSearchType:QDBEntryTypeMovie];
+		//NSLog(@"All Buttons: %@", [g_searchBar toggleButtons]);
     }
 	
     return (g_searchBar);	
@@ -32,7 +44,7 @@
 - (void) doSearch{
 	NSLog(@"Search %@!", [searchTextField stringValue]);
 	NSString *keyword = [searchTextField stringValue];
-	BaseDoubanSearcher *searcher = [BaseDoubanSearcher initWithType:QDBEntryTypeMovie];
+	BaseDoubanSearcher *searcher = [BaseDoubanSearcher initWithType:[self searchType]];
 
 	dispatch_group_t taskGroup = dispatch_group_create();
 	
@@ -43,7 +55,7 @@
 	dispatch_group_notify(taskGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 		NSArray *entries = [NSMutableArray arrayWithArray:[searchResult objectForKey:@"entry"]];
 		
-		if (entries && [entries count])
+		//if (entries && [entries count])
 		{
 			[delegate searchResultDidReturn:entries ofType:QDBEntryTypeMovie];
 		}
@@ -54,6 +66,32 @@
 
 - (IBAction)search:(id)sender {
 	[self doSearch];
+}
+
+- (IBAction) toggleSearchType:(id)sender {
+	
+	//NSLog(@"sender: %@, with tag %d",sender, [(NSButton *)sender tag]);
+	
+	if ([sender isKindOfClass:[NSButton class]] && [toggleButtons indexOfObject:sender] >= 0)
+	{
+		NSButton *button = (NSButton *)sender;
+		
+		[self setSearchType:[button tag]];
+		
+		if ([button state] == NSOffState) {
+			[button setState:NSOnState];
+		}
+		else {
+			for	(int i = 0;i < [toggleButtons count];i++)
+			{
+				NSButton *oneButton = (NSButton *)[toggleButtons objectAtIndex:i];
+				if (oneButton != sender && [oneButton state] == NSOnState) {
+					[oneButton setState:NSOffState];
+				}
+			}
+		}
+		
+	}
 }
 
 
@@ -68,7 +106,12 @@
     }
     else if (commandSelector == @selector(insertTab:))
     {
-		[self doSearch];
+		//[self doSearch];
+		int nextType = ((int)[self searchType] + 1) % [toggleButtons count];
+		NSLog(@"%d",nextType);
+		NSButton *nextButton = (NSButton *)[toggleButtons objectAtIndex:nextType];
+		[nextButton setNextState];
+		[self toggleSearchType:nextButton];
         result = YES;
     }
 	else if (commandSelector == @selector(cancelOperation:))

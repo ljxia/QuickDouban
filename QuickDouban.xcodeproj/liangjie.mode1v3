@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>DC8053C8131E34F800DE8FD6</string>
+						<string>DC8054B6131F610E00DE8FD6</string>
 						<key>history</key>
 						<array>
 							<string>DC805239131E225200DE8FD6</string>
@@ -310,6 +310,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
+								<string>DC8053D1131F491800DE8FD6</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>DC805202131E0A9B00DE8FD6</string>
 								<string>DC217E9D13106FF00084C7CD</string>
@@ -325,8 +326,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
-									<integer>10</integer>
+									<integer>14</integer>
+									<integer>12</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -368,7 +369,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>QuickDoubanCardWindow.m</string>
+								<string>SearchBarWindowController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -376,11 +377,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>QuickDoubanCardWindow.m</string>
+										<string>SearchBarWindowController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC8053C7131E34F800DE8FD6</string>
+										<string>DC8054B5131F610E00DE8FD6</string>
 										<key>history</key>
 										<array>
 											<string>DC9F4732130CD93700B81679</string>
@@ -393,17 +394,17 @@
 											<string>DC866D4D1317571A0053100C</string>
 											<string>DC866F21131767700053100C</string>
 											<string>DC866F9F131777F70053100C</string>
-											<string>DC805203131E0AB700DE8FD6</string>
 											<string>DC805208131E150700DE8FD6</string>
 											<string>DC80520A131E150700DE8FD6</string>
-											<string>DC805233131E225200DE8FD6</string>
-											<string>DC805234131E225200DE8FD6</string>
 											<string>DC8052EE131E2CC500DE8FD6</string>
 											<string>DC805357131E301000DE8FD6</string>
-											<string>DC805392131E339200DE8FD6</string>
-											<string>DC8053B0131E341200DE8FD6</string>
-											<string>DC8053C0131E34D000DE8FD6</string>
-											<string>DC8053C1131E34D000DE8FD6</string>
+											<string>DC8053F0131F4DCE00DE8FD6</string>
+											<string>DC80548A131F5DB200DE8FD6</string>
+											<string>DC80548B131F5DB200DE8FD6</string>
+											<string>DC8054AC131F60D700DE8FD6</string>
+											<string>DC8054B3131F610E00DE8FD6</string>
+											<string>DC8054B4131F610E00DE8FD6</string>
+											<string>DC8054AB131F60D700DE8FD6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -601,15 +602,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DC8053C9131E34F800DE8FD6</string>
+		<string>DC8054B7131F610E00DE8FD6</string>
 		<string>DC804D901319886700DE8FD6</string>
 		<string>DC804E1C13199F6D00DE8FD6</string>
 		<string>DC804E1D13199F6D00DE8FD6</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>DC8051FE131E068100DE8FD6</string>
 		<string>DC9F46F7130CCC1400B81679</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban.xcodeproj</string>
-		<string>DC8051FE131E068100DE8FD6</string>
 	</array>
 	<key>WindowString</key>
 	<string>667 109 1834 1266 0 0 2560 1418 </string>
@@ -628,14 +629,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>QuickDoubanCardWindow.m</string>
+								<string>SearchBarWindowController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -652,6 +651,8 @@
 							<string>587pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
