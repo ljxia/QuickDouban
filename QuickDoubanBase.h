@@ -26,8 +26,6 @@ typedef enum _QDBEntryType {
 	
 }
 
-static uint64_t elapsed_time;
-
 + (void) timer_start;
 + (double) timer_milePost;
 

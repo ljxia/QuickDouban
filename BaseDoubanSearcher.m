@@ -37,7 +37,7 @@
 			break;
 	}
 	
-	NSString *url = [NSString stringWithFormat:@"http://api.douban.com/%@/subjects?q=%@&alt=json&max-results=%d&start-index=%d",component, keyword, itemCount, startIndex];
+	NSString *url = [NSString stringWithFormat:@"http://api.douban.com/%@/subjects?q=%@&alt=json&max-results=%d&start-index=%d&apikey=%@",component, keyword, itemCount, startIndex,@"08dbfe20922a98f31a93fa61b67fcad9"];
 	return url;
 }
 - (NSDictionary *) query: (NSString *) keyword withParams: (NSDictionary *)params{

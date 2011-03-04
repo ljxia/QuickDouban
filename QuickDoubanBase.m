@@ -10,6 +10,8 @@
 
 @implementation QuickDoubanBase
 
+static uint64_t elapsed_time;
+
 + (void) timer_start {
 	elapsed_time = mach_absolute_time();
 }

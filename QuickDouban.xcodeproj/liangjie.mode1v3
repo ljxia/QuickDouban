@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>DC2597821320B7FD009D579E</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>QuickDoubanAppDelegate.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>DC2597831320B7FD009D579E</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>QuickDoubanAppDelegate.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>DC25991D1320C943009D579E</string>
+						<key>history</key>
+						<array>
+							<string>DC2597791320B7C5009D579E</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1278, 1278}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>38 73 1278 1319 0 0 2560 1418 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -285,7 +326,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
+									<integer>15</integer>
 									<integer>12</integer>
 									<integer>0</integer>
 								</array>
@@ -328,7 +369,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>QuickDoubanCardViewController.m</string>
+								<string>QuickDoubanCardViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -336,11 +377,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>QuickDoubanCardViewController.m</string>
+										<string>QuickDoubanCardViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC8055FC1320B1FD00DE8FD6</string>
+										<string>DC25991C1320C943009D579E</string>
 										<key>history</key>
 										<array>
 											<string>DC9F4732130CD93700B81679</string>
@@ -353,18 +394,18 @@
 											<string>DC866D4D1317571A0053100C</string>
 											<string>DC866F21131767700053100C</string>
 											<string>DC866F9F131777F70053100C</string>
-											<string>DC805357131E301000DE8FD6</string>
 											<string>DC8055571320A7E800DE8FD6</string>
 											<string>DC8055861320AB1000DE8FD6</string>
 											<string>DC80558F1320AB5D00DE8FD6</string>
-											<string>DC8055A31320AC1A00DE8FD6</string>
-											<string>DC8055B21320ACE600DE8FD6</string>
-											<string>DC8055C41320AE2A00DE8FD6</string>
-											<string>DC8055CD1320AF0F00DE8FD6</string>
-											<string>DC8055D81320AFD800DE8FD6</string>
-											<string>DC8055EA1320B12F00DE8FD6</string>
-											<string>DC8055EB1320B12F00DE8FD6</string>
-											<string>DC8055E41320B0F100DE8FD6</string>
+											<string>DC25977E1320B7FD009D579E</string>
+											<string>DC25977F1320B7FD009D579E</string>
+											<string>DC25979C1320B951009D579E</string>
+											<string>DC25979D1320B951009D579E</string>
+											<string>DC2599091320C8FC009D579E</string>
+											<string>DC25990A1320C8FC009D579E</string>
+											<string>DC25990B1320C8FC009D579E</string>
+											<string>DC25991B1320C943009D579E</string>
+											<string>DC2598A41320C303009D579E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -376,14 +417,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1451, 1029}}</string>
+								<string>{{0, 0}, {1451, 1026}}</string>
 								<key>RubberWindowFrame</key>
 								<string>667 109 1834 1266 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>1029pt</string>
+							<string>1026pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -396,14 +437,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 1034}, {1451, 191}}</string>
+								<string>{{0, 1031}, {1451, 194}}</string>
 								<key>RubberWindowFrame</key>
 								<string>667 109 1834 1266 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>191pt</string>
+							<string>194pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -422,9 +463,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>DC804D5C13197D6D00DE8FD6</string>
+				<string>DC2597611320B655009D579E</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>DC804D5D13197D6D00DE8FD6</string>
+				<string>DC2597621320B655009D579E</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -562,14 +603,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DC8055FD1320B1FD00DE8FD6</string>
-		<string>DC804D901319886700DE8FD6</string>
-		<string>DC804E1C13199F6D00DE8FD6</string>
-		<string>DC804E1D13199F6D00DE8FD6</string>
+		<string>DC2597771320B786009D579E</string>
+		<string>DC2597781320B786009D579E</string>
+		<string>DC2597821320B7FD009D579E</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>DC9F46F7130CCC1400B81679</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>DC9F46F7130CCC1400B81679</string>
 		<string>/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -594,7 +633,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>QuickDoubanBase.h</string>
+								<string>QuickDoubanCardViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -652,7 +691,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>DC9F46F7130CCC1400B81679</string>
-				<string>DC804D5E13197D6D00DE8FD6</string>
+				<string>DC2597631320B655009D579E</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -696,8 +735,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {581, 348}}</string>
-											<string>{{581, 0}, {694, 348}}</string>
+											<string>{{0, 0}, {581, 349}}</string>
+											<string>{{581, 0}, {694, 349}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -712,8 +751,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {1275, 348}}</string>
-											<string>{{0, 348}, {1275, 311}}</string>
+											<string>{{0, 0}, {1275, 349}}</string>
+											<string>{{0, 349}, {1275, 310}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -746,7 +785,7 @@
 										<real>464</real>
 									</array>
 									<key>Frame</key>
-									<string>{{581, 0}, {694, 348}}</string>
+									<string>{{581, 0}, {694, 349}}</string>
 									<key>RubberWindowFrame</key>
 									<string>476 227 1275 700 0 0 2560 1418 </string>
 								</dict>
@@ -774,13 +813,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>DC804D881319886700DE8FD6</string>
+				<string>DC25976F1320B786009D579E</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>DC804D891319886700DE8FD6</string>
-				<string>DC804D8A1319886700DE8FD6</string>
-				<string>DC804D8B1319886700DE8FD6</string>
-				<string>DC804D8C1319886700DE8FD6</string>
-				<string>DC804D8D1319886700DE8FD6</string>
+				<string>DC2597701320B786009D579E</string>
+				<string>DC2597711320B786009D579E</string>
+				<string>DC2597721320B786009D579E</string>
+				<string>DC2597731320B786009D579E</string>
+				<string>DC2597741320B786009D579E</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -789,7 +828,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -936,7 +975,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>DC804D8E1319886700DE8FD6</string>
+				<string>DC2597751320B786009D579E</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

@@ -43,7 +43,7 @@
 				<int key="NSvFlags">8448</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="NSProgressIndicator" id="380286383">
+					<object class="NSProgressIndicator" id="328107820">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">1292</int>
 						<object class="NSPSMatrix" key="NSDrawMatrix"/>
@@ -56,14 +56,17 @@
 							</object>
 						</object>
 						<int key="NSViewLayerContentsRedrawPolicy">2</int>
-						<int key="NSpiFlags">20490</int>
+						<int key="NSpiFlags">28682</int>
 						<double key="NSMaxValue">100</double>
 					</object>
 					<object class="NSTextField" id="595668207">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{20, 20}, {260, 260}}</string>
+						<string key="NSFrame">{{20, 20}, {263, 260}}</string>
 						<reference key="NSSuperview" ref="1005"/>
+						<object class="NSShadow" key="NSViewShadow">
+							<reference key="NSShadowColor" ref="225474285"/>
+						</object>
 						<int key="NSViewLayerContentsRedrawPolicy">2</int>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="791206106">
@@ -78,13 +81,11 @@
 							<reference key="NSControlView" ref="595668207"/>
 							<object class="NSColor" key="NSBackgroundColor">
 								<int key="NSColorSpace">1</int>
-								<bytes key="NSRGB">MC4yMjMwODAxMTUyIDAuMTA4NjMzODg0MiAwLjMxNTIxNzM5MTMAA</bytes>
+								<bytes key="NSRGB">MCAwIDAgMC41NAA</bytes>
 							</object>
 							<object class="NSColor" key="NSTextColor">
-								<int key="NSColorSpace">6</int>
-								<string key="NSCatalogName">System</string>
-								<string key="NSColorName">textColor</string>
-								<reference key="NSColor" ref="225474285"/>
+								<int key="NSColorSpace">1</int>
+								<bytes key="NSRGB">MSAxIDEAA</bytes>
 							</object>
 						</object>
 					</object>
@@ -126,7 +127,7 @@
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">progressIndicator</string>
 						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="380286383"/>
+						<reference key="destination" ref="328107820"/>
 					</object>
 					<int key="connectionID">23</int>
 				</object>
@@ -163,8 +164,8 @@
 						<reference key="object" ref="1005"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="328107820"/>
 							<reference ref="595668207"/>
-							<reference ref="380286383"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -184,7 +185,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">22</int>
-						<reference key="object" ref="380286383"/>
+						<reference key="object" ref="328107820"/>
 						<reference key="parent" ref="1005"/>
 					</object>
 				</object>
@@ -223,7 +224,7 @@
 					<string>{{217, 442}, {480, 272}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABBoAAAw4sAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAADCXAAAw4sAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<object class="NSAffineTransform">
