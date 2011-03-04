@@ -9,7 +9,7 @@
 #import "QuickDoubanAppDelegate.h"
 //#import "MAAttachedWindow.h"
 #import "QuickDoubanCardWindow.h"
-
+#import "QuickDoubanBase.h"
 #include <dispatch/dispatch.h>
 
 
@@ -140,7 +140,7 @@
 																 defer:NO
 																  data:entry];
 			[cardWindow setAlphaValue:0];
-			[entry autorelease];
+			[cardWindow setAllowsConcurrentViewDrawing:YES];
 			
 			[window addChildWindow:cardWindow ordered:NSWindowBelow];
 			
@@ -154,7 +154,7 @@
 	//
 	
 	//dispatch_group_notify( myGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-		NSLog(@"%@", [window childWindows]);
+		//NSLog(@"%@", [window childWindows]);
 		[self organizeChildWindows];
 		[[searchController progressIndicator] stopAnimation:searchController];
 	//});
@@ -162,6 +162,7 @@
 
 - (void) organizeChildWindows
 {	
+	[QuickDoubanBase timer_start];
 	NSRect screenFrame = [[NSScreen mainScreen] frame];
 	
 	NSLog(@"Screen %d, %d", (int)screenFrame.size.width, (int)screenFrame.size.height);
@@ -188,7 +189,7 @@
 	{			
 		QuickDoubanCardWindow *cardWindow = (QuickDoubanCardWindow *)[cardWindows objectAtIndex:i];
 		
-		NSLog(@"%@", cardWindow);
+		//NSLog(@"%@", cardWindow);
 		NSRect newLocationFrame = NSMakeRect(actualScreenMarginHorizontal + (cardSide + cardMargin) * (int)(i % maxCardInRow), 
 											 [window frame].origin.y - 30 - (cardSide + cardMargin) * ((int)(i / maxCardInRow) + 1), 
 											 cardSide, 
@@ -225,7 +226,7 @@
 		
 	}
 	
-	
+	NSLog(@"organizeChildWindows returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 }
 
 - (void)escapeKeyPressed{

@@ -115,7 +115,7 @@
     {
 		//[self doSearch];
 		int nextType = ((int)[self searchType] + 1) % [toggleButtons count];
-		NSLog(@"%d",nextType);
+		//NSLog(@"%d",nextType);
 		NSButton *nextButton = (NSButton *)[toggleButtons objectAtIndex:nextType];
 		[nextButton setNextState];
 		[self toggleSearchType:nextButton];

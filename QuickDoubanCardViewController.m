@@ -7,7 +7,7 @@
 //
 
 #import "QuickDoubanCardViewController.h"
-
+#import "QuickDoubanBase.h"
 
 @implementation QuickDoubanCardViewController
 
@@ -16,9 +16,12 @@
 @synthesize progressIndicator;
 
 @synthesize url;
-@synthesize cardImage;
+//@synthesize cardImage;
 
 - (id) initWithNibName:(NSString *)nibNameOrNil cardData:(NSDictionary *)data {
+	
+	[QuickDoubanBase timer_start];
+	
 	[super initWithNibName:nibNameOrNil bundle:nil];
 	
 	[data retain];
@@ -27,8 +30,8 @@
 	
 	url = [entryData objectForKey:@"link"];
 	
-	[progressIndicator usesThreadedAnimation];
-	[progressIndicator startAnimation:self];
+	[progressIndicator setUsesThreadedAnimation:YES];
+	
 	
 //	
 //	NSRect windowRect = NSMakeRect([window frame].size.width / 2, 0, 300, 300);
@@ -70,17 +73,23 @@
 	//[titleField setStringValue:titleText];
 	
 //	
+	
+	NSLog(@"QuickDoubanCardViewController initWithNibName returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 	return self;
 }
 
 - (void) setView:(NSView *)view{
+	[QuickDoubanBase timer_start];
+	
 	[super setView:view];
 	
 	NSString *titleText = [[entryData objectForKey:@"title"] objectForKey:@"$t"];
 	NSLog(@"%@",titleText);
 	[titleField setStringValue:titleText];	
 	
-	[progressIndicator stopAnimation:self];
+	[progressIndicator startAnimation:self];
+	
+	NSLog(@"QuickDoubanCardViewController setView returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 }
 
 - (void) mouseUp:(NSEvent *)theEvent{
@@ -89,6 +98,8 @@
 		NSLog(@"%@", entryUrl);
 		[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:entryUrl]];
 		[entryUrl release];
+		
+		
 	}
 }
 

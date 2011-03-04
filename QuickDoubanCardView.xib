@@ -43,15 +43,20 @@
 				<int key="NSvFlags">8448</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="NSProgressIndicator" id="812413993">
+					<object class="NSProgressIndicator" id="380286383">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">1292</int>
 						<object class="NSPSMatrix" key="NSDrawMatrix"/>
 						<string key="NSFrame">{{134, 134}, {32, 32}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<bool key="NSViewIsLayerTreeHost">YES</bool>
+						<object class="NSShadow" key="NSViewShadow">
+							<object class="NSColor" key="NSShadowColor" id="225474285">
+								<int key="NSColorSpace">3</int>
+								<bytes key="NSWhite">MAA</bytes>
+							</object>
+						</object>
 						<int key="NSViewLayerContentsRedrawPolicy">2</int>
-						<int key="NSpiFlags">28682</int>
+						<int key="NSpiFlags">20490</int>
 						<double key="NSMaxValue">100</double>
 					</object>
 					<object class="NSTextField" id="595668207">
@@ -59,7 +64,6 @@
 						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{20, 20}, {260, 260}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<bool key="NSViewIsLayerTreeHost">YES</bool>
 						<int key="NSViewLayerContentsRedrawPolicy">2</int>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="791206106">
@@ -80,17 +84,13 @@
 								<int key="NSColorSpace">6</int>
 								<string key="NSCatalogName">System</string>
 								<string key="NSColorName">textColor</string>
-								<object class="NSColor" key="NSColor" id="225474285">
-									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MAA</bytes>
-								</object>
+								<reference key="NSColor" ref="225474285"/>
 							</object>
 						</object>
 					</object>
 				</object>
 				<string key="NSFrameSize">{300, 300}</string>
 				<reference key="NSSuperview"/>
-				<bool key="NSViewIsLayerTreeHost">YES</bool>
 				<object class="NSArray" key="NSViewBackgroundFilters">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="CIGaussianBlur">
@@ -126,7 +126,7 @@
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">progressIndicator</string>
 						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="812413993"/>
+						<reference key="destination" ref="380286383"/>
 					</object>
 					<int key="connectionID">23</int>
 				</object>
@@ -164,7 +164,7 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="595668207"/>
-							<reference ref="812413993"/>
+							<reference ref="380286383"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -184,7 +184,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">22</int>
-						<reference key="object" ref="812413993"/>
+						<reference key="object" ref="380286383"/>
 						<reference key="parent" ref="1005"/>
 					</object>
 				</object>
@@ -205,6 +205,10 @@
 					<string>2.IBViewBoundsToFrameTransform</string>
 					<string>22.IBPluginDependency</string>
 					<string>22.IBViewBoundsToFrameTransform</string>
+					<string>22.IBViewIntegration.shadowBlurRadius</string>
+					<string>22.IBViewIntegration.shadowColor</string>
+					<string>22.IBViewIntegration.shadowOffsetHeight</string>
+					<string>22.IBViewIntegration.shadowOffsetWidth</string>
 					<string>3.IBPluginDependency</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
@@ -223,8 +227,12 @@
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABDBgAAwykAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAABDBgAAwyQAAA</bytes>
 					</object>
+					<real value="0.0"/>
+					<reference ref="225474285"/>
+					<real value="0.0"/>
+					<real value="0.0"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 				</object>
 			</object>
@@ -270,13 +278,11 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>cardImage</string>
 							<string>progressIndicator</string>
 							<string>titleField</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>IKImageView</string>
 							<string>NSProgressIndicator</string>
 							<string>NSTextField</string>
 						</object>
@@ -285,16 +291,11 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>cardImage</string>
 							<string>progressIndicator</string>
 							<string>titleField</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBToOneOutletInfo">
-								<string key="name">cardImage</string>
-								<string key="candidateClassName">IKImageView</string>
-							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">progressIndicator</string>
 								<string key="candidateClassName">NSProgressIndicator</string>
@@ -313,95 +314,6 @@
 			</object>
 			<object class="NSMutableArray" key="referencedPartialClassDescriptionsV3.2+">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<object class="IBPartialClassDescription">
-					<string key="className">IKImageView</string>
-					<string key="superclassName">NSView</string>
-					<object class="NSMutableDictionary" key="actions">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>crop:</string>
-							<string>flipImageHorizontal:</string>
-							<string>flipImageVertical:</string>
-							<string>rotateImageLeft:</string>
-							<string>rotateImageRight:</string>
-							<string>zoomImageToActualSize:</string>
-							<string>zoomImageToFit:</string>
-							<string>zoomIn:</string>
-							<string>zoomOut:</string>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-							<string>id</string>
-						</object>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>crop:</string>
-							<string>flipImageHorizontal:</string>
-							<string>flipImageVertical:</string>
-							<string>rotateImageLeft:</string>
-							<string>rotateImageRight:</string>
-							<string>zoomImageToActualSize:</string>
-							<string>zoomImageToFit:</string>
-							<string>zoomIn:</string>
-							<string>zoomOut:</string>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<object class="IBActionInfo">
-								<string key="name">crop:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">flipImageHorizontal:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">flipImageVertical:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">rotateImageLeft:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">rotateImageRight:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">zoomImageToActualSize:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">zoomImageToFit:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">zoomIn:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-							<object class="IBActionInfo">
-								<string key="name">zoomOut:</string>
-								<string key="candidateClassName">id</string>
-							</object>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBFrameworkSource</string>
-						<string key="minorKey">ImageKit.framework/Headers/IKImageView.h</string>
-					</object>
-				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSActionCell</string>
 					<string key="superclassName">NSCell</string>

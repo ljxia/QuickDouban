@@ -21,3 +21,14 @@ typedef enum _QDBEntryType {
     QDBEntryTypeAlbum       = 8,
     QDBEntryTypeList        = 9
 } QDBEntryType;
+
+@interface QuickDoubanBase : NSObject {
+	
+}
+
+static uint64_t elapsed_time;
+
++ (void) timer_start;
++ (double) timer_milePost;
+
+@end

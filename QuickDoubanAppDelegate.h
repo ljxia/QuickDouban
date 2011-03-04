@@ -24,4 +24,5 @@
 
 - (void) show:(BOOL)toShow;
 - (void) organizeChildWindows;
+
 @end

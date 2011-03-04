@@ -9,17 +9,18 @@
 	};
 	256AC3D80F4B6AC300CF3369 /* QuickDoubanAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1342, 997}}";
-			sepNavSelRange = "{632, 0}";
-			sepNavVisRange = "{0, 698}";
+			sepNavIntBoundsRect = "{{0, 0}, {1390, 997}}";
+			sepNavSelRange = "{693, 0}";
+			sepNavVisRange = "{0, 699}";
 			sepNavWindowFrame = "{{15, 38}, {1278, 1375}}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 3003}}";
-			sepNavSelRange = "{3490, 0}";
-			sepNavVisRange = "{2825, 2671}";
+			sepNavIntBoundsRect = "{{0, 0}, {1390, 3133}}";
+			sepNavSelRange = "{3814, 0}";
+			sepNavVisRange = "{3230, 2355}";
+			sepNavWindowFrame = "{{38, 17}, {1278, 1375}}";
 		};
 	};
 	256AC3F00F4B6AF500CF3369 /* QuickDouban_Prefix.pch */ = {
@@ -656,6 +657,99 @@
 			DC805544131F690F00DE8FD6 /* PBXTextBookmark */ = DC805544131F690F00DE8FD6 /* PBXTextBookmark */;
 			DC805548131F692C00DE8FD6 /* PBXTextBookmark */ = DC805548131F692C00DE8FD6 /* PBXTextBookmark */;
 			DC805549131F692C00DE8FD6 /* PBXTextBookmark */ = DC805549131F692C00DE8FD6 /* PBXTextBookmark */;
+			DC80554B1320A76400DE8FD6 /* PBXTextBookmark */ = DC80554B1320A76400DE8FD6 /* PBXTextBookmark */;
+			DC80554D1320A76400DE8FD6 /* PBXTextBookmark */ = DC80554D1320A76400DE8FD6 /* PBXTextBookmark */;
+			DC80554E1320A76400DE8FD6 /* PBXTextBookmark */ = DC80554E1320A76400DE8FD6 /* PBXTextBookmark */;
+			DC80554F1320A76400DE8FD6 /* PBXTextBookmark */ = DC80554F1320A76400DE8FD6 /* PBXTextBookmark */;
+			DC8055501320A77200DE8FD6 /* PBXTextBookmark */ = DC8055501320A77200DE8FD6 /* PBXTextBookmark */;
+			DC8055511320A77200DE8FD6 /* PBXTextBookmark */ = DC8055511320A77200DE8FD6 /* PBXTextBookmark */;
+			DC8055561320A7E800DE8FD6 /* PBXTextBookmark */ = DC8055561320A7E800DE8FD6 /* PBXTextBookmark */;
+			DC8055571320A7E800DE8FD6 /* PBXTextBookmark */ = DC8055571320A7E800DE8FD6 /* PBXTextBookmark */;
+			DC8055581320A7E800DE8FD6 /* PBXTextBookmark */ = DC8055581320A7E800DE8FD6 /* PBXTextBookmark */;
+			DC8055591320A7E800DE8FD6 /* PBXTextBookmark */ = DC8055591320A7E800DE8FD6 /* PBXTextBookmark */;
+			DC80555A1320A7E800DE8FD6 /* PBXTextBookmark */ = DC80555A1320A7E800DE8FD6 /* PBXTextBookmark */;
+			DC80555C1320A80100DE8FD6 /* PBXTextBookmark */ = DC80555C1320A80100DE8FD6 /* PBXTextBookmark */;
+			DC80555D1320A80100DE8FD6 /* PBXTextBookmark */ = DC80555D1320A80100DE8FD6 /* PBXTextBookmark */;
+			DC80555E1320A80100DE8FD6 /* PBXTextBookmark */ = DC80555E1320A80100DE8FD6 /* PBXTextBookmark */;
+			DC80555F1320A80100DE8FD6 /* PBXTextBookmark */ = DC80555F1320A80100DE8FD6 /* PBXTextBookmark */;
+			DC8055601320A81800DE8FD6 /* PBXTextBookmark */ = DC8055601320A81800DE8FD6 /* PBXTextBookmark */;
+			DC8055611320A81800DE8FD6 /* PBXTextBookmark */ = DC8055611320A81800DE8FD6 /* PBXTextBookmark */;
+			DC8055661320A96100DE8FD6 /* PBXTextBookmark */ = DC8055661320A96100DE8FD6 /* PBXTextBookmark */;
+			DC8055671320A96100DE8FD6 /* PBXTextBookmark */ = DC8055671320A96100DE8FD6 /* PBXTextBookmark */;
+			DC8055681320A96100DE8FD6 /* PBXTextBookmark */ = DC8055681320A96100DE8FD6 /* PBXTextBookmark */;
+			DC8055691320A96100DE8FD6 /* PBXTextBookmark */ = DC8055691320A96100DE8FD6 /* PBXTextBookmark */;
+			DC80556A1320A96100DE8FD6 /* PBXTextBookmark */ = DC80556A1320A96100DE8FD6 /* PBXTextBookmark */;
+			DC80556B1320A96100DE8FD6 /* PBXTextBookmark */ = DC80556B1320A96100DE8FD6 /* PBXTextBookmark */;
+			DC80556C1320A96100DE8FD6 /* PBXTextBookmark */ = DC80556C1320A96100DE8FD6 /* PBXTextBookmark */;
+			DC80556D1320A96100DE8FD6 /* PBXTextBookmark */ = DC80556D1320A96100DE8FD6 /* PBXTextBookmark */;
+			DC80556E1320A9F500DE8FD6 /* PBXTextBookmark */ = DC80556E1320A9F500DE8FD6 /* PBXTextBookmark */;
+			DC80556F1320A9F500DE8FD6 /* PBXTextBookmark */ = DC80556F1320A9F500DE8FD6 /* PBXTextBookmark */;
+			DC8055761320AA2200DE8FD6 /* XCBuildMessageTextBookmark */ = DC8055761320AA2200DE8FD6 /* XCBuildMessageTextBookmark */;
+			DC8055771320AA2200DE8FD6 /* PBXTextBookmark */ = DC8055771320AA2200DE8FD6 /* PBXTextBookmark */;
+			DC8055781320AA2200DE8FD6 /* PBXTextBookmark */ = DC8055781320AA2200DE8FD6 /* PBXTextBookmark */;
+			DC8055821320AB1000DE8FD6 /* PBXTextBookmark */ = DC8055821320AB1000DE8FD6 /* PBXTextBookmark */;
+			DC8055831320AB1000DE8FD6 /* PBXTextBookmark */ = DC8055831320AB1000DE8FD6 /* PBXTextBookmark */;
+			DC8055841320AB1000DE8FD6 /* PBXTextBookmark */ = DC8055841320AB1000DE8FD6 /* PBXTextBookmark */;
+			DC8055851320AB1000DE8FD6 /* PBXTextBookmark */ = DC8055851320AB1000DE8FD6 /* PBXTextBookmark */;
+			DC8055861320AB1000DE8FD6 /* PBXTextBookmark */ = DC8055861320AB1000DE8FD6 /* PBXTextBookmark */;
+			DC8055871320AB1000DE8FD6 /* PBXTextBookmark */ = DC8055871320AB1000DE8FD6 /* PBXTextBookmark */;
+			DC8055881320AB1000DE8FD6 /* PBXTextBookmark */ = DC8055881320AB1000DE8FD6 /* PBXTextBookmark */;
+			DC8055891320AB1000DE8FD6 /* PBXTextBookmark */ = DC8055891320AB1000DE8FD6 /* PBXTextBookmark */;
+			DC80558E1320AB5D00DE8FD6 /* PBXTextBookmark */ = DC80558E1320AB5D00DE8FD6 /* PBXTextBookmark */;
+			DC80558F1320AB5D00DE8FD6 /* PBXTextBookmark */ = DC80558F1320AB5D00DE8FD6 /* PBXTextBookmark */;
+			DC8055901320AB5D00DE8FD6 /* PBXTextBookmark */ = DC8055901320AB5D00DE8FD6 /* PBXTextBookmark */;
+			DC8055911320AB5D00DE8FD6 /* PBXTextBookmark */ = DC8055911320AB5D00DE8FD6 /* PBXTextBookmark */;
+			DC8055921320AB5D00DE8FD6 /* PBXTextBookmark */ = DC8055921320AB5D00DE8FD6 /* PBXTextBookmark */;
+			DC8055961320AB9400DE8FD6 /* PBXTextBookmark */ = DC8055961320AB9400DE8FD6 /* PBXTextBookmark */;
+			DC8055971320AB9400DE8FD6 /* PBXTextBookmark */ = DC8055971320AB9400DE8FD6 /* PBXTextBookmark */;
+			DC8055981320AB9400DE8FD6 /* PBXTextBookmark */ = DC8055981320AB9400DE8FD6 /* PBXTextBookmark */;
+			DC8055A01320AC1A00DE8FD6 /* PBXTextBookmark */ = DC8055A01320AC1A00DE8FD6 /* PBXTextBookmark */;
+			DC8055A11320AC1A00DE8FD6 /* PBXTextBookmark */ = DC8055A11320AC1A00DE8FD6 /* PBXTextBookmark */;
+			DC8055A21320AC1A00DE8FD6 /* PBXTextBookmark */ = DC8055A21320AC1A00DE8FD6 /* PBXTextBookmark */;
+			DC8055A31320AC1A00DE8FD6 /* PBXTextBookmark */ = DC8055A31320AC1A00DE8FD6 /* PBXTextBookmark */;
+			DC8055A41320AC1A00DE8FD6 /* PBXTextBookmark */ = DC8055A41320AC1A00DE8FD6 /* PBXTextBookmark */;
+			DC8055A51320AC1A00DE8FD6 /* PBXTextBookmark */ = DC8055A51320AC1A00DE8FD6 /* PBXTextBookmark */;
+			DC8055A91320AC8C00DE8FD6 /* PBXTextBookmark */ = DC8055A91320AC8C00DE8FD6 /* PBXTextBookmark */;
+			DC8055AA1320AC8C00DE8FD6 /* PBXTextBookmark */ = DC8055AA1320AC8C00DE8FD6 /* PBXTextBookmark */;
+			DC8055AB1320AC8C00DE8FD6 /* PBXTextBookmark */ = DC8055AB1320AC8C00DE8FD6 /* PBXTextBookmark */;
+			DC8055AC1320AC8C00DE8FD6 /* PBXTextBookmark */ = DC8055AC1320AC8C00DE8FD6 /* PBXTextBookmark */;
+			DC8055AD1320AC8C00DE8FD6 /* PBXTextBookmark */ = DC8055AD1320AC8C00DE8FD6 /* PBXTextBookmark */;
+			DC8055B11320ACE600DE8FD6 /* PBXTextBookmark */ = DC8055B11320ACE600DE8FD6 /* PBXTextBookmark */;
+			DC8055B21320ACE600DE8FD6 /* PBXTextBookmark */ = DC8055B21320ACE600DE8FD6 /* PBXTextBookmark */;
+			DC8055B31320ACE600DE8FD6 /* PBXTextBookmark */ = DC8055B31320ACE600DE8FD6 /* PBXTextBookmark */;
+			DC8055B91320ADB000DE8FD6 /* PBXTextBookmark */ = DC8055B91320ADB000DE8FD6 /* PBXTextBookmark */;
+			DC8055BA1320ADB000DE8FD6 /* PBXTextBookmark */ = DC8055BA1320ADB000DE8FD6 /* PBXTextBookmark */;
+			DC8055BB1320ADB000DE8FD6 /* PBXTextBookmark */ = DC8055BB1320ADB000DE8FD6 /* PBXTextBookmark */;
+			DC8055BC1320ADB000DE8FD6 /* PBXTextBookmark */ = DC8055BC1320ADB000DE8FD6 /* PBXTextBookmark */;
+			DC8055BD1320ADB000DE8FD6 /* PBXTextBookmark */ = DC8055BD1320ADB000DE8FD6 /* PBXTextBookmark */;
+			DC8055BE1320ADB000DE8FD6 /* PBXTextBookmark */ = DC8055BE1320ADB000DE8FD6 /* PBXTextBookmark */;
+			DC8055C21320AE2A00DE8FD6 /* PBXTextBookmark */ = DC8055C21320AE2A00DE8FD6 /* PBXTextBookmark */;
+			DC8055C31320AE2A00DE8FD6 /* PBXTextBookmark */ = DC8055C31320AE2A00DE8FD6 /* PBXTextBookmark */;
+			DC8055C41320AE2A00DE8FD6 /* PBXTextBookmark */ = DC8055C41320AE2A00DE8FD6 /* PBXTextBookmark */;
+			DC8055C51320AE2A00DE8FD6 /* PBXTextBookmark */ = DC8055C51320AE2A00DE8FD6 /* PBXTextBookmark */;
+			DC8055C61320AE2A00DE8FD6 /* PBXTextBookmark */ = DC8055C61320AE2A00DE8FD6 /* PBXTextBookmark */;
+			DC8055C81320AE7E00DE8FD6 /* PBXTextBookmark */ = DC8055C81320AE7E00DE8FD6 /* PBXTextBookmark */;
+			DC8055C91320AEB300DE8FD6 /* PBXTextBookmark */ = DC8055C91320AEB300DE8FD6 /* PBXTextBookmark */;
+			DC8055CC1320AF0F00DE8FD6 /* PBXTextBookmark */ = DC8055CC1320AF0F00DE8FD6 /* PBXTextBookmark */;
+			DC8055CD1320AF0F00DE8FD6 /* PBXTextBookmark */ = DC8055CD1320AF0F00DE8FD6 /* PBXTextBookmark */;
+			DC8055CE1320AF0F00DE8FD6 /* PBXTextBookmark */ = DC8055CE1320AF0F00DE8FD6 /* PBXTextBookmark */;
+			DC8055D11320AF9A00DE8FD6 /* PBXTextBookmark */ = DC8055D11320AF9A00DE8FD6 /* PBXTextBookmark */;
+			DC8055D21320AF9A00DE8FD6 /* PBXTextBookmark */ = DC8055D21320AF9A00DE8FD6 /* PBXTextBookmark */;
+			DC8055D31320AF9A00DE8FD6 /* PBXTextBookmark */ = DC8055D31320AF9A00DE8FD6 /* PBXTextBookmark */;
+			DC8055D71320AFD800DE8FD6 /* PBXTextBookmark */ = DC8055D71320AFD800DE8FD6 /* PBXTextBookmark */;
+			DC8055D81320AFD800DE8FD6 /* PBXTextBookmark */ = DC8055D81320AFD800DE8FD6 /* PBXTextBookmark */;
+			DC8055D91320AFD800DE8FD6 /* PBXTextBookmark */ = DC8055D91320AFD800DE8FD6 /* PBXTextBookmark */;
+			DC8055DA1320AFD800DE8FD6 /* PBXTextBookmark */ = DC8055DA1320AFD800DE8FD6 /* PBXTextBookmark */;
+			DC8055E41320B0F100DE8FD6 /* PBXTextBookmark */ = DC8055E41320B0F100DE8FD6 /* PBXTextBookmark */;
+			DC8055E51320B0F100DE8FD6 /* PBXTextBookmark */ = DC8055E51320B0F100DE8FD6 /* PBXTextBookmark */;
+			DC8055E61320B0F100DE8FD6 /* PBXTextBookmark */ = DC8055E61320B0F100DE8FD6 /* PBXTextBookmark */;
+			DC8055EA1320B12F00DE8FD6 /* PBXTextBookmark */ = DC8055EA1320B12F00DE8FD6 /* PBXTextBookmark */;
+			DC8055EB1320B12F00DE8FD6 /* PBXTextBookmark */ = DC8055EB1320B12F00DE8FD6 /* PBXTextBookmark */;
+			DC8055EC1320B12F00DE8FD6 /* PBXTextBookmark */ = DC8055EC1320B12F00DE8FD6 /* PBXTextBookmark */;
+			DC8055F01320B19500DE8FD6 /* PBXTextBookmark */ = DC8055F01320B19500DE8FD6 /* PBXTextBookmark */;
+			DC8055F41320B1A500DE8FD6 /* PBXTextBookmark */ = DC8055F41320B1A500DE8FD6 /* PBXTextBookmark */;
+			DC8055F81320B1D500DE8FD6 /* PBXTextBookmark */ = DC8055F81320B1D500DE8FD6 /* PBXTextBookmark */;
+			DC8055FC1320B1FD00DE8FD6 /* PBXTextBookmark */ = DC8055FC1320B1FD00DE8FD6 /* PBXTextBookmark */;
 			DC866D4D1317571A0053100C = DC866D4D1317571A0053100C /* PBXTextBookmark */;
 			DC866EFD131762D70053100C = DC866EFD131762D70053100C /* PBXTextBookmark */;
 			DC866F21131767700053100C = DC866F21131767700053100C /* PBXTextBookmark */;
@@ -769,7 +863,7 @@
 	};
 	DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1342, 997}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1390, 997}}";
 			sepNavSelRange = "{577, 0}";
 			sepNavVisRange = "{0, 577}";
 		};
@@ -796,7 +890,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 2813;
+		rLoc = 3118;
 		rType = 0;
 		vrLen = 555;
 		vrLoc = 0;
@@ -806,7 +900,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 25";
 		rLen = 0;
-		rLoc = 2842;
+		rLoc = 3153;
 		rType = 0;
 		vrLen = 555;
 		vrLoc = 0;
@@ -836,7 +930,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* QuickDoubanAppDelegate.h */;
 		name = "QuickDoubanAppDelegate.h: 25";
 		rLen = 0;
-		rLoc = 692;
+		rLoc = 693;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 0;
@@ -846,7 +940,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 197";
 		rLen = 0;
-		rLoc = 5813;
+		rLoc = 5904;
 		rType = 0;
 		vrLen = 3221;
 		vrLoc = 4286;
@@ -856,7 +950,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 197";
 		rLen = 0;
-		rLoc = 5813;
+		rLoc = 5904;
 		rType = 0;
 		vrLen = 3202;
 		vrLoc = 4286;
@@ -866,7 +960,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 197";
 		rLen = 0;
-		rLoc = 5813;
+		rLoc = 5904;
 		rType = 0;
 		vrLen = 3202;
 		vrLoc = 4286;
@@ -876,7 +970,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 197";
 		rLen = 0;
-		rLoc = 5813;
+		rLoc = 5904;
 		rType = 0;
 		vrLen = 3179;
 		vrLoc = 4283;
@@ -886,7 +980,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 197";
 		rLen = 0;
-		rLoc = 5781;
+		rLoc = 5872;
 		rType = 0;
 		vrLen = 3194;
 		vrLoc = 4283;
@@ -896,7 +990,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 196";
 		rLen = 0;
-		rLoc = 5358;
+		rLoc = 5447;
 		rType = 0;
 		vrLen = 3250;
 		vrLoc = 4283;
@@ -906,7 +1000,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 131";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2637;
 		vrLoc = 1829;
@@ -916,7 +1010,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 131";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2685;
 		vrLoc = 1829;
@@ -926,7 +1020,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 131";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2683;
 		vrLoc = 1829;
@@ -936,7 +1030,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 131";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2640;
 		vrLoc = 1829;
@@ -946,7 +1040,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 131";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2634;
 		vrLoc = 1829;
@@ -956,7 +1050,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 131";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2686;
 		vrLoc = 1829;
@@ -966,7 +1060,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 131";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2665;
 		vrLoc = 1829;
@@ -976,7 +1070,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 131";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2636;
 		vrLoc = 1829;
@@ -996,7 +1090,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 208";
 		rLen = 0;
-		rLoc = 6069;
+		rLoc = 6160;
 		rType = 0;
 		vrLen = 2987;
 		vrLoc = 4633;
@@ -1016,7 +1110,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 25";
 		rLen = 0;
-		rLoc = 2855;
+		rLoc = 3166;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 0;
@@ -1026,7 +1120,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 23";
 		rLen = 0;
-		rLoc = 2841;
+		rLoc = 3152;
 		rType = 0;
 		vrLen = 554;
 		vrLoc = 0;
@@ -1036,7 +1130,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 26";
 		rLen = 0;
-		rLoc = 2848;
+		rLoc = 3159;
 		rType = 0;
 		vrLen = 554;
 		vrLoc = 0;
@@ -1066,7 +1160,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 142";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 3218;
 		vrLoc = 3732;
@@ -1076,7 +1170,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 213";
 		rLen = 0;
-		rLoc = 6310;
+		rLoc = 6401;
 		rType = 0;
 		vrLen = 3101;
 		vrLoc = 4501;
@@ -1086,7 +1180,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 210";
 		rLen = 0;
-		rLoc = 5956;
+		rLoc = 6047;
 		rType = 0;
 		vrLen = 3040;
 		vrLoc = 4669;
@@ -1096,7 +1190,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 29";
 		rLen = 0;
-		rLoc = 793;
+		rLoc = 820;
 		rType = 0;
 		vrLen = 2693;
 		vrLoc = 184;
@@ -1146,7 +1240,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 15";
 		rLen = 0;
-		rLoc = 430;
+		rLoc = 432;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 0;
@@ -1156,7 +1250,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 19";
 		rLen = 0;
-		rLoc = 607;
+		rLoc = 611;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 0;
@@ -1166,7 +1260,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 15";
 		rLen = 9;
-		rLoc = 327;
+		rLoc = 329;
 		rType = 0;
 		vrLen = 520;
 		vrLoc = 0;
@@ -1176,7 +1270,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 16";
 		rLen = 0;
-		rLoc = 355;
+		rLoc = 384;
 		rType = 0;
 		vrLen = 567;
 		vrLoc = 0;
@@ -1186,7 +1280,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 16";
 		rLen = 0;
-		rLoc = 365;
+		rLoc = 394;
 		rType = 0;
 		vrLen = 577;
 		vrLoc = 0;
@@ -1206,7 +1300,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 20";
 		rLen = 62;
-		rLoc = 2652;
+		rLoc = 2957;
 		rType = 0;
 		vrLen = 577;
 		vrLoc = 0;
@@ -1216,7 +1310,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 136";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2147;
 		vrLoc = 3216;
@@ -1226,7 +1320,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 144";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2124;
 		vrLoc = 3216;
@@ -1236,7 +1330,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 22";
 		rLen = 21;
-		rLoc = 2782;
+		rLoc = 3087;
 		rType = 0;
 		vrLen = 577;
 		vrLoc = 0;
@@ -1256,7 +1350,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 144";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2124;
 		vrLoc = 3216;
@@ -1266,7 +1360,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 144";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2163;
 		vrLoc = 3269;
@@ -1296,7 +1390,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 2836;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 0;
@@ -1306,7 +1400,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 146";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2145;
 		vrLoc = 3269;
@@ -1316,7 +1410,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 146";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2063;
 		vrLoc = 3269;
@@ -1326,7 +1420,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 144";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2108;
 		vrLoc = 3269;
@@ -1345,7 +1439,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 144";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2065;
 		vrLoc = 3269;
@@ -1373,7 +1467,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 144";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2065;
 		vrLoc = 3269;
@@ -1383,7 +1477,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 144";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2065;
 		vrLoc = 3269;
@@ -1393,7 +1487,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 144";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2065;
 		vrLoc = 3269;
@@ -1403,7 +1497,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 2836;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 0;
@@ -1423,7 +1517,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 14";
 		rLen = 11;
-		rLoc = 314;
+		rLoc = 316;
 		rType = 0;
 		vrLen = 538;
 		vrLoc = 0;
@@ -1443,7 +1537,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 25";
 		rLen = 0;
-		rLoc = 808;
+		rLoc = 812;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 0;
@@ -1453,7 +1547,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 25";
 		rLen = 0;
-		rLoc = 808;
+		rLoc = 812;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 0;
@@ -1463,7 +1557,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 2836;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 0;
@@ -1483,7 +1577,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 146";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2087;
 		vrLoc = 3216;
@@ -1493,7 +1587,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 145";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 1687;
 		vrLoc = 2780;
@@ -1503,7 +1597,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 25";
 		rLen = 0;
-		rLoc = 808;
+		rLoc = 812;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 0;
@@ -1513,7 +1607,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 2836;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 0;
@@ -1553,7 +1647,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 145";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 1687;
 		vrLoc = 2780;
@@ -1563,7 +1657,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 147";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2385;
 		vrLoc = 3431;
@@ -1573,7 +1667,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 145";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2463;
 		vrLoc = 3431;
@@ -1583,7 +1677,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 145";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2383;
 		vrLoc = 3431;
@@ -1593,7 +1687,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 146";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2482;
 		vrLoc = 3431;
@@ -1603,7 +1697,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 145";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2261;
 		vrLoc = 3313;
@@ -1613,7 +1707,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 138";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 1637;
 		vrLoc = 0;
@@ -1643,7 +1737,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 2836;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 0;
@@ -1653,7 +1747,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 25";
 		rLen = 0;
-		rLoc = 808;
+		rLoc = 812;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 0;
@@ -1723,7 +1817,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 2836;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 0;
@@ -1743,7 +1837,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 152";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2351;
 		vrLoc = 3553;
@@ -1753,7 +1847,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 130";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 1637;
 		vrLoc = 0;
@@ -1793,7 +1887,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 130";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 1605;
 		vrLoc = 32;
@@ -1803,7 +1897,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 215";
 		rLen = 0;
-		rLoc = 5783;
+		rLoc = 5874;
 		rType = 0;
 		vrLen = 1860;
 		vrLoc = 6261;
@@ -1822,7 +1916,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 1847;
 		vrLoc = 3659;
@@ -1832,7 +1926,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 153";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2462;
 		vrLoc = 3659;
@@ -1842,7 +1936,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 153";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 2408;
 		vrLoc = 3659;
@@ -1852,7 +1946,7 @@
 		fRef = DC866EEE131761AF0053100C /* QuickDoubanBase.h */;
 		name = "QuickDoubanBase.h: 22";
 		rLen = 0;
-		rLoc = 561;
+		rLoc = 694;
 		rType = 0;
 		vrLen = 544;
 		vrLoc = 0;
@@ -1882,7 +1976,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 41";
 		rLen = 0;
-		rLoc = 1300;
+		rLoc = 1327;
 		rType = 0;
 		vrLen = 2411;
 		vrLoc = 0;
@@ -1892,7 +1986,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 226";
 		rLen = 0;
-		rLoc = 6310;
+		rLoc = 6401;
 		rType = 0;
 		vrLen = 2410;
 		vrLoc = 5659;
@@ -1902,7 +1996,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 132";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 1818;
 		vrLoc = 3771;
@@ -1912,7 +2006,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 12";
 		rLen = 0;
-		rLoc = 280;
+		rLoc = 307;
 		rType = 0;
 		vrLen = 2429;
 		vrLoc = 0;
@@ -1922,7 +2016,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 164";
 		rLen = 0;
-		rLoc = 4424;
+		rLoc = 4479;
 		rType = 0;
 		vrLen = 2350;
 		vrLoc = 3196;
@@ -1932,7 +2026,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 169";
 		rLen = 0;
-		rLoc = 4445;
+		rLoc = 4500;
 		rType = 0;
 		vrLen = 2627;
 		vrLoc = 4468;
@@ -1942,7 +2036,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 172";
 		rLen = 0;
-		rLoc = 4691;
+		rLoc = 4748;
 		rType = 0;
 		vrLen = 2593;
 		vrLoc = 3365;
@@ -1952,7 +2046,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 172";
 		rLen = 0;
-		rLoc = 4587;
+		rLoc = 4644;
 		rType = 0;
 		vrLen = 2207;
 		vrLoc = 5162;
@@ -1962,7 +2056,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 172";
 		rLen = 0;
-		rLoc = 4584;
+		rLoc = 4641;
 		rType = 0;
 		vrLen = 2287;
 		vrLoc = 5077;
@@ -1972,7 +2066,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 200";
 		rLen = 0;
-		rLoc = 5441;
+		rLoc = 5530;
 		rType = 0;
 		vrLen = 2180;
 		vrLoc = 5227;
@@ -1982,7 +2076,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 206";
 		rLen = 0;
-		rLoc = 5618;
+		rLoc = 5709;
 		rType = 0;
 		vrLen = 2172;
 		vrLoc = 5227;
@@ -1992,7 +2086,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 216";
 		rLen = 0;
-		rLoc = 5994;
+		rLoc = 6085;
 		rType = 0;
 		vrLen = 2183;
 		vrLoc = 5277;
@@ -2002,7 +2096,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 216";
 		rLen = 0;
-		rLoc = 5994;
+		rLoc = 6085;
 		rType = 0;
 		vrLen = 2188;
 		vrLoc = 5277;
@@ -2012,7 +2106,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 151";
 		rLen = 0;
-		rLoc = 4272;
+		rLoc = 4331;
 		rType = 0;
 		vrLen = 2553;
 		vrLoc = 3075;
@@ -2022,7 +2116,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 112";
 		rLen = 0;
-		rLoc = 3420;
+		rLoc = 3447;
 		rType = 0;
 		vrLen = 2612;
 		vrLoc = 3075;
@@ -2036,9 +2130,9 @@
 	};
 	DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1390, 1755}}";
-			sepNavSelRange = "{2035, 0}";
-			sepNavVisRange = "{605, 2334}";
+			sepNavIntBoundsRect = "{{0, 0}, {1390, 1781}}";
+			sepNavSelRange = "{551, 0}";
+			sepNavVisRange = "{0, 2218}";
 		};
 	};
 	DC805018131DF0D000DE8FD6 /* PBXTextBookmark */ = {
@@ -2046,7 +2140,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 112";
 		rLen = 0;
-		rLoc = 3420;
+		rLoc = 3447;
 		rType = 0;
 		vrLen = 2612;
 		vrLoc = 3075;
@@ -2167,7 +2261,7 @@
 		fRef = DC866EEE131761AF0053100C /* QuickDoubanBase.h */;
 		name = "QuickDoubanBase.h: 22";
 		rLen = 0;
-		rLoc = 561;
+		rLoc = 694;
 		rType = 0;
 		vrLen = 544;
 		vrLoc = 0;
@@ -2237,7 +2331,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* QuickDoubanAppDelegate.h */;
 		name = "QuickDoubanAppDelegate.h: 25";
 		rLen = 0;
-		rLoc = 692;
+		rLoc = 693;
 		rType = 0;
 		vrLen = 679;
 		vrLoc = 0;
@@ -2267,7 +2361,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 27";
 		rLen = 0;
-		rLoc = 529;
+		rLoc = 556;
 		rType = 0;
 		vrLen = 2248;
 		vrLoc = 0;
@@ -2307,7 +2401,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 176";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4492;
 		rType = 0;
 		vrLen = 1443;
 		vrLoc = 4717;
@@ -2346,7 +2440,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 27";
 		rLen = 0;
-		rLoc = 529;
+		rLoc = 556;
 		rType = 0;
 		vrLen = 2248;
 		vrLoc = 0;
@@ -2688,7 +2782,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 126";
 		rLen = 0;
-		rLoc = 3625;
+		rLoc = 3652;
 		rType = 0;
 		vrLen = 2641;
 		vrLoc = 2823;
@@ -2698,7 +2792,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 26";
 		rLen = 0;
-		rLoc = 809;
+		rLoc = 813;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 0;
@@ -2708,7 +2802,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 29";
 		rLen = 0;
-		rLoc = 2848;
+		rLoc = 3159;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 0;
@@ -2747,7 +2841,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 181";
 		rLen = 0;
-		rLoc = 4551;
+		rLoc = 4608;
 		rType = 0;
 		vrLen = 2980;
 		vrLoc = 2824;
@@ -2787,7 +2881,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 181";
 		rLen = 0;
-		rLoc = 4551;
+		rLoc = 4608;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -2827,7 +2921,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 138";
 		rLen = 0;
-		rLoc = 3924;
+		rLoc = 3951;
 		rType = 0;
 		vrLen = 2616;
 		vrLoc = 2917;
@@ -2837,7 +2931,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 18";
 		rLen = 77;
-		rLoc = 367;
+		rLoc = 396;
 		rType = 0;
 		vrLen = 786;
 		vrLoc = 0;
@@ -2847,7 +2941,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 26";
 		rLen = 0;
-		rLoc = 809;
+		rLoc = 813;
 		rType = 0;
 		vrLen = 531;
 		vrLoc = 0;
@@ -2857,7 +2951,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 0;
-		rLoc = 764;
+		rLoc = 768;
 		rType = 0;
 		vrLen = 651;
 		vrLoc = 0;
@@ -2867,7 +2961,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 181";
 		rLen = 0;
-		rLoc = 4551;
+		rLoc = 4608;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -2876,8 +2970,8 @@
 		isa = PBXTextBookmark;
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 130";
-		rLen = 508;
-		rLoc = 3765;
+		rLen = 483;
+		rLoc = 3792;
 		rType = 0;
 		vrLen = 2616;
 		vrLoc = 2917;
@@ -2887,7 +2981,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 13";
 		rLen = 0;
-		rLoc = 246;
+		rLoc = 273;
 		rType = 0;
 		vrLen = 2413;
 		vrLoc = 0;
@@ -2897,7 +2991,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 0;
-		rLoc = 764;
+		rLoc = 768;
 		rType = 0;
 		vrLen = 651;
 		vrLoc = 0;
@@ -2907,7 +3001,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 16";
 		rLen = 0;
-		rLoc = 405;
+		rLoc = 407;
 		rType = 0;
 		vrLen = 667;
 		vrLoc = 0;
@@ -2917,7 +3011,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 181";
 		rLen = 0;
-		rLoc = 4551;
+		rLoc = 4608;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -2927,7 +3021,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 13";
 		rLen = 0;
-		rLoc = 246;
+		rLoc = 273;
 		rType = 0;
 		vrLen = 2413;
 		vrLoc = 0;
@@ -2937,7 +3031,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 16";
 		rLen = 0;
-		rLoc = 415;
+		rLoc = 417;
 		rType = 0;
 		vrLen = 677;
 		vrLoc = 0;
@@ -2947,7 +3041,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 0;
-		rLoc = 674;
+		rLoc = 678;
 		rType = 0;
 		vrLen = 721;
 		vrLoc = 0;
@@ -2957,7 +3051,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 181";
 		rLen = 0;
-		rLoc = 4551;
+		rLoc = 4608;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -2967,7 +3061,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 15";
 		rLen = 0;
-		rLoc = 325;
+		rLoc = 352;
 		rType = 0;
 		vrLen = 2576;
 		vrLoc = 0;
@@ -2977,7 +3071,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 0;
-		rLoc = 674;
+		rLoc = 678;
 		rType = 0;
 		vrLen = 721;
 		vrLoc = 0;
@@ -2997,7 +3091,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 140";
 		rLen = 0;
-		rLoc = 3924;
+		rLoc = 3951;
 		rType = 0;
 		vrLen = 2672;
 		vrLoc = 3003;
@@ -3007,7 +3101,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 130";
 		rLen = 0;
-		rLoc = 3765;
+		rLoc = 3792;
 		rType = 0;
 		vrLen = 2672;
 		vrLoc = 3003;
@@ -3017,7 +3111,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 181";
 		rLen = 0;
-		rLoc = 4551;
+		rLoc = 4608;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -3031,9 +3125,9 @@
 	};
 	DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1380, 555}}";
-			sepNavSelRange = "{192, 0}";
-			sepNavVisRange = "{0, 923}";
+			sepNavIntBoundsRect = "{{0, 0}, {1390, 974}}";
+			sepNavSelRange = "{558, 0}";
+			sepNavVisRange = "{0, 1110}";
 		};
 	};
 	DC805228131E20A800DE8FD6 /* PBXTextBookmark */ = {
@@ -3041,7 +3135,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 130";
 		rLen = 0;
-		rLoc = 3765;
+		rLoc = 3792;
 		rType = 0;
 		vrLen = 2672;
 		vrLoc = 3003;
@@ -3085,7 +3179,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 181";
 		rLen = 0;
-		rLoc = 4551;
+		rLoc = 4608;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -3095,7 +3189,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 130";
 		rLen = 0;
-		rLoc = 3765;
+		rLoc = 3792;
 		rType = 0;
 		vrLen = 2672;
 		vrLoc = 3003;
@@ -3115,7 +3209,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 25";
 		rLen = 30;
-		rLoc = 734;
+		rLoc = 738;
 		rType = 0;
 		vrLen = 721;
 		vrLoc = 0;
@@ -3125,7 +3219,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 14";
 		rLen = 0;
-		rLoc = 916;
+		rLoc = 1103;
 		rType = 0;
 		vrLen = 289;
 		vrLoc = 0;
@@ -3155,7 +3249,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 181";
 		rLen = 0;
-		rLoc = 4551;
+		rLoc = 4608;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -3165,7 +3259,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 116";
 		rLen = 0;
-		rLoc = 3408;
+		rLoc = 3435;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -3175,7 +3269,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 15";
 		rLen = 0;
-		rLoc = 325;
+		rLoc = 352;
 		rType = 0;
 		vrLen = 2576;
 		vrLoc = 0;
@@ -3195,7 +3289,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 19";
 		rLen = 0;
-		rLoc = 676;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 0;
@@ -3205,7 +3299,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 22";
 		rLen = 0;
-		rLoc = 640;
+		rLoc = 644;
 		rType = 0;
 		vrLen = 721;
 		vrLoc = 0;
@@ -3215,7 +3309,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 22";
 		rLen = 0;
-		rLoc = 640;
+		rLoc = 644;
 		rType = 0;
 		vrLen = 721;
 		vrLoc = 0;
@@ -3225,7 +3319,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 140";
 		rLen = 0;
-		rLoc = 3924;
+		rLoc = 3951;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -3235,7 +3329,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 22";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2568;
 		vrLoc = 0;
@@ -3245,7 +3339,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 22";
 		rLen = 0;
-		rLoc = 640;
+		rLoc = 644;
 		rType = 0;
 		vrLen = 721;
 		vrLoc = 0;
@@ -3255,7 +3349,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 27";
 		rLen = 0;
-		rLoc = 803;
+		rLoc = 807;
 		rType = 0;
 		vrLen = 716;
 		vrLoc = 0;
@@ -3265,7 +3359,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 140";
 		rLen = 0;
-		rLoc = 3924;
+		rLoc = 3951;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -3275,7 +3369,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 17";
 		rLen = 0;
-		rLoc = 430;
+		rLoc = 432;
 		rType = 0;
 		vrLen = 716;
 		vrLoc = 0;
@@ -3285,7 +3379,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 19";
 		rLen = 0;
-		rLoc = 676;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 673;
 		vrLoc = 0;
@@ -3295,7 +3389,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 16";
 		rLen = 0;
-		rLoc = 422;
+		rLoc = 449;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 0;
@@ -3305,7 +3399,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 140";
 		rLen = 0;
-		rLoc = 3924;
+		rLoc = 3951;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -3315,7 +3409,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 25";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 695;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 0;
@@ -3335,7 +3429,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 19";
 		rLen = 8;
-		rLoc = 415;
+		rLoc = 444;
 		rType = 0;
 		vrLen = 2550;
 		vrLoc = 0;
@@ -3344,8 +3438,8 @@
 		isa = PBXTextBookmark;
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 19";
-		rLen = 29;
-		rLoc = 580;
+		rLen = 0;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 0;
@@ -3355,7 +3449,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 19";
 		rLen = 0;
-		rLoc = 664;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 0;
@@ -3365,7 +3459,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 140";
 		rLen = 0;
-		rLoc = 3924;
+		rLoc = 3951;
 		rType = 0;
 		vrLen = 3067;
 		vrLoc = 2824;
@@ -3375,7 +3469,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 21";
 		rLen = 0;
-		rLoc = 707;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3385,7 +3479,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 151";
 		rLen = 0;
-		rLoc = 4272;
+		rLoc = 4331;
 		rType = 0;
 		vrLen = 3037;
 		vrLoc = 2816;
@@ -3395,7 +3489,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 13";
 		rLen = 0;
-		rLoc = 232;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3405,7 +3499,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 211";
 		rLen = 0;
-		rLoc = 5959;
+		rLoc = 6050;
 		rType = 0;
 		vrLen = 2984;
 		vrLoc = 4299;
@@ -3415,7 +3509,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 13";
 		rLen = 0;
-		rLoc = 232;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3425,7 +3519,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 217";
 		rLen = 0;
-		rLoc = 6310;
+		rLoc = 6401;
 		rType = 0;
 		vrLen = 2986;
 		vrLoc = 4303;
@@ -3435,7 +3529,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 13";
 		rLen = 0;
-		rLoc = 232;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3445,7 +3539,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 217";
 		rLen = 0;
-		rLoc = 6310;
+		rLoc = 6401;
 		rType = 0;
 		vrLen = 2986;
 		vrLoc = 4303;
@@ -3455,7 +3549,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 13";
 		rLen = 0;
-		rLoc = 232;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3465,7 +3559,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 217";
 		rLen = 0;
-		rLoc = 6310;
+		rLoc = 6401;
 		rType = 0;
 		vrLen = 3014;
 		vrLoc = 4311;
@@ -3475,7 +3569,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 13";
 		rLen = 0;
-		rLoc = 232;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3485,7 +3579,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 143";
 		rLen = 0;
-		rLoc = 4213;
+		rLoc = 4240;
 		rType = 0;
 		vrLen = 3084;
 		vrLoc = 2374;
@@ -3495,7 +3589,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 13";
 		rLen = 0;
-		rLoc = 232;
+		rLoc = 259;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3505,7 +3599,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 22";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3515,7 +3609,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 170";
 		rLen = 0;
-		rLoc = 4551;
+		rLoc = 4608;
 		rType = 0;
 		vrLen = 3042;
 		vrLoc = 2815;
@@ -3525,7 +3619,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 22";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3555,7 +3649,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 201";
 		rLen = 0;
-		rLoc = 5556;
+		rLoc = 5645;
 		rType = 0;
 		vrLen = 2990;
 		vrLoc = 4287;
@@ -3575,7 +3669,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 217";
 		rLen = 0;
-		rLoc = 6310;
+		rLoc = 6401;
 		rType = 0;
 		vrLen = 2988;
 		vrLoc = 4287;
@@ -3595,7 +3689,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 3846;
+		rLoc = 3873;
 		rType = 0;
 		vrLen = 3267;
 		vrLoc = 3417;
@@ -3615,7 +3709,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 210";
 		rLen = 0;
-		rLoc = 5898;
+		rLoc = 5989;
 		rType = 0;
 		vrLen = 2991;
 		vrLoc = 4285;
@@ -3635,7 +3729,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 211";
 		rLen = 0;
-		rLoc = 5953;
+		rLoc = 6044;
 		rType = 0;
 		vrLen = 2992;
 		vrLoc = 4285;
@@ -3655,7 +3749,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 228";
 		rLen = 0;
-		rLoc = 6310;
+		rLoc = 6401;
 		rType = 0;
 		vrLen = 3084;
 		vrLoc = 4285;
@@ -3675,7 +3769,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 220";
 		rLen = 0;
-		rLoc = 6073;
+		rLoc = 6164;
 		rType = 0;
 		vrLen = 3101;
 		vrLoc = 4285;
@@ -3695,7 +3789,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 232";
 		rLen = 0;
-		rLoc = 6310;
+		rLoc = 6401;
 		rType = 0;
 		vrLen = 3156;
 		vrLoc = 4285;
@@ -3715,7 +3809,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 210";
 		rLen = 0;
-		rLoc = 5898;
+		rLoc = 5989;
 		rType = 0;
 		vrLen = 2652;
 		vrLoc = 4843;
@@ -3735,7 +3829,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 22";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3745,7 +3839,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 22";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3755,7 +3849,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 234";
 		rLen = 0;
-		rLoc = 6310;
+		rLoc = 6401;
 		rType = 0;
 		vrLen = 2797;
 		vrLoc = 4712;
@@ -3765,7 +3859,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 22";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3775,7 +3869,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 215";
 		rLen = 0;
-		rLoc = 5959;
+		rLoc = 6050;
 		rType = 0;
 		vrLen = 2795;
 		vrLoc = 4712;
@@ -3785,7 +3879,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 22";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3795,7 +3889,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 216";
 		rLen = 0;
-		rLoc = 5991;
+		rLoc = 6082;
 		rType = 0;
 		vrLen = 2681;
 		vrLoc = 4879;
@@ -3805,7 +3899,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 22";
 		rLen = 0;
-		rLoc = 741;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3815,7 +3909,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 203";
 		rLen = 0;
-		rLoc = 5556;
+		rLoc = 5645;
 		rType = 0;
 		vrLen = 3174;
 		vrLoc = 2997;
@@ -3824,8 +3918,8 @@
 		isa = PBXTextBookmark;
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 19";
-		rLen = 18;
-		rLoc = 557;
+		rLen = 0;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3835,7 +3929,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 25";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 695;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 0;
@@ -3845,7 +3939,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 0;
-		rLoc = 658;
+		rLoc = 662;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 0;
@@ -3855,7 +3949,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 145";
 		rLen = 0;
-		rLoc = 4259;
+		rLoc = 4331;
 		rType = 0;
 		vrLen = 3171;
 		vrLoc = 2997;
@@ -3865,7 +3959,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 584;
+		rLoc = 649;
 		rType = 0;
 		vrLen = 2550;
 		vrLoc = 0;
@@ -3875,7 +3969,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 0;
-		rLoc = 658;
+		rLoc = 662;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 0;
@@ -3884,8 +3978,8 @@
 		isa = PBXTextBookmark;
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 19";
-		rLen = 18;
-		rLoc = 557;
+		rLen = 0;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3895,7 +3989,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 21";
 		rLen = 0;
-		rLoc = 696;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3905,7 +3999,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 145";
 		rLen = 0;
-		rLoc = 4270;
+		rLoc = 4331;
 		rType = 0;
 		vrLen = 3166;
 		vrLoc = 2997;
@@ -3915,7 +4009,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 21";
 		rLen = 0;
-		rLoc = 696;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -3945,7 +4039,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 143";
 		rLen = 5;
-		rLoc = 4208;
+		rLoc = 4235;
 		rType = 0;
 		vrLen = 3166;
 		vrLoc = 2997;
@@ -3965,7 +4059,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 0;
-		rLoc = 658;
+		rLoc = 662;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 0;
@@ -3975,7 +4069,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 0;
-		rLoc = 658;
+		rLoc = 662;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 0;
@@ -3985,7 +4079,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 143";
 		rLen = 5;
-		rLoc = 4208;
+		rLoc = 4235;
 		rType = 0;
 		vrLen = 3170;
 		vrLoc = 2997;
@@ -3995,7 +4089,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 0;
-		rLoc = 658;
+		rLoc = 662;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 0;
@@ -4005,7 +4099,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 145";
 		rLen = 0;
-		rLoc = 4270;
+		rLoc = 4331;
 		rType = 0;
 		vrLen = 3171;
 		vrLoc = 2997;
@@ -4025,7 +4119,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 584;
+		rLoc = 649;
 		rType = 0;
 		vrLen = 2550;
 		vrLoc = 0;
@@ -4035,7 +4129,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4045,7 +4139,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 145";
 		rLen = 0;
-		rLoc = 4270;
+		rLoc = 4331;
 		rType = 0;
 		vrLen = 3171;
 		vrLoc = 2997;
@@ -4055,7 +4149,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4065,7 +4159,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2724;
 		vrLoc = 2126;
@@ -4075,7 +4169,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4085,7 +4179,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4056;
+		rLoc = 4083;
 		rType = 0;
 		vrLen = 2706;
 		vrLoc = 2126;
@@ -4095,7 +4189,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4105,7 +4199,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2731;
 		vrLoc = 2126;
@@ -4115,7 +4209,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4125,7 +4219,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2752;
 		vrLoc = 2126;
@@ -4135,7 +4229,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4145,7 +4239,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2768;
 		vrLoc = 2126;
@@ -4155,7 +4249,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4165,7 +4259,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4056;
+		rLoc = 4083;
 		rType = 0;
 		vrLen = 2743;
 		vrLoc = 2126;
@@ -4175,7 +4269,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4185,7 +4279,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2709;
 		vrLoc = 2126;
@@ -4195,7 +4289,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4205,7 +4299,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2702;
 		vrLoc = 2126;
@@ -4215,7 +4309,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4225,7 +4319,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2723;
 		vrLoc = 2126;
@@ -4235,7 +4329,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4245,7 +4339,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2706;
 		vrLoc = 2126;
@@ -4255,7 +4349,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4265,7 +4359,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 139";
 		rLen = 0;
-		rLoc = 4248;
+		rLoc = 4331;
 		rType = 0;
 		vrLen = 2810;
 		vrLoc = 2126;
@@ -4275,7 +4369,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2564;
 		vrLoc = 0;
@@ -4285,7 +4379,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2739;
 		vrLoc = 2126;
@@ -4305,7 +4399,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 584;
+		rLoc = 649;
 		rType = 0;
 		vrLen = 2566;
 		vrLoc = 0;
@@ -4315,7 +4409,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 60";
 		rLen = 0;
-		rLoc = 2285;
+		rLoc = 2317;
 		rType = 0;
 		vrLen = 2503;
 		vrLoc = 0;
@@ -4325,7 +4419,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2739;
 		vrLoc = 2126;
@@ -4335,7 +4429,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 62";
 		rLen = 0;
-		rLoc = 2304;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 2474;
 		vrLoc = 0;
@@ -4345,7 +4439,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2739;
 		vrLoc = 2126;
@@ -4355,7 +4449,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 62";
 		rLen = 0;
-		rLoc = 2303;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 2488;
 		vrLoc = 0;
@@ -4365,7 +4459,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 135";
 		rLen = 0;
-		rLoc = 4108;
+		rLoc = 4135;
 		rType = 0;
 		vrLen = 2739;
 		vrLoc = 2126;
@@ -4375,7 +4469,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 10";
 		rLen = 0;
-		rLoc = 198;
+		rLoc = 226;
 		rType = 0;
 		vrLen = 2472;
 		vrLoc = 0;
@@ -4385,7 +4479,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 21";
 		rLen = 0;
-		rLoc = 696;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -4395,7 +4489,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 18";
 		rLen = 0;
-		rLoc = 555;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 0;
@@ -4405,7 +4499,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4415,7 +4509,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 19";
 		rLen = 0;
-		rLoc = 595;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 0;
@@ -4445,7 +4539,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 25";
 		rLen = 0;
-		rLoc = 584;
+		rLoc = 649;
 		rType = 0;
 		vrLen = 2474;
 		vrLoc = 0;
@@ -4455,7 +4549,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4465,7 +4559,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 20";
 		rLen = 0;
-		rLoc = 485;
+		rLoc = 487;
 		rType = 0;
 		vrLen = 719;
 		vrLoc = 0;
@@ -4475,7 +4569,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 15";
 		rLen = 10;
-		rLoc = 282;
+		rLoc = 309;
 		rType = 0;
 		vrLen = 2493;
 		vrLoc = 0;
@@ -4485,7 +4579,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 65";
 		rLen = 0;
-		rLoc = 2555;
+		rLoc = 2860;
 		rType = 0;
 		vrLen = 2510;
 		vrLoc = 0;
@@ -4495,7 +4589,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4505,7 +4599,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 67";
 		rLen = 0;
-		rLoc = 2554;
+		rLoc = 2859;
 		rType = 0;
 		vrLen = 2526;
 		vrLoc = 0;
@@ -4515,7 +4609,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4525,7 +4619,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 63";
 		rLen = 0;
-		rLoc = 2554;
+		rLoc = 2859;
 		rType = 0;
 		vrLen = 2391;
 		vrLoc = 0;
@@ -4535,7 +4629,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4545,7 +4639,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 61";
 		rLen = 0;
-		rLoc = 2555;
+		rLoc = 2860;
 		rType = 0;
 		vrLen = 2333;
 		vrLoc = 0;
@@ -4555,7 +4649,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4565,7 +4659,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 66";
 		rLen = 0;
-		rLoc = 2554;
+		rLoc = 2859;
 		rType = 0;
 		vrLen = 2475;
 		vrLoc = 3;
@@ -4575,7 +4669,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4585,7 +4679,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 62";
 		rLen = 0;
-		rLoc = 2245;
+		rLoc = 2277;
 		rType = 0;
 		vrLen = 2477;
 		vrLoc = 3;
@@ -4595,7 +4689,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4605,7 +4699,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 20";
 		rLen = 0;
-		rLoc = 485;
+		rLoc = 487;
 		rType = 0;
 		vrLen = 719;
 		vrLoc = 0;
@@ -4625,7 +4719,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 18";
 		rLen = 0;
-		rLoc = 555;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -4635,7 +4729,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 62";
 		rLen = 0;
-		rLoc = 2245;
+		rLoc = 2277;
 		rType = 0;
 		vrLen = 2480;
 		vrLoc = 0;
@@ -4645,7 +4739,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 22";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2497;
 		vrLoc = 0;
@@ -4655,7 +4749,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4665,7 +4759,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 22";
 		rLen = 0;
-		rLoc = 505;
+		rLoc = 570;
 		rType = 0;
 		vrLen = 2492;
 		vrLoc = 0;
@@ -4675,7 +4769,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4685,7 +4779,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 63";
 		rLen = 0;
-		rLoc = 2218;
+		rLoc = 2250;
 		rType = 0;
 		vrLen = 2498;
 		vrLoc = 0;
@@ -4695,7 +4789,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4705,7 +4799,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 19";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 2474;
 		vrLoc = 0;
@@ -4715,7 +4809,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 20";
 		rLen = 0;
-		rLoc = 485;
+		rLoc = 487;
 		rType = 0;
 		vrLen = 719;
 		vrLoc = 0;
@@ -4725,7 +4819,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 25";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 695;
 		rType = 0;
 		vrLen = 690;
 		vrLoc = 0;
@@ -4735,7 +4829,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4745,7 +4839,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 25";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 695;
 		rType = 0;
 		vrLen = 690;
 		vrLoc = 0;
@@ -4755,7 +4849,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 19";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 401;
 		rType = 0;
 		vrLen = 2469;
 		vrLoc = 0;
@@ -4765,7 +4859,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 22";
 		rLen = 0;
-		rLoc = 500;
+		rLoc = 565;
 		rType = 0;
 		vrLen = 2467;
 		vrLoc = 0;
@@ -4775,7 +4869,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4785,7 +4879,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 70";
 		rLen = 0;
-		rLoc = 2327;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 2389;
 		vrLoc = 0;
@@ -4795,7 +4889,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 137";
 		rLen = 0;
-		rLoc = 4184;
+		rLoc = 4211;
 		rType = 0;
 		vrLen = 2738;
 		vrLoc = 2126;
@@ -4805,7 +4899,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 70";
 		rLen = 0;
-		rLoc = 2327;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 2521;
 		vrLoc = 155;
@@ -4815,7 +4909,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 136";
 		rLen = 0;
-		rLoc = 4157;
+		rLoc = 4184;
 		rType = 0;
 		vrLen = 2842;
 		vrLoc = 2126;
@@ -4825,7 +4919,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 70";
 		rLen = 0;
-		rLoc = 2327;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 2484;
 		vrLoc = 200;
@@ -4835,7 +4929,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 18";
 		rLen = 0;
-		rLoc = 555;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 0;
@@ -4845,7 +4939,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 21";
 		rLen = 0;
-		rLoc = 680;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -4855,7 +4949,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 136";
 		rLen = 0;
-		rLoc = 4157;
+		rLoc = 4184;
 		rType = 0;
 		vrLen = 2724;
 		vrLoc = 4039;
@@ -4865,7 +4959,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 21";
 		rLen = 0;
-		rLoc = 680;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -4875,7 +4969,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -4885,7 +4979,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 21";
 		rLen = 0;
-		rLoc = 680;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -4895,7 +4989,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2975;
 		vrLoc = 2910;
@@ -4905,7 +4999,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 11";
 		rLen = 0;
-		rLoc = 193;
+		rLoc = 220;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -4915,7 +5009,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2975;
 		vrLoc = 2910;
@@ -4925,7 +5019,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 11";
 		rLen = 0;
-		rLoc = 193;
+		rLoc = 220;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -4935,7 +5029,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2975;
 		vrLoc = 2910;
@@ -4945,7 +5039,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 12";
 		rLen = 0;
-		rLoc = 210;
+		rLoc = 237;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -4955,7 +5049,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 128";
 		rLen = 0;
-		rLoc = 3765;
+		rLoc = 3792;
 		rType = 0;
 		vrLen = 2310;
 		vrLoc = 2998;
@@ -4995,7 +5089,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2975;
 		vrLoc = 2910;
@@ -5035,7 +5129,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2975;
 		vrLoc = 2910;
@@ -5055,7 +5149,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2975;
 		vrLoc = 2910;
@@ -5095,7 +5189,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5135,7 +5229,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5175,7 +5269,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5195,7 +5289,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5235,7 +5329,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5275,7 +5369,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5315,7 +5409,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2975;
 		vrLoc = 2910;
@@ -5325,7 +5419,7 @@
 		fRef = DC866EEE131761AF0053100C /* QuickDoubanBase.h */;
 		name = "QuickDoubanBase.h: 23";
 		rLen = 0;
-		rLoc = 561;
+		rLoc = 694;
 		rType = 0;
 		vrLen = 561;
 		vrLoc = 0;
@@ -5355,7 +5449,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5395,7 +5489,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5415,7 +5509,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5435,7 +5529,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2975;
 		vrLoc = 2910;
@@ -5455,7 +5549,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2975;
 		vrLoc = 2910;
@@ -5475,7 +5569,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2975;
 		vrLoc = 2910;
@@ -5495,7 +5589,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5515,7 +5609,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2972;
 		vrLoc = 2910;
@@ -5545,7 +5639,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 30";
 		rLen = 0;
-		rLoc = 641;
+		rLoc = 668;
 		rType = 0;
 		vrLen = 2463;
 		vrLoc = 322;
@@ -5555,7 +5649,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2890;
 		vrLoc = 2812;
@@ -5565,7 +5659,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 42";
 		rLen = 0;
-		rLoc = 1060;
+		rLoc = 1087;
 		rType = 0;
 		vrLen = 2234;
 		vrLoc = 0;
@@ -5595,7 +5689,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2945;
 		vrLoc = 2812;
@@ -5615,7 +5709,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2890;
 		vrLoc = 2812;
@@ -5655,7 +5749,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2890;
 		vrLoc = 2812;
@@ -5665,7 +5759,7 @@
 		fRef = DC866EEE131761AF0053100C /* QuickDoubanBase.h */;
 		name = "QuickDoubanBase.h: 23";
 		rLen = 0;
-		rLoc = 561;
+		rLoc = 694;
 		rType = 0;
 		vrLen = 561;
 		vrLoc = 0;
@@ -5705,7 +5799,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2890;
 		vrLoc = 2812;
@@ -5725,7 +5819,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2945;
 		vrLoc = 2812;
@@ -5735,7 +5829,7 @@
 		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
 		name = "SearchBarWindowController.m: 110";
 		rLen = 0;
-		rLoc = 3369;
+		rLoc = 3371;
 		rType = 0;
 		vrLen = 1953;
 		vrLoc = 1335;
@@ -5745,7 +5839,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2945;
 		vrLoc = 2812;
@@ -5755,7 +5849,7 @@
 		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
 		name = "SearchBarWindowController.m: 112";
 		rLen = 0;
-		rLoc = 3331;
+		rLoc = 3333;
 		rType = 0;
 		vrLen = 2084;
 		vrLoc = 1335;
@@ -5765,7 +5859,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2945;
 		vrLoc = 2812;
@@ -5775,7 +5869,7 @@
 		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
 		name = "SearchBarWindowController.m: 112";
 		rLen = 0;
-		rLoc = 3331;
+		rLoc = 3333;
 		rType = 0;
 		vrLen = 2061;
 		vrLoc = 1335;
@@ -5785,7 +5879,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2890;
 		vrLoc = 2812;
@@ -5795,7 +5889,7 @@
 		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
 		name = "SearchBarWindowController.m: 111";
 		rLen = 0;
-		rLoc = 3225;
+		rLoc = 3227;
 		rType = 0;
 		vrLen = 2084;
 		vrLoc = 1335;
@@ -5805,7 +5899,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2890;
 		vrLoc = 2812;
@@ -5825,7 +5919,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2890;
 		vrLoc = 2812;
@@ -5845,7 +5939,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 25";
 		rLen = 0;
-		rLoc = 691;
+		rLoc = 695;
 		rType = 0;
 		vrLen = 690;
 		vrLoc = 0;
@@ -5855,7 +5949,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 70";
 		rLen = 0;
-		rLoc = 2327;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 2437;
 		vrLoc = 247;
@@ -5865,7 +5959,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 109";
 		rLen = 0;
-		rLoc = 3147;
+		rLoc = 3174;
 		rType = 0;
 		vrLen = 2259;
 		vrLoc = 2210;
@@ -5875,7 +5969,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2892;
 		vrLoc = 2812;
@@ -5885,7 +5979,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 70";
 		rLen = 0;
-		rLoc = 2327;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 2593;
 		vrLoc = 58;
@@ -5895,7 +5989,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 101";
 		rLen = 0;
-		rLoc = 2976;
+		rLoc = 3003;
 		rType = 0;
 		vrLen = 2290;
 		vrLoc = 2210;
@@ -5915,7 +6009,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2892;
 		vrLoc = 2812;
@@ -5935,7 +6029,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 70";
 		rLen = 0;
-		rLoc = 2327;
+		rLoc = 2325;
 		rType = 0;
 		vrLen = 2519;
 		vrLoc = 58;
@@ -5945,7 +6039,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 23";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2409;
 		vrLoc = 58;
@@ -5955,7 +6049,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2892;
 		vrLoc = 2812;
@@ -5975,7 +6069,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 23";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2519;
 		vrLoc = 58;
@@ -5985,7 +6079,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 33";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2435;
 		vrLoc = 58;
@@ -5995,7 +6089,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2892;
 		vrLoc = 2812;
@@ -6005,7 +6099,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 32";
 		rLen = 0;
-		rLoc = 583;
+		rLoc = 648;
 		rType = 0;
 		vrLen = 2443;
 		vrLoc = 58;
@@ -6015,7 +6109,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2892;
 		vrLoc = 2812;
@@ -6025,7 +6119,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 517;
+		rLoc = 582;
 		rType = 0;
 		vrLen = 2494;
 		vrLoc = 58;
@@ -6045,7 +6139,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 101";
 		rLen = 0;
-		rLoc = 2976;
+		rLoc = 3003;
 		rType = 0;
 		vrLen = 2290;
 		vrLoc = 2210;
@@ -6055,7 +6149,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 154";
 		rLen = 0;
-		rLoc = 4695;
+		rLoc = 4752;
 		rType = 0;
 		vrLen = 1978;
 		vrLoc = 2782;
@@ -6065,7 +6159,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2900;
 		vrLoc = 2812;
@@ -6075,7 +6169,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 146";
 		rLen = 0;
-		rLoc = 4424;
+		rLoc = 4479;
 		rType = 0;
 		vrLen = 1967;
 		vrLoc = 2782;
@@ -6085,7 +6179,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2929;
 		vrLoc = 2812;
@@ -6095,7 +6189,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 129";
 		rLen = 0;
-		rLoc = 3769;
+		rLoc = 3796;
 		rType = 0;
 		vrLen = 2389;
 		vrLoc = 4347;
@@ -6105,7 +6199,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 17;
-		rLoc = 588;
+		rLoc = 592;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 0;
@@ -6115,7 +6209,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 24";
 		rLen = 0;
-		rLoc = 517;
+		rLoc = 582;
 		rType = 0;
 		vrLen = 2494;
 		vrLoc = 58;
@@ -6125,7 +6219,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 17";
 		rLen = 0;
-		rLoc = 325;
+		rLoc = 352;
 		rType = 0;
 		vrLen = 2405;
 		vrLoc = 58;
@@ -6135,7 +6229,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2932;
 		vrLoc = 2812;
@@ -6145,7 +6239,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 17";
 		rLen = 0;
-		rLoc = 325;
+		rLoc = 352;
 		rType = 0;
 		vrLen = 2405;
 		vrLoc = 58;
@@ -6155,7 +6249,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 30";
 		rLen = 0;
-		rLoc = 671;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 2395;
 		vrLoc = 199;
@@ -6165,7 +6259,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2931;
 		vrLoc = 2812;
@@ -6175,7 +6269,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 30";
 		rLen = 0;
-		rLoc = 671;
+		rLoc = 745;
 		rType = 0;
 		vrLen = 2430;
 		vrLoc = 199;
@@ -6185,7 +6279,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 23";
 		rLen = 67;
-		rLoc = 539;
+		rLoc = 543;
 		rType = 0;
 		vrLen = 809;
 		vrLoc = 0;
@@ -6225,7 +6319,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2931;
 		vrLoc = 2812;
@@ -6245,7 +6339,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2931;
 		vrLoc = 2812;
@@ -6265,7 +6359,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 129";
 		rLen = 0;
-		rLoc = 3769;
+		rLoc = 3796;
 		rType = 0;
 		vrLen = 2416;
 		vrLoc = 4317;
@@ -6275,7 +6369,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 159";
 		rLen = 0;
-		rLoc = 4698;
+		rLoc = 4755;
 		rType = 0;
 		vrLen = 2168;
 		vrLoc = 2972;
@@ -6285,7 +6379,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 121";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2838;
 		vrLoc = 2812;
@@ -6295,7 +6389,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 101";
 		rLen = 0;
-		rLoc = 2974;
+		rLoc = 3001;
 		rType = 0;
 		vrLen = 2235;
 		vrLoc = 2206;
@@ -6305,7 +6399,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 122";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2983;
 		vrLoc = 2812;
@@ -6315,7 +6409,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 158";
 		rLen = 0;
-		rLoc = 4698;
+		rLoc = 4755;
 		rType = 0;
 		vrLen = 2061;
 		vrLoc = 2699;
@@ -6325,7 +6419,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 122";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 3025;
 		vrLoc = 2812;
@@ -6335,7 +6429,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 101";
 		rLen = 0;
-		rLoc = 2974;
+		rLoc = 3001;
 		rType = 0;
 		vrLen = 2459;
 		vrLoc = 2280;
@@ -6365,7 +6459,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 123";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 3072;
 		vrLoc = 2812;
@@ -6385,7 +6479,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 10";
 		rLen = 0;
-		rLoc = 192;
+		rLoc = 220;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -6395,7 +6489,7 @@
 		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
 		name = "SearchBarWindowController.m: 129";
 		rLen = 0;
-		rLoc = 3642;
+		rLoc = 3644;
 		rType = 0;
 		vrLen = 1458;
 		vrLoc = 520;
@@ -6414,7 +6508,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 123";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 1491;
 		vrLoc = 2814;
@@ -6434,7 +6528,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 123";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 3095;
 		vrLoc = 2812;
@@ -6453,7 +6547,7 @@
 		isa = PBXTextBookmark;
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		rLen = 0;
-		rLoc = 2974;
+		rLoc = 3001;
 		rType = 0;
 	};
 	DC805528131F676E00DE8FD6 /* PBXTextBookmark */ = {
@@ -6461,7 +6555,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 101";
 		rLen = 0;
-		rLoc = 2974;
+		rLoc = 3001;
 		rType = 0;
 		vrLen = 2296;
 		vrLoc = 2812;
@@ -6471,7 +6565,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 123";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 3098;
 		vrLoc = 2812;
@@ -6481,7 +6575,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 40";
 		rLen = 0;
-		rLoc = 928;
+		rLoc = 955;
 		rType = 0;
 		vrLen = 2524;
 		vrLoc = 322;
@@ -6491,7 +6585,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 125";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2736;
 		vrLoc = 2926;
@@ -6511,7 +6605,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 39";
 		rLen = 0;
-		rLoc = 928;
+		rLoc = 955;
 		rType = 0;
 		vrLen = 2549;
 		vrLoc = 1700;
@@ -6531,7 +6625,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 124";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2670;
 		vrLoc = 2825;
@@ -6551,7 +6645,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 39";
 		rLen = 0;
-		rLoc = 928;
+		rLoc = 955;
 		rType = 0;
 		vrLen = 2549;
 		vrLoc = 1700;
@@ -6561,7 +6655,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 159";
 		rLen = 0;
-		rLoc = 4691;
+		rLoc = 4748;
 		rType = 0;
 		vrLen = 2246;
 		vrLoc = 2975;
@@ -6571,7 +6665,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 124";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2659;
 		vrLoc = 2825;
@@ -6581,7 +6675,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 160";
 		rLen = 0;
-		rLoc = 4695;
+		rLoc = 4752;
 		rType = 0;
 		vrLen = 2258;
 		vrLoc = 2975;
@@ -6591,10 +6685,943 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 124";
 		rLen = 0;
-		rLoc = 3490;
+		rLoc = 3517;
 		rType = 0;
 		vrLen = 2671;
 		vrLoc = 2825;
+	};
+	DC80554B1320A76400DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 124";
+		rLen = 0;
+		rLoc = 3517;
+		rType = 0;
+		vrLen = 1187;
+		vrLoc = 2511;
+	};
+	DC80554D1320A76400DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 159";
+		rLen = 0;
+		rLoc = 4755;
+		rType = 0;
+		vrLen = 1717;
+		vrLoc = 3839;
+	};
+	DC80554E1320A76400DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+	};
+	DC80554F1320A76400DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 29";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 199;
+	};
+	DC8055501320A77200DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 128";
+		rLen = 0;
+		rLoc = 3619;
+		rType = 0;
+		vrLen = 2377;
+		vrLoc = 3065;
+	};
+	DC8055511320A77200DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 124";
+		rLen = 0;
+		rLoc = 3517;
+		rType = 0;
+		vrLen = 2765;
+		vrLoc = 2825;
+	};
+	DC8055561320A7E800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 201";
+		rLen = 0;
+		rLoc = 6050;
+		rType = 0;
+		vrLen = 2251;
+		vrLoc = 4692;
+	};
+	DC8055571320A7E800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */;
+		name = "BaseDoubanSearcher.h: 23";
+		rLen = 0;
+		rLoc = 577;
+		rType = 0;
+		vrLen = 577;
+		vrLoc = 0;
+	};
+	DC8055581320A7E800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 12";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	DC8055591320A7E800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 17";
+		rLen = 0;
+		rLoc = 483;
+		rType = 0;
+		vrLen = 939;
+		vrLoc = 0;
+	};
+	DC80555A1320A7E800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 124";
+		rLen = 0;
+		rLoc = 3517;
+		rType = 0;
+		vrLen = 2671;
+		vrLoc = 2825;
+	};
+	DC80555C1320A80100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 20";
+		rLen = 0;
+		rLoc = 483;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	DC80555D1320A80100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
+		name = "QuickDoubanCardViewController.h: 23";
+		rLen = 67;
+		rLoc = 543;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 0;
+	};
+	DC80555E1320A80100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
+		name = "QuickDoubanCardViewController.h: 16";
+		rLen = 0;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 0;
+	};
+	DC80555F1320A80100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 124";
+		rLen = 0;
+		rLoc = 3517;
+		rType = 0;
+		vrLen = 2765;
+		vrLoc = 2825;
+	};
+	DC8055601320A81800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 124";
+		rLen = 0;
+		rLoc = 3517;
+		rType = 0;
+		vrLen = 1187;
+		vrLoc = 2511;
+	};
+	DC8055611320A81800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 29";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 199;
+	};
+	DC8055661320A96100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
+		name = "QuickDoubanCardViewController.h: 16";
+		rLen = 0;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 0;
+	};
+	DC8055671320A96100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 32";
+		rLen = 0;
+		rLoc = 1087;
+		rType = 0;
+		vrLen = 1054;
+		vrLoc = 0;
+	};
+	DC8055681320A96100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 21";
+		rLen = 0;
+		rLoc = 510;
+		rType = 0;
+		vrLen = 2366;
+		vrLoc = 0;
+	};
+	DC8055691320A96100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* QuickDoubanAppDelegate.h */;
+		name = "QuickDoubanAppDelegate.h: 28";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	DC80556A1320A96100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
+		name = "SearchBarWindowController.m: 28";
+		rLen = 0;
+		rLoc = 551;
+		rType = 0;
+		vrLen = 2175;
+		vrLoc = 0;
+	};
+	DC80556B1320A96100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 43";
+		rLen = 0;
+		rLoc = 984;
+		rType = 0;
+		vrLen = 2252;
+		vrLoc = 32;
+	};
+	DC80556C1320A96100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 425;
+		rType = 0;
+		vrLen = 2236;
+		vrLoc = 32;
+	};
+	DC80556D1320A96100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 128";
+		rLen = 0;
+		rLoc = 3517;
+		rType = 0;
+		vrLen = 2725;
+		vrLoc = 2847;
+	};
+	DC80556E1320A9F500DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 148";
+		rLen = 0;
+		rLoc = 3517;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 148;
+	};
+	DC80556F1320A9F500DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 29";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 420;
+	};
+	DC8055761320AA2200DE8FD6 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected '{' before '(' token";
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 20;
+		rType = 1;
+	};
+	DC8055771320AA2200DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 30";
+		rLen = 0;
+		rLoc = 425;
+		rType = 0;
+		vrLen = 1045;
+		vrLoc = 148;
+	};
+	DC8055781320AA2200DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 29";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 420;
+	};
+	DC8055821320AB1000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 21";
+		rLen = 0;
+		rLoc = 510;
+		rType = 0;
+		vrLen = 2364;
+		vrLoc = 0;
+	};
+	DC8055831320AB1000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
+		name = "SearchBarWindowController.m: 28";
+		rLen = 0;
+		rLoc = 551;
+		rType = 0;
+		vrLen = 2175;
+		vrLoc = 0;
+	};
+	DC8055841320AB1000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */;
+		name = "QuickDoubanCardWindow.h: 15";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 0;
+	};
+	DC8055851320AB1000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 32";
+		rLen = 0;
+		rLoc = 1087;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 0;
+	};
+	DC8055861320AB1000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* QuickDoubanAppDelegate.h */;
+		name = "QuickDoubanAppDelegate.h: 27";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 0;
+	};
+	DC8055871320AB1000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 13";
+		rLen = 0;
+		rLoc = 307;
+		rType = 0;
+		vrLen = 2275;
+		vrLoc = 32;
+	};
+	DC8055881320AB1000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866EEE131761AF0053100C /* QuickDoubanBase.h */;
+		name = "QuickDoubanBase.h: 11";
+		rLen = 0;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 1366;
+		vrLoc = 0;
+	};
+	DC8055891320AB1000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866EEE131761AF0053100C /* QuickDoubanBase.h */;
+		name = "QuickDoubanBase.h: 55";
+		rLen = 0;
+		rLoc = 694;
+		rType = 0;
+		vrLen = 1366;
+		vrLoc = 0;
+	};
+	DC80558A1320AB3C00DE8FD6 /* QuickDoubanBase.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1390, 974}}";
+			sepNavSelRange = "{378, 0}";
+			sepNavVisRange = "{0, 811}";
+		};
+	};
+	DC80558E1320AB5D00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
+		name = "SearchBarWindowController.m: 28";
+		rLen = 0;
+		rLoc = 551;
+		rType = 0;
+		vrLen = 1849;
+		vrLoc = 1800;
+	};
+	DC80558F1320AB5D00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */;
+		name = "SearchBarWindowController.h: 35";
+		rLen = 0;
+		rLoc = 1014;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 0;
+	};
+	DC8055901320AB5D00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866EEE131761AF0053100C /* QuickDoubanBase.h */;
+		name = "QuickDoubanBase.h: 9";
+		rLen = 0;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 662;
+		vrLoc = 0;
+	};
+	DC8055911320AB5D00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC80558A1320AB3C00DE8FD6 /* QuickDoubanBase.m */;
+		name = "QuickDoubanBase.m: 9";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 0;
+	};
+	DC8055921320AB5D00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC80558A1320AB3C00DE8FD6 /* QuickDoubanBase.m */;
+		name = "QuickDoubanBase.m: 9";
+		rLen = 0;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 0;
+	};
+	DC8055961320AB9400DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC80558A1320AB3C00DE8FD6 /* QuickDoubanBase.m */;
+		name = "QuickDoubanBase.m: 9";
+		rLen = 0;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 0;
+	};
+	DC8055971320AB9400DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 32";
+		rLen = 0;
+		rLoc = 1087;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 0;
+	};
+	DC8055981320AB9400DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 200";
+		rLen = 0;
+		rLoc = 6050;
+		rType = 0;
+		vrLen = 2251;
+		vrLoc = 4693;
+	};
+	DC8055A01320AC1A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
+		name = "QuickDoubanCardViewController.h: 16";
+		rLen = 0;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 0;
+	};
+	DC8055A11320AC1A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 200";
+		rLen = 0;
+		rLoc = 6050;
+		rType = 0;
+		vrLen = 2324;
+		vrLoc = 4620;
+	};
+	DC8055A21320AC1A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 4";
+		rLen = 0;
+		rLoc = 59;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 0;
+	};
+	DC8055A31320AC1A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866EEE131761AF0053100C /* QuickDoubanBase.h */;
+		name = "QuickDoubanBase.h: 29";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	DC8055A41320AC1A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC80558A1320AB3C00DE8FD6 /* QuickDoubanBase.m */;
+		name = "QuickDoubanBase.m: 13";
+		rLen = 0;
+		rLoc = 253;
+		rType = 0;
+		vrLen = 842;
+		vrLoc = 0;
+	};
+	DC8055A51320AC1A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC80558A1320AB3C00DE8FD6 /* QuickDoubanBase.m */;
+		name = "QuickDoubanBase.m: 20";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 0;
+	};
+	DC8055A91320AC8C00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC80558A1320AB3C00DE8FD6 /* QuickDoubanBase.m */;
+		name = "QuickDoubanBase.m: 20";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 0;
+	};
+	DC8055AA1320AC8C00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 32";
+		rLen = 89;
+		rLoc = 996;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 0;
+	};
+	DC8055AB1320AC8C00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */;
+		name = "QuickDoubanCardWindow.h: 15";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 0;
+	};
+	DC8055AC1320AC8C00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 21";
+		rLen = 0;
+		rLoc = 510;
+		rType = 0;
+		vrLen = 2401;
+		vrLoc = 448;
+	};
+	DC8055AD1320AC8C00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 82";
+		rLen = 0;
+		rLoc = 2325;
+		rType = 0;
+		vrLen = 2570;
+		vrLoc = 579;
+	};
+	DC8055B11320ACE600DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 92";
+		rLen = 0;
+		rLoc = 2783;
+		rType = 0;
+		vrLen = 2583;
+		vrLoc = 579;
+	};
+	DC8055B21320ACE600DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */;
+		name = "QuickDoubanCardWindow.h: 15";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 0;
+	};
+	DC8055B31320ACE600DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 17";
+		rLen = 0;
+		rLoc = 483;
+		rType = 0;
+		vrLen = 1110;
+		vrLoc = 0;
+	};
+	DC8055B91320ADB000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
+		name = "QuickDoubanCardViewController.h: 22";
+		rLen = 0;
+		rLoc = 491;
+		rType = 0;
+		vrLen = 813;
+		vrLoc = 0;
+	};
+	DC8055BA1320ADB000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
+		name = "SearchBarWindowController.m: 28";
+		rLen = 0;
+		rLoc = 551;
+		rType = 0;
+		vrLen = 1854;
+		vrLoc = 1795;
+	};
+	DC8055BB1320ADB000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 17";
+		rLen = 0;
+		rLoc = 483;
+		rType = 0;
+		vrLen = 1110;
+		vrLoc = 0;
+	};
+	DC8055BC1320ADB000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 92";
+		rLen = 104;
+		rLoc = 2753;
+		rType = 0;
+		vrLen = 2607;
+		vrLoc = 580;
+	};
+	DC8055BD1320ADB000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 165";
+		rLen = 0;
+		rLoc = 4823;
+		rType = 0;
+		vrLen = 2283;
+		vrLoc = 4721;
+	};
+	DC8055BE1320ADB000DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 229";
+		rLen = 0;
+		rLoc = 7005;
+		rType = 0;
+		vrLen = 2370;
+		vrLoc = 4728;
+	};
+	DC8055C21320AE2A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 20";
+		rLen = 0;
+		rLoc = 558;
+		rType = 0;
+		vrLen = 1110;
+		vrLoc = 0;
+	};
+	DC8055C31320AE2A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 44";
+		rLen = 0;
+		rLoc = 1087;
+		rType = 0;
+		vrLen = 2601;
+		vrLoc = 580;
+	};
+	DC8055C41320AE2A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC80558A1320AB3C00DE8FD6 /* QuickDoubanBase.m */;
+		name = "QuickDoubanBase.m: 19";
+		rLen = 0;
+		rLoc = 378;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 0;
+	};
+	DC8055C51320AE2A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 229";
+		rLen = 0;
+		rLoc = 7005;
+		rType = 0;
+		vrLen = 2368;
+		vrLoc = 4730;
+	};
+	DC8055C61320AE2A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 175";
+		rLen = 0;
+		rLoc = 5234;
+		rType = 0;
+		vrLen = 2370;
+		vrLoc = 4728;
+	};
+	DC8055C81320AE7E00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 147";
+		rLen = 0;
+		rLoc = 4478;
+		rType = 0;
+		vrLen = 2534;
+		vrLoc = 3571;
+	};
+	DC8055C91320AEB300DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 144";
+		rLen = 0;
+		rLoc = 4331;
+		rType = 0;
+		vrLen = 2511;
+		vrLoc = 3571;
+	};
+	DC8055CC1320AF0F00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 160";
+		rLen = 0;
+		rLoc = 4752;
+		rType = 0;
+		vrLen = 2370;
+		vrLoc = 4746;
+	};
+	DC8055CD1320AF0F00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
+		name = "SearchBarWindowController.m: 28";
+		rLen = 0;
+		rLoc = 551;
+		rType = 0;
+		vrLen = 2218;
+		vrLoc = 0;
+	};
+	DC8055CE1320AF0F00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 44";
+		rLen = 0;
+		rLoc = 1087;
+		rType = 0;
+		vrLen = 2606;
+		vrLoc = 581;
+	};
+	DC8055D11320AF9A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 41";
+		rLen = 0;
+		rLoc = 913;
+		rType = 0;
+		vrLen = 2606;
+		vrLoc = 581;
+	};
+	DC8055D21320AF9A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 160";
+		rLen = 0;
+		rLoc = 4752;
+		rType = 0;
+		vrLen = 2375;
+		vrLoc = 4741;
+	};
+	DC8055D31320AF9A00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 138";
+		rLen = 0;
+		rLoc = 4103;
+		rType = 0;
+		vrLen = 2446;
+		vrLoc = 3398;
+	};
+	DC8055D71320AFD800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 41";
+		rLen = 0;
+		rLoc = 913;
+		rType = 0;
+		vrLen = 2607;
+		vrLoc = 580;
+	};
+	DC8055D81320AFD800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
+		name = "QuickDoubanCardViewController.h: 22";
+		rLen = 0;
+		rLoc = 491;
+		rType = 0;
+		vrLen = 813;
+		vrLoc = 0;
+	};
+	DC8055D91320AFD800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 138";
+		rLen = 0;
+		rLoc = 4103;
+		rType = 0;
+		vrLen = 2547;
+		vrLoc = 3398;
+	};
+	DC8055DA1320AFD800DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 124";
+		rLen = 0;
+		rLoc = 3517;
+		rType = 0;
+		vrLen = 2380;
+		vrLoc = 3090;
+	};
+	DC8055E41320B0F100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 41";
+		rLen = 0;
+		rLoc = 913;
+		rType = 0;
+		vrLen = 2543;
+		vrLoc = 352;
+	};
+	DC8055E51320B0F100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 152";
+		rLen = 0;
+		rLoc = 4494;
+		rType = 0;
+		vrLen = 2457;
+		vrLoc = 3092;
+	};
+	DC8055E61320B0F100DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 138";
+		rLen = 0;
+		rLoc = 4103;
+		rType = 0;
+		vrLen = 2435;
+		vrLoc = 3092;
+	};
+	DC8055EA1320B12F00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 133";
+		rLen = 0;
+		rLoc = 3814;
+		rType = 0;
+		vrLen = 2355;
+		vrLoc = 3230;
+	};
+	DC8055EB1320B12F00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 20";
+		rLen = 0;
+		rLoc = 558;
+		rType = 0;
+		vrLen = 1110;
+		vrLoc = 0;
+	};
+	DC8055EC1320B12F00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 33";
+		rLen = 0;
+		rLoc = 694;
+		rType = 0;
+		vrLen = 2429;
+		vrLoc = 352;
+	};
+	DC8055F01320B19500DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 101";
+		rLen = 0;
+		rLoc = 3147;
+		rType = 0;
+		vrLen = 2605;
+		vrLoc = 580;
+	};
+	DC8055F41320B1A500DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 34";
+		rLen = 0;
+		rLoc = 745;
+		rType = 0;
+		vrLen = 2612;
+		vrLoc = 580;
+	};
+	DC8055F81320B1D500DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 102";
+		rLen = 0;
+		rLoc = 3147;
+		rType = 0;
+		vrLen = 2550;
+		vrLoc = 650;
+	};
+	DC8055FC1320B1FD00DE8FD6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 90";
+		rLen = 0;
+		rLoc = 2742;
+		rType = 0;
+		vrLen = 2509;
+		vrLoc = 650;
 	};
 	DC866CF513163A7C0053100C /* SBJsonTokeniser.m:353 */ = {
 		isa = PBXFileBreakpoint;
@@ -6674,8 +7701,8 @@
 	DC866EEE131761AF0053100C /* QuickDoubanBase.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1390, 997}}";
-			sepNavSelRange = "{561, 0}";
-			sepNavVisRange = "{0, 561}";
+			sepNavSelRange = "{637, 0}";
+			sepNavVisRange = "{0, 694}";
 		};
 	};
 	DC866EFD131762D70053100C /* PBXTextBookmark */ = {
@@ -6721,15 +7748,15 @@
 	DC866FC713177D460053100C /* QuickDoubanCardViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1390, 997}}";
-			sepNavSelRange = "{539, 67}";
-			sepNavVisRange = "{0, 809}";
+			sepNavSelRange = "{491, 0}";
+			sepNavVisRange = "{0, 813}";
 		};
 	};
 	DC866FC813177D460053100C /* QuickDoubanCardViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1390, 1222}}";
-			sepNavSelRange = "{671, 0}";
-			sepNavVisRange = "{199, 2430}";
+			sepNavIntBoundsRect = "{{0, 0}, {1390, 1391}}";
+			sepNavSelRange = "{2742, 0}";
+			sepNavVisRange = "{650, 2509}";
 		};
 	};
 	DC866FE9131780A90053100C /* PBXTextBookmark */ = {
@@ -6737,7 +7764,7 @@
 		fRef = DC866EEE131761AF0053100C /* QuickDoubanBase.h */;
 		name = "QuickDoubanBase.h: 22";
 		rLen = 0;
-		rLoc = 561;
+		rLoc = 694;
 		rType = 0;
 		vrLen = 544;
 		vrLoc = 0;
@@ -6777,7 +7804,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 106";
 		rLen = 0;
-		rLoc = 4698;
+		rLoc = 4755;
 		rType = 0;
 		vrLen = 2599;
 		vrLoc = 2583;
@@ -6787,7 +7814,7 @@
 		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
 		name = "QuickDoubanCardViewController.h: 21";
 		rLen = 0;
-		rLoc = 803;
+		rLoc = 807;
 		rType = 0;
 		vrLen = 418;
 		vrLoc = 0;
@@ -6797,7 +7824,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 19";
 		rLen = 0;
-		rLoc = 2836;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 390;
 		vrLoc = 0;
@@ -6807,7 +7834,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 21";
 		rLen = 0;
-		rLoc = 2813;
+		rLoc = 3118;
 		rType = 0;
 		vrLen = 555;
 		vrLoc = 0;
