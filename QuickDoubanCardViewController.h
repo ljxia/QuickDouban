@@ -28,9 +28,7 @@
 @property (retain) NSArray *url;
 @property (retain) NSDictionary *entryData;
 
-//- (id) initWithNibName:(NSString *)nibNameOrNil cardData:(NSDictionary *)data;
 - (void) setData:(NSDictionary *)data;
-
 
 #pragma mark delegates
 - (void) mouseUp:(NSEvent *)theEvent;

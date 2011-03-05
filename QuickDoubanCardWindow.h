@@ -17,6 +17,5 @@
 @property (retain) NSDictionary *entryData;
 
 - (void) setData:(NSDictionary *)data;
-//- (QuickDoubanCardWindow *) initWithContentRect:(NSRect)contentRect styleMask:(NSUInteger)aStyle backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag data:(NSDictionary *)data;
-
+- (void) render;
 @end

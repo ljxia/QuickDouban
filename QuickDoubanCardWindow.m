@@ -39,13 +39,13 @@
 
 - (void) setData:(NSDictionary *)data {
 	[self setEntryData:data];
-	[cardViewController setData:data];
+	
 }
 
-- (void) release {
-	//NSLog(@" - releasing CardWindow: %@", self);
-	[super release];
-	//NSLog(@" - CardWindow released");
+- (void) render {
+	if (entryData) {
+		[cardViewController setData:entryData];
+	}
 }
 
 @end

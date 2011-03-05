@@ -138,7 +138,7 @@
 			windowRect.origin = [window convertBaseToScreen:windowRect.origin];
 
 		    QuickDoubanCardWindow *cardWindow = [[QuickDoubanCardWindow alloc] initWithContentRect:windowRect 
-															 styleMask:NSUtilityWindowMask | NSTexturedBackgroundWindowMask
+															 styleMask:NSHUDWindowMask | NSUtilityWindowMask
 															   backing:NSBackingStoreBuffered 
 																 defer:YES];
 			
@@ -217,9 +217,9 @@
 		[cardWindow setFrameOrigin:newLocationFrame.origin];
 		
 		
-		[cardWindow setAlphaValue:1.0];
+		//[cardWindow setAlphaValue:1.0];
 
-		//[[cardWindow contentView] setFrame:NSMakeRect(0, 0, cardSide, cardSide)];
+		[[cardWindow contentView] setFrame:NSMakeRect(0, 0, cardSide, cardSide)];
 		
 //		NSDictionary *windowResize;
 //		windowResize = [NSDictionary dictionaryWithObjectsAndKeys:
@@ -227,20 +227,22 @@
 //						[NSValue valueWithRect: newLocationFrame], NSViewAnimationEndFrameKey,
 //						nil];
 		
-//		NSDictionary *windowFade;
-//		windowFade = [NSDictionary dictionaryWithObjectsAndKeys:
-//					    cardWindow, NSViewAnimationTargetKey,
-//						NSViewAnimationFadeInEffect, NSViewAnimationEffectKey,
-//						nil];
-//		
-//		NSViewAnimation *theAnim;
-//		theAnim = [[NSViewAnimation alloc] initWithViewAnimations:[NSArray arrayWithObjects:windowFade, nil]];
-//		
-//		[theAnim setAnimationBlockingMode: NSAnimationNonblocking];
-//		[theAnim setDuration:0.3];
-//		[theAnim setAnimationCurve:NSAnimationEaseInOut];
-//		[theAnim startAnimation];
-//		[theAnim release];	
+		NSDictionary *windowFade;
+		windowFade = [NSDictionary dictionaryWithObjectsAndKeys:
+					    cardWindow, NSViewAnimationTargetKey,
+						NSViewAnimationFadeInEffect, NSViewAnimationEffectKey,
+						nil];
+		
+		NSViewAnimation *theAnim;
+		theAnim = [[NSViewAnimation alloc] initWithViewAnimations:[NSArray arrayWithObjects: windowFade, nil]];
+		
+		[theAnim setAnimationBlockingMode: NSAnimationNonblockingThreaded];
+		[theAnim setDuration:0.2];
+		[theAnim setAnimationCurve:NSAnimationEaseInOut];
+		[theAnim startAnimation];
+		[theAnim release];	
+		
+		[cardWindow render];
 		
 	}
 	

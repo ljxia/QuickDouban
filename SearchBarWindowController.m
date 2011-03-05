@@ -37,7 +37,6 @@
         [g_searchBar showWindow: self];
 		[g_searchBar setToggleButtons:[NSArray arrayWithObjects:[g_searchBar toggleMovie], [g_searchBar toggleBook], [g_searchBar toggleMusic], nil]];
 		[g_searchBar setSearchType:QDBEntryTypeMovie];
-		//[[g_searchBar progressIndicator] setUsesThreadedAnimation:YES];
 		//NSLog(@"All Buttons: %@", [g_searchBar toggleButtons]);
     }
 	
@@ -121,9 +120,6 @@
     }
 	else if (commandSelector == @selector(cancelOperation:))
 	{
-		// TODO: refactor
-		//[(QuickDoubanAppDelegate *)[[NSApplication sharedApplication] delegate] show:NO];
-		
 		[delegate escapeKeyPressed];
 		result = YES;
 	}
