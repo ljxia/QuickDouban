@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>DC259BB41322F874009D579E</string>
+						<string>DC259BCD1322FF40009D579E</string>
 						<key>history</key>
 						<array>
 							<string>DC2599C81322DE07009D579E</string>
@@ -313,6 +313,7 @@
 								<string>DC8053D1131F491800DE8FD6</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>DC805202131E0A9B00DE8FD6</string>
+								<string>DC259BC91322FF26009D579E</string>
 								<string>DC217E9D13106FF00084C7CD</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
@@ -326,8 +327,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
-									<integer>9</integer>
+									<integer>20</integer>
+									<integer>17</integer>
+									<integer>0</integer>
+								</array>
+								<array>
+									<integer>21</integer>
+									<integer>17</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -369,7 +375,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>QuickDoubanAppDelegate.m</string>
+								<string>OverlayView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -377,11 +383,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>QuickDoubanAppDelegate.m</string>
+										<string>OverlayView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC259BB31322F874009D579E</string>
+										<string>DC259BCC1322FF40009D579E</string>
 										<key>history</key>
 										<array>
 											<string>DC9F4732130CD93700B81679</string>
@@ -394,18 +400,20 @@
 											<string>DC866D4D1317571A0053100C</string>
 											<string>DC866F21131767700053100C</string>
 											<string>DC866F9F131777F70053100C</string>
-											<string>DC8055571320A7E800DE8FD6</string>
 											<string>DC25979C1320B951009D579E</string>
 											<string>DC25979D1320B951009D579E</string>
 											<string>DC2599091320C8FC009D579E</string>
 											<string>DC2599E91322E0A4009D579E</string>
 											<string>DC259A9B1322EB03009D579E</string>
-											<string>DC259B5B1322F502009D579E</string>
 											<string>DC259B5F1322F502009D579E</string>
 											<string>DC259B7D1322F611009D579E</string>
-											<string>DC259B841322F644009D579E</string>
-											<string>DC259B851322F644009D579E</string>
-											<string>DC259BAD1322F82C009D579E</string>
+											<string>DC259BB71322FD82009D579E</string>
+											<string>DC259BC11322FE63009D579E</string>
+											<string>DC259BC21322FE63009D579E</string>
+											<string>DC259BC41322FE63009D579E</string>
+											<string>DC259BCA1322FF40009D579E</string>
+											<string>DC259BCB1322FF40009D579E</string>
+											<string>DC259BC31322FE63009D579E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -603,7 +611,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DC259BB51322F874009D579E</string>
 		<string>DC2597771320B786009D579E</string>
 		<string>DC2597781320B786009D579E</string>
 		<string>1C530D57069F1CE1000CFCEE</string>

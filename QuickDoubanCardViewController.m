@@ -18,6 +18,7 @@
 @synthesize url;
 @synthesize cardImage;
 @synthesize cardImageView;
+@synthesize overlayView;
 
 - (void) setData:(NSDictionary *)data {
 	
@@ -64,7 +65,7 @@
 	dispatch_group_notify( displayGroup, displayQueue, ^{
 		
 		if (cardImage) {
-			[[self view] addSubview:cardImageView positioned:NSWindowBelow relativeTo:titleField];	
+			[[self view] addSubview:cardImageView positioned:NSWindowBelow relativeTo:overlayView];	
 			[cardImageView setImageScaling:NSScaleToFit];
 			[progressIndicator stopAnimation:self];		
 		}
@@ -77,7 +78,7 @@
 	NSLog(@"QuickDoubanCardViewController start to load view");
 	
 	[super loadView];
-	
+
 	NSLog(@"QuickDoubanCardViewController loadView returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 }
 

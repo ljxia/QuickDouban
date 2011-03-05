@@ -7,11 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
-//#import <Quartz/Quartz.h>
+#import "OverlayView.h"
 
 @interface QuickDoubanCardViewController : NSViewController <NSImageDelegate> {
 	IBOutlet NSTextField *titleField;
 	IBOutlet NSProgressIndicator *progressIndicator;
+	
+	IBOutlet OverlayView *overlayView;
 	
 	NSImageView *cardImageView;
 	NSImage *cardImage;
@@ -19,6 +21,7 @@
 	NSArray *url;
 }
 
+@property (retain) IBOutlet OverlayView *overlayView;
 @property (retain) IBOutlet NSTextField *titleField;
 @property (retain) IBOutlet NSProgressIndicator *progressIndicator;
 @property (retain) NSImageView *cardImageView;

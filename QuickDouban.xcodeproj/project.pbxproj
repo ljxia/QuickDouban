@@ -14,6 +14,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		DC217E9C13106CC90084C7CD /* RestService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC217E9B13106CC90084C7CD /* RestService.m */; };
 		DC217EC11310771C0084C7CD /* BaseDoubanSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */; };
+		DC259BC01322FE21009D579E /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC259BBF1322FE21009D579E /* OverlayView.m */; };
 		DC804F0E131CC85100DE8FD6 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC804F0D131CC85100DE8FD6 /* Quartz.framework */; };
 		DC805017131DF0C800DE8FD6 /* SearchBarWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */; };
 		DC80501C131DF0F700DE8FD6 /* SearchBarWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC80501B131DF0F700DE8FD6 /* SearchBarWindowController.xib */; };
@@ -52,6 +53,8 @@
 		DC217E9B13106CC90084C7CD /* RestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestService.m; path = RestService/RestService.m; sourceTree = SOURCE_ROOT; };
 		DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDoubanSearcher.h; sourceTree = "<group>"; };
 		DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDoubanSearcher.m; sourceTree = "<group>"; };
+		DC259BBE1322FE21009D579E /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		DC259BBF1322FE21009D579E /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
 		DC804F0D131CC85100DE8FD6 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarWindowController.h; sourceTree = "<group>"; };
 		DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarWindowController.m; sourceTree = "<group>"; };
@@ -140,6 +143,7 @@
 				DC217D83130CF5D60084C7CD /* lib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				DC805202131E0A9B00DE8FD6 /* Controllers */,
+				DC259BC91322FF26009D579E /* Views */,
 				DC217E9D13106FF00084C7CD /* Models */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -227,13 +231,22 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		DC259BC91322FF26009D579E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */,
+				DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */,
+				DC259BBE1322FE21009D579E /* OverlayView.h */,
+				DC259BBF1322FE21009D579E /* OverlayView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		DC805202131E0A9B00DE8FD6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */,
 				DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */,
-				DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */,
-				DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */,
 				DC866FC713177D460053100C /* QuickDoubanCardViewController.h */,
 				DC866FC813177D460053100C /* QuickDoubanCardViewController.m */,
 			);
@@ -346,6 +359,7 @@
 				DC805017131DF0C800DE8FD6 /* SearchBarWindowController.m in Sources */,
 				DC805227131E209B00DE8FD6 /* QuickDoubanCardWindow.m in Sources */,
 				DC80558B1320AB3C00DE8FD6 /* QuickDoubanBase.m in Sources */,
+				DC259BC01322FE21009D579E /* OverlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
