@@ -13,13 +13,13 @@
 @interface QuickDoubanAppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate, SearchControllerDelegate> {
     NSWindow *window;
 	SearchBarWindowController *searchController;
-	IBOutlet NSView *floatView;
+//	IBOutlet NSView *floatView;
 	NSMutableArray *cardWindows;
 }
 
 @property (assign) NSWindow *window;
 @property (assign) IBOutlet SearchBarWindowController *searchController;
-
+//
 @property (retain) NSMutableArray *cardWindows;
 
 - (void) show:(BOOL)toShow;

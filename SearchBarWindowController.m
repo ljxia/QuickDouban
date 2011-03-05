@@ -52,17 +52,15 @@
 	[[self progressIndicator] startAnimation:self];
 	
 	dispatch_group_t taskGroup = dispatch_group_create();
-	
-	//[progressIndicator startAnimation:self];
-	
+
 	dispatch_group_async(taskGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
 		searchResult = [NSMutableDictionary dictionaryWithDictionary:[searcher query:keyword withParams:nil]];		
 	});
 	
 	dispatch_group_notify(taskGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-		NSArray *entries = [NSMutableArray arrayWithArray:[searchResult objectForKey:@"entry"]];
+		NSArray *entries = [NSArray arrayWithArray:[searchResult objectForKey:@"entry"]];
 		
-		//if (entries && [entries count])
+		if (entries/* && [entries count] */)
 		{
 			[delegate searchResultDidReturn:entries ofType:QDBEntryTypeMovie];
 		}
@@ -131,6 +129,11 @@
 	}
 	
     return result;
+}
+
+- (void) release {
+	
+	[super release];
 }
 
 @end

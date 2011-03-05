@@ -202,24 +202,24 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>DC2597821320B7FD009D579E</string>
+				<string>DC2599CF1322DE6B009D579E</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>QuickDoubanAppDelegate.m</string>
+				<string>QuickDoubanCardViewController.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>DC2597831320B7FD009D579E</string>
+						<string>DC2599D01322DE6B009D579E</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>QuickDoubanAppDelegate.m</string>
+						<string>QuickDoubanCardViewController.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>DC25991D1320C943009D579E</string>
+						<string>DC259B571322F44C009D579E</string>
 						<key>history</key>
 						<array>
-							<string>DC2597791320B7C5009D579E</string>
+							<string>DC2599C81322DE07009D579E</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -235,7 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>38 73 1278 1319 0 0 2560 1418 </string>
+				<string>15 94 1278 1319 0 0 2560 1418 </string>
 			</dict>
 		</dict>
 	</array>
@@ -326,7 +326,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
+									<integer>18</integer>
 									<integer>12</integer>
 									<integer>0</integer>
 								</array>
@@ -369,7 +369,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>QuickDoubanCardViewController.h</string>
+								<string>QuickDoubanCardViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -377,11 +377,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>QuickDoubanCardViewController.h</string>
+										<string>QuickDoubanCardViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC25991C1320C943009D579E</string>
+										<string>DC259B561322F44C009D579E</string>
 										<key>history</key>
 										<array>
 											<string>DC9F4732130CD93700B81679</string>
@@ -395,17 +395,17 @@
 											<string>DC866F21131767700053100C</string>
 											<string>DC866F9F131777F70053100C</string>
 											<string>DC8055571320A7E800DE8FD6</string>
-											<string>DC8055861320AB1000DE8FD6</string>
-											<string>DC80558F1320AB5D00DE8FD6</string>
-											<string>DC25977E1320B7FD009D579E</string>
-											<string>DC25977F1320B7FD009D579E</string>
 											<string>DC25979C1320B951009D579E</string>
 											<string>DC25979D1320B951009D579E</string>
 											<string>DC2599091320C8FC009D579E</string>
-											<string>DC25990A1320C8FC009D579E</string>
-											<string>DC25990B1320C8FC009D579E</string>
-											<string>DC25991B1320C943009D579E</string>
-											<string>DC2598A41320C303009D579E</string>
+											<string>DC2599E91322E0A4009D579E</string>
+											<string>DC259A731322E893009D579E</string>
+											<string>DC259A9B1322EB03009D579E</string>
+											<string>DC259B0B1322F0B1009D579E</string>
+											<string>DC259B1C1322F1A2009D579E</string>
+											<string>DC259B311322F25E009D579E</string>
+											<string>DC259B391322F2D7009D579E</string>
+											<string>DC259B3A1322F2D7009D579E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -603,12 +603,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>DC259B581322F44C009D579E</string>
 		<string>DC2597771320B786009D579E</string>
 		<string>DC2597781320B786009D579E</string>
-		<string>DC2597821320B7FD009D579E</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
+		<string>1C530D57069F1CE1000CFCEE</string>
+		<string>DC2599CF1322DE6B009D579E</string>
 		<string>DC9F46F7130CCC1400B81679</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -851,7 +853,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>QuickDoubanCardViewController.m</string>
+										<string></string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -909,8 +911,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>DC80552A131F676E00DE8FD6</string>
-				<string>DC80552B131F676E00DE8FD6</string>
+				<string>DC25993A1322D6A1009D579E</string>
+				<string>DC25993B1322D6A1009D579E</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>

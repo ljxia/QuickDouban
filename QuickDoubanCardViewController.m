@@ -19,37 +19,35 @@
 @synthesize cardImage;
 @synthesize cardImageView;
 
-- (id) initWithNibName:(NSString *)nibNameOrNil cardData:(NSDictionary *)data {
-	
-	[QuickDoubanBase timer_start];
-	
-	[super initWithNibName:nibNameOrNil bundle:nil];
-	
-	[data retain];
+//- (id) initWithNibName:(NSString *)nibNameOrNil cardData:(NSDictionary *)data {
+//	
+//	[QuickDoubanBase timer_start];
+//	
+//	[super initWithNibName:nibNameOrNil bundle:nil];
+//		
+//	[progressIndicator setUsesThreadedAnimation:YES];
+//	
+//	NSLog(@"QuickDoubanCardViewController initWithNibName returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
+//	return self;
+//}
 
-	[self setEntryData:[NSDictionary dictionaryWithDictionary:data]];
+- (void) setData:(NSDictionary *)data {
+	
+//	[progressIndicator setUsesThreadedAnimation:YES];
+	
+	[self setEntryData:data];
 	
 	url = [entryData objectForKey:@"link"];
 	
-	[progressIndicator setUsesThreadedAnimation:YES];
 	
-	NSLog(@"QuickDoubanCardViewController initWithNibName returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
-	return self;
-}
-
-
-
-- (void) setView:(NSView *)view{
 	[QuickDoubanBase timer_start];
 	
-	[super setView:view];
-	
 	NSString *titleText = [[entryData objectForKey:@"title"] objectForKey:@"$t"];
-	NSLog(@"%@",titleText);
+	//NSLog(@" -- title: %@",titleText);
 	[titleField setStringValue:titleText];	
 	
 	[progressIndicator startAnimation:self];
-	
+//	
 	dispatch_queue_t displayQueue = dispatch_queue_create("displayQueue", NULL);
 	dispatch_group_t displayGroup = dispatch_group_create();
 	
@@ -62,20 +60,21 @@
 		imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"default-small" withString:@"default-medium"];
 		NSURL *imageUrl = [NSURL URLWithString:imageUrlString];
 		
-		cardImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, [view frame].size.width, [view frame].size.height)];
+		cardImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, [[self view] frame].size.width, [[self view] frame].size.height)];
 		
 		NSLog(@"Starting to load %@",imageUrlString);
 		
-		cardImage = [[NSImage alloc] initWithContentsOfURL:imageUrl];
-		
-		if (cardImage) {
-			NSLog(@"--- Image loaded %@",cardImage);
+		@try {
+			cardImage = [[NSImage alloc] initWithContentsOfURL:imageUrl];
 			[cardImage setDelegate:self];
 			[cardImageView setImage:cardImage];
 		}
-		
-		[imageUrl release];
-		
+		@catch (NSException * e) {
+			NSLog(@"Exception %@", e);
+		}
+		@finally {
+			//[imageUrl autorelease];
+		}
 	});
 	
 	
@@ -84,11 +83,21 @@
 		if (cardImage) {
 			[[self view] addSubview:cardImageView positioned:NSWindowBelow relativeTo:titleField];	
 			[cardImageView setImageScaling:NSScaleToFit];
-			[progressIndicator stopAnimation:self];			
+			[progressIndicator stopAnimation:self];		
+			
+			//NSLog(@"--- Image added to view");
 		}
 	});
 	
-	NSLog(@"QuickDoubanCardViewController setView returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
+}
+
+- (void) loadView {
+	
+	NSLog(@"QuickDoubanCardViewController start to load view");
+	
+	[super loadView];
+	
+	NSLog(@"QuickDoubanCardViewController loadView returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 }
 
 - (void) mouseUp:(NSEvent *)theEvent{
@@ -100,6 +109,18 @@
 		
 		
 	}
+}
+
+- (void) release{
+//	NSLog(@" -- releasing CardViewController");
+//	[cardImageView release];
+//	[cardImage release];
+//	[entryData release];
+//	[url release];
+	
+	[super release];
+	
+//	NSLog(@" -- CardViewController released");
 }
 
 @end

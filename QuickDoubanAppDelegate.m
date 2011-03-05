@@ -27,10 +27,10 @@
 	
 	window = [searchController window];
 	
-	[window setBackgroundColor:[NSColor colorWithDeviceRed:1 green:1 blue:1 alpha:0.9]];
+	[window setBackgroundColor:[NSColor colorWithDeviceRed:0 green:0 blue:0 alpha:0.8]];
 	[window setDelegate:self];
 	[window setAlphaValue:0];
-	NSLog(@"%d, %d",(int)[window frame].origin.x, (int)[window frame].origin.y);
+	//NSLog(@"%d, %d",(int)[window frame].origin.x, (int)[window frame].origin.y);
 	
 	
 	
@@ -109,19 +109,22 @@
 
 - (void)searchResultDidReturn:(NSArray *)entries ofType:(QDBEntryType)type{
 	
-	//if ([entries count] > 0 && [cardWindows count] > 0) 
+	if ([cardWindows count] > 0) 
 	{
+		NSLog(@"\n\nCleaning out old window cards");
 		for (int i = 0; i < [cardWindows count];i++)
-		{			
+		{
 			[window removeChildWindow:[cardWindows objectAtIndex:i]];
-			[(NSPanel *)[cardWindows objectAtIndex:i] close];
+			[(NSWindow *)[cardWindows objectAtIndex:i] close];
 		}
 		[cardWindows removeAllObjects];
-		
 	}
 	
 	//dispatch_queue_t myQueue = dispatch_queue_create("myQueue", NULL);
 	//dispatch_group_t myGroup = dispatch_group_create();
+	
+	
+	NSLog(@"\n\n Search result returned with %d entries", [entries count]);
 	
 	for (int i = 0; i < [entries count]; i++)
 	{
@@ -129,22 +132,37 @@
 		//dispatch_group_async(myGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{ 
 			
 			NSDictionary *entry = (NSDictionary *)[entries objectAtIndex:i];
-			
+		
 			NSRect windowRect = NSMakeRect([window frame].size.width / 2, 0, 300, 300);
 			
 			windowRect.origin = [window convertBaseToScreen:windowRect.origin];
-			
-			QuickDoubanCardWindow *cardWindow = [[QuickDoubanCardWindow alloc] initWithContentRect:windowRect 
+
+		    QuickDoubanCardWindow *cardWindow = [[QuickDoubanCardWindow alloc] initWithContentRect:windowRect 
 															 styleMask:NSUtilityWindowMask | NSTexturedBackgroundWindowMask
 															   backing:NSBackingStoreBuffered 
-																 defer:NO
-																  data:entry];
+																 defer:YES];
+			
+			[cardWindow retain];
+		
+			NSLog(@"retain new card window");
+		
+			[cardWindow setBackgroundColor:[NSColor colorWithDeviceRed:1 green:1 blue:1 alpha:0.6]];
 			[cardWindow setAlphaValue:0];
 			[cardWindow setAllowsConcurrentViewDrawing:YES];
+			[cardWindow setReleasedWhenClosed:YES];
 			
 			[window addChildWindow:cardWindow ordered:NSWindowBelow];
+
+			NSLog(@"new card window added to child windows\n\n");
 			
-			[[self cardWindows] addObject:cardWindow];
+			[cardWindows addObject:cardWindow];
+			NSLog(@"new card window added to cardWindows array");
+
+			NSLog(@"setting data");
+			[cardWindow setData:[NSDictionary dictionaryWithDictionary:entry]];
+			NSLog(@" --> data set");
+		
+			//
 		
 			//[self organizeChildWindows];
 			
@@ -165,7 +183,7 @@
 	[QuickDoubanBase timer_start];
 	NSRect screenFrame = [[NSScreen mainScreen] frame];
 	
-	NSLog(@"Screen %d, %d", (int)screenFrame.size.width, (int)screenFrame.size.height);
+	NSLog(@"\n\nScreen %d, %d", (int)screenFrame.size.width, (int)screenFrame.size.height);
 	
 	int cardSide = 300;
 	int cardMargin = 30;

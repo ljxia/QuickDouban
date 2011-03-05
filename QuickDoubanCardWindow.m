@@ -12,26 +12,40 @@
 @implementation QuickDoubanCardWindow
 
 @synthesize cardViewController;
+@synthesize entryData;
 
-- (QuickDoubanCardWindow *) initWithContentRect:(NSRect)contentRect styleMask:(NSUInteger)aStyle backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag data:(NSDictionary *)entryData {
-	NSLog(@"New Window:\n");
+- (QuickDoubanCardWindow *) initWithContentRect:(NSRect)contentRect styleMask:(NSUInteger)aStyle backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag {
+	NSLog(@"\n\nNew Window: %@\n", self);
 	[QuickDoubanBase timer_start];
 	
 	self = [super initWithContentRect:contentRect styleMask:aStyle backing:bufferingType defer:flag];
 	
-	cardViewController = [[QuickDoubanCardViewController alloc] initWithNibName:@"QuickDoubanCardView" cardData:entryData];
-	
-	[cardViewController setNextResponder:[self nextResponder]];
-	[self setNextResponder:cardViewController];
-	
-	[self setContentView:[cardViewController view]];
-	[self setReleasedWhenClosed:YES];
-	[self setAlphaValue:0];
-	
+	if (self)
+	{
+		[self setReleasedWhenClosed:YES];
+		
+		cardViewController = [[QuickDoubanCardViewController alloc] initWithNibName:@"QuickDoubanCardView" bundle: nil];
+		
+		[cardViewController setNextResponder:[self nextResponder]];
+		[self setNextResponder:cardViewController];
+		
+		[self setContentView:[cardViewController view]];
+	}
 	
 	NSLog(@"QuickDoubanCardWindow initiated in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 	
 	return self;
+}
+
+- (void) setData:(NSDictionary *)data {
+	[self setEntryData:data];
+	[cardViewController setData:data];
+}
+
+- (void) release {
+	//NSLog(@" - releasing CardWindow: %@", self);
+	[super release];
+	//NSLog(@" - CardWindow released");
 }
 
 @end

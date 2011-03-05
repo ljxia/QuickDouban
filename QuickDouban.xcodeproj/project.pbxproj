@@ -223,8 +223,6 @@
 				DC80558A1320AB3C00DE8FD6 /* QuickDoubanBase.m */,
 				DC217EA21310745C0084C7CD /* BaseDoubanSearcher.h */,
 				DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */,
-				DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */,
-				DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -234,6 +232,8 @@
 			children = (
 				DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */,
 				DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */,
+				DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */,
+				DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */,
 				DC866FC713177D460053100C /* QuickDoubanCardViewController.h */,
 				DC866FC813177D460053100C /* QuickDoubanCardViewController.m */,
 			);
