@@ -171,7 +171,7 @@
 			windowRect.origin = [window convertBaseToScreen:windowRect.origin];
 
 		    QuickDoubanCardWindow *cardWindow = [[QuickDoubanCardWindow alloc] initWithContentRect:windowRect 
-															 styleMask:NSHUDWindowMask | NSUtilityWindowMask | NSBorderlessWindowMask 
+															 styleMask:NSBorderlessWindowMask
 															   backing:NSBackingStoreBuffered 
 																 defer:YES];
 			
@@ -179,8 +179,9 @@
 		
 			//NSLog(@"retain new card window");
 		
-			[cardWindow setBackgroundColor:[NSColor colorWithDeviceRed:1 green:1 blue:1 alpha:0.6]];
+			[cardWindow setBackgroundColor:[NSColor colorWithDeviceRed:0 green:0 blue:0 alpha:0]];
 			[cardWindow setAlphaValue:0];
+			[cardWindow setOpaque:NO];
 			[cardWindow setAllowsConcurrentViewDrawing:YES];
 			[cardWindow setReleasedWhenClosed:YES];
 			

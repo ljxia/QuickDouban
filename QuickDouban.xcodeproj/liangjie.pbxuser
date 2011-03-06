@@ -10,7 +10,7 @@
 	};
 	256AC3D80F4B6AC300CF3369 /* QuickDoubanAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1395, 843}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1395, 818}}";
 			sepNavSelRange = "{819, 0}";
 			sepNavVisRange = "{0, 825}";
 			sepNavWindowFrame = "{{15, 38}, {1278, 1375}}";
@@ -18,9 +18,9 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1395, 5421}}";
-			sepNavSelRange = "{11155, 0}";
-			sepNavVisRange = "{10479, 1275}";
+			sepNavIntBoundsRect = "{{0, 0}, {1395, 5083}}";
+			sepNavSelRange = "{5314, 0}";
+			sepNavVisRange = "{4429, 1958}";
 			sepNavWindowFrame = "{{38, 17}, {1278, 1375}}";
 		};
 	};
@@ -32,7 +32,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = DC9F46E6130CCC0500B81679 /* QuickDouban */;
 		activeTarget = 8D1107260486CEB800E47090 /* QuickDouban */;
 		addToTargets = (
@@ -42,7 +42,7 @@
 			DC866CF513163A7C0053100C /* SBJsonTokeniser.m:353 */,
 			DC866D0213163AC10053100C /* SBJsonTokeniser.m:320 */,
 			DC866D0B13163AFC0053100C /* SBJsonTokeniser.m:422 */,
-			DC804EF5131CC7DF00DE8FD6 /* QuickDoubanAppDelegate.m:203 */,
+			DC804EF5131CC7DF00DE8FD6 /* QuickDoubanAppDelegate.m:204 */,
 		);
 		codeSenseManager = DC9F4704130CCC1400B81679 /* Code sense */;
 		executables = (
@@ -246,6 +246,18 @@
 			DC25A02113243B26009D579E /* PBXTextBookmark */ = DC25A02113243B26009D579E /* PBXTextBookmark */;
 			DC25A02213243B26009D579E /* PBXTextBookmark */ = DC25A02213243B26009D579E /* PBXTextBookmark */;
 			DC25A02313243B26009D579E /* PBXTextBookmark */ = DC25A02313243B26009D579E /* PBXTextBookmark */;
+			DC25A02713243B5F009D579E /* PBXTextBookmark */ = DC25A02713243B5F009D579E /* PBXTextBookmark */;
+			DC25A02813243B5F009D579E /* PBXTextBookmark */ = DC25A02813243B5F009D579E /* PBXTextBookmark */;
+			DC25A02913243B5F009D579E /* PBXTextBookmark */ = DC25A02913243B5F009D579E /* PBXTextBookmark */;
+			DC25A02D13243B71009D579E /* PBXTextBookmark */ = DC25A02D13243B71009D579E /* PBXTextBookmark */;
+			DC25A03113243B87009D579E /* PBXTextBookmark */ = DC25A03113243B87009D579E /* PBXTextBookmark */;
+			DC25A03513243B97009D579E /* PBXTextBookmark */ = DC25A03513243B97009D579E /* PBXTextBookmark */;
+			DC25A03713243BAE009D579E /* PBXTextBookmark */ = DC25A03713243BAE009D579E /* PBXTextBookmark */;
+			DC25A03813243C07009D579E /* PBXTextBookmark */ = DC25A03813243C07009D579E /* PBXTextBookmark */;
+			DC25A03B13243C11009D579E /* PBXTextBookmark */ = DC25A03B13243C11009D579E /* PBXTextBookmark */;
+			DC25A03F13243C6E009D579E /* PBXTextBookmark */ = DC25A03F13243C6E009D579E /* PBXTextBookmark */;
+			DC25A04313243C81009D579E /* PBXTextBookmark */ = DC25A04313243C81009D579E /* PBXTextBookmark */;
+			DC25A04713243CA2009D579E /* PBXTextBookmark */ = DC25A04713243CA2009D579E /* PBXTextBookmark */;
 			DC866D4D1317571A0053100C = DC866D4D1317571A0053100C /* PBXTextBookmark */;
 			DC866F21131767700053100C = DC866F21131767700053100C /* PBXTextBookmark */;
 			DC866F9F131777F70053100C = DC866F9F131777F70053100C /* PBXTextBookmark */;
@@ -1338,7 +1350,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 355";
 		rLen = 0;
-		rLoc = 11015;
+		rLoc = 11002;
 		rType = 0;
 		vrLen = 1810;
 		vrLoc = 9350;
@@ -1348,7 +1360,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 325";
 		rLen = 0;
-		rLoc = 10008;
+		rLoc = 9995;
 		rType = 0;
 		vrLen = 1823;
 		vrLoc = 9350;
@@ -1628,7 +1640,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 345";
 		rLen = 0;
-		rLoc = 10660;
+		rLoc = 10647;
 		rType = 0;
 		vrLen = 1852;
 		vrLoc = 9212;
@@ -1638,7 +1650,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 355";
 		rLen = 0;
-		rLoc = 11015;
+		rLoc = 11002;
 		rType = 0;
 		vrLen = 1479;
 		vrLoc = 9997;
@@ -1648,7 +1660,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 178";
 		rLen = 0;
-		rLoc = 5203;
+		rLoc = 5162;
 		rType = 0;
 		vrLen = 1880;
 		vrLoc = 4022;
@@ -1708,7 +1720,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 287";
 		rLen = 0;
-		rLoc = 8424;
+		rLoc = 8411;
 		rType = 0;
 		vrLen = 1964;
 		vrLoc = 8115;
@@ -1718,7 +1730,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 358";
 		rLen = 0;
-		rLoc = 11015;
+		rLoc = 11002;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 10599;
@@ -1728,7 +1740,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 358";
 		rLen = 0;
-		rLoc = 11015;
+		rLoc = 11002;
 		rType = 0;
 		vrLen = 1150;
 		vrLoc = 10599;
@@ -1868,7 +1880,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 358";
 		rLen = 0;
-		rLoc = 11015;
+		rLoc = 11002;
 		rType = 0;
 		vrLen = 1397;
 		vrLoc = 10289;
@@ -1878,7 +1890,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 280";
 		rLen = 1084;
-		rLoc = 8424;
+		rLoc = 8411;
 		rType = 0;
 		vrLen = 1811;
 		vrLoc = 8028;
@@ -1908,7 +1920,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 289";
 		rLen = 0;
-		rLoc = 8681;
+		rLoc = 8668;
 		rType = 0;
 		vrLen = 1857;
 		vrLoc = 8028;
@@ -1918,7 +1930,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 359";
 		rLen = 0;
-		rLoc = 11014;
+		rLoc = 11001;
 		rType = 0;
 		vrLen = 1743;
 		vrLoc = 9509;
@@ -1928,7 +1940,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 359";
 		rLen = 0;
-		rLoc = 11014;
+		rLoc = 11001;
 		rType = 0;
 		vrLen = 1208;
 		vrLoc = 10555;
@@ -2008,7 +2020,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 359";
 		rLen = 0;
-		rLoc = 11014;
+		rLoc = 11001;
 		rType = 0;
 		vrLen = 1231;
 		vrLoc = 10532;
@@ -2018,12 +2030,132 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
 		name = "QuickDoubanAppDelegate.m: 371";
 		rLen = 0;
-		rLoc = 11155;
+		rLoc = 11142;
 		rType = 0;
 		vrLen = 1275;
 		vrLoc = 10479;
 	};
-	DC804EF5131CC7DF00DE8FD6 /* QuickDoubanAppDelegate.m:203 */ = {
+	DC25A02713243B5F009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* QuickDoubanAppDelegate.h */;
+		name = "QuickDoubanAppDelegate.h: 32";
+		rLen = 0;
+		rLoc = 819;
+		rType = 0;
+		vrLen = 825;
+		vrLoc = 0;
+	};
+	DC25A02813243B5F009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 359";
+		rLen = 0;
+		rLoc = 11001;
+		rType = 0;
+		vrLen = 1278;
+		vrLoc = 10479;
+	};
+	DC25A02913243B5F009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 174";
+		rLen = 0;
+		rLoc = 5053;
+		rType = 0;
+		vrLen = 1871;
+		vrLoc = 4113;
+	};
+	DC25A02D13243B71009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 174";
+		rLen = 0;
+		rLoc = 5053;
+		rType = 0;
+		vrLen = 1942;
+		vrLoc = 4116;
+	};
+	DC25A03113243B87009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 174";
+		rLen = 0;
+		rLoc = 5053;
+		rType = 0;
+		vrLen = 1951;
+		vrLoc = 4184;
+	};
+	DC25A03513243B97009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 174";
+		rLen = 0;
+		rLoc = 5053;
+		rType = 0;
+		vrLen = 1912;
+		vrLoc = 4203;
+	};
+	DC25A03713243BAE009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 170";
+		rLen = 0;
+		rLoc = 4847;
+		rType = 0;
+		vrLen = 1993;
+		vrLoc = 4203;
+	};
+	DC25A03813243C07009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 184";
+		rLen = 0;
+		rLoc = 5351;
+		rType = 0;
+		vrLen = 1990;
+		vrLoc = 4203;
+	};
+	DC25A03B13243C11009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 174";
+		rLen = 0;
+		rLoc = 5073;
+		rType = 0;
+		vrLen = 1873;
+		vrLoc = 4280;
+	};
+	DC25A03F13243C6E009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 182";
+		rLen = 0;
+		rLoc = 5306;
+		rType = 0;
+		vrLen = 1937;
+		vrLoc = 4302;
+	};
+	DC25A04313243C81009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 182";
+		rLen = 0;
+		rLoc = 5314;
+		rType = 0;
+		vrLen = 2024;
+		vrLoc = 4304;
+	};
+	DC25A04713243CA2009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 182";
+		rLen = 0;
+		rLoc = 5314;
+		rType = 0;
+		vrLen = 1958;
+		vrLoc = 4429;
+	};
+	DC804EF5131CC7DF00DE8FD6 /* QuickDoubanAppDelegate.m:204 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -2035,7 +2167,7 @@
 		functionName = "-searchResultDidReturn:ofType:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 203;
+		lineNumber = 204;
 		location = QuickDouban;
 		modificationTime = 321053681.011072;
 		originalNumberOfMultipleMatches = 1;
