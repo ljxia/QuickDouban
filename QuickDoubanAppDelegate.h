@@ -17,6 +17,8 @@
 	NSMutableArray *cardWindows;
 	
 	NSRect cardSize;
+	int cardNumInRow;
+	int cardNumInColumn;
 }
 
 @property (assign) NSWindow *window;

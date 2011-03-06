@@ -29,13 +29,10 @@
 	
 	url = [entryData objectForKey:@"link"];
 	
-	
 	[QuickDoubanBase timer_start];
 	
 	NSString *titleText = [[entryData objectForKey:@"title"] objectForKey:@"$t"];
 	[titleField setStringValue:titleText];	
-	
-	
 
 	dispatch_queue_t displayQueue = dispatch_queue_create("displayQueue", NULL);
 	dispatch_group_t displayGroup = dispatch_group_create();

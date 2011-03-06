@@ -42,7 +42,21 @@
 }
 - (NSDictionary *) query: (NSString *) keyword withParams: (NSDictionary *)params{
 	
-	NSString *url = [self constructURL:keyword withItems:21 startingFrom:1];
+	NSLog(@"Query with param %@", params);
+	
+	int pageSize = [(NSString *)[params valueForKey:@"pageSize"] intValue];
+	if (pageSize <= 0)
+	{
+		pageSize = 18;
+	}
+	
+	int pageIndex = [(NSString *)[params valueForKey:@"pageIndex"] intValue];
+	if (pageIndex <= 0)
+	{
+		pageIndex = 1;
+	}
+	
+	NSString *url = [self constructURL:keyword withItems:pageSize startingFrom:pageIndex];
 	RestService *restRequest = [[RestService alloc] init];	
 	NSHTTPURLResponse * response = [[NSHTTPURLResponse alloc] init];
 	NSString *responseText = [restRequest requestToURL:url response:&response];

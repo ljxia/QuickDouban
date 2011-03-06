@@ -24,7 +24,16 @@
 	QDBEntryType searchType;
 	NSMutableDictionary *searchResult;
 	NSArray *toggleButtons;
+	
+	int pageSize;
+	int pageIndex;
+	QDBEntryType lastQueryType;
+	NSString *lastQuery;
 }
+
+@property int pageSize;
+@property int pageIndex;
+@property (retain) NSString *lastQuery;
 
 @property (nonatomic, assign) IBOutlet NSTextField *searchTextField;
 @property (nonatomic, assign) IBOutlet NSButton *toggleBook;

@@ -21,15 +21,18 @@
 @synthesize cardSize;
 
 - (void)awakeFromNib{
-	
 	searchController = [SearchBarWindowController sharedSearchBar];
-	[searchController setDelegate:self];
-	
 	window = [searchController window];
-	
 	[window setBackgroundColor:[NSColor colorWithDeviceRed:0 green:0 blue:0 alpha:0.8]];
 	[window setDelegate:self];
 	[window setAlphaValue:0];
+	
+	
+	[searchController setDelegate:self];
+	
+	[self determineBestCardSize];
+	[searchController setPageSize:(cardNumInRow * cardNumInColumn)];
+	[searchController setPageIndex:1];
 	//NSLog(@"%d, %d",(int)[window frame].origin.x, (int)[window frame].origin.y);
 	
 	
@@ -38,7 +41,7 @@
 	
 	[[searchController progressIndicator] setUsesThreadedAnimation:YES];
 	
-	[self determineBestCardSize];
+	
 	
 }
 
@@ -192,6 +195,11 @@
 	int cardSide = (int)((screenFrame.size.width - screenMargin * 2) / cardInRow) - cardMargin;
 	
 	cardSize = NSMakeRect(0, 0, cardSide, cardSide);
+	
+	cardNumInRow = (int)((screenFrame.size.width - screenMargin * 2) / (cardMargin + cardSide));
+	cardNumInColumn = (int)(([window frame].origin.y - screenMargin * 2) / (cardMargin + cardSide));
+	
+	NSLog(@"Card matrix %d x %d",cardNumInRow,cardNumInColumn);
 }
 
 - (void) organizeChildWindows
@@ -202,11 +210,9 @@
 	//NSLog(@"\n\nScreen %d, %d", (int)screenFrame.size.width, (int)screenFrame.size.height);
 	
 	int cardSide = cardSize.size.width;
-	int cardMargin = 30;
-	int screenMargin = 50;
-	int maxCardInRow = (int)((screenFrame.size.width - screenMargin * 2) / (cardMargin + cardSide));
-	int maxCardInColumn = (int)(([window frame].origin.y - screenMargin * 2) / (cardMargin + cardSide));
-	
+	int cardMargin = screenFrame.size.width > 1600 ? 25 : 15;
+	int maxCardInRow = cardNumInRow;
+	int maxCardInColumn = cardNumInColumn;
 	
 	if ([cardWindows count] < maxCardInRow)
 	{

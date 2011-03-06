@@ -24,6 +24,10 @@
 @synthesize toggleMusic;
 @synthesize toggleButtons;
 
+@synthesize pageSize;
+@synthesize pageIndex;
+@synthesize lastQuery;
+
 + (SearchBarWindowController *) sharedSearchBar
 {
     static SearchBarWindowController *g_searchBar;
@@ -37,6 +41,7 @@
         [g_searchBar showWindow: self];
 		[g_searchBar setToggleButtons:[NSArray arrayWithObjects:[g_searchBar toggleMovie], [g_searchBar toggleBook], [g_searchBar toggleMusic], nil]];
 		[g_searchBar setSearchType:QDBEntryTypeMovie];
+		[g_searchBar setLastQuery:@""];
 		//NSLog(@"All Buttons: %@", [g_searchBar toggleButtons]);
     }
 	
@@ -46,14 +51,29 @@
 - (void) doSearch{
 	NSLog(@"Search %@!", [searchTextField stringValue]);
 	NSString *keyword = [searchTextField stringValue];
+	
 	BaseDoubanSearcher *searcher = [BaseDoubanSearcher initWithType:[self searchType]];
-
+	
+	
 	[[self progressIndicator] startAnimation:self];
 	
 	dispatch_group_t taskGroup = dispatch_group_create();
 
 	dispatch_group_async(taskGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-		searchResult = [NSMutableDictionary dictionaryWithDictionary:[searcher query:keyword withParams:nil]];		
+		
+		if (![keyword isEqualToString:lastQuery] || searchType != lastQueryType) {
+			pageIndex = 1;
+		}
+		
+		
+		NSDictionary *searchParam = [NSDictionary dictionaryWithObjectsAndKeys:
+									 [NSString stringWithFormat:@"%d", pageSize],@"pageSize",
+									 [NSString stringWithFormat:@"%d", pageIndex],@"pageIndex",nil];
+		
+		[self setLastQuery:keyword];
+		lastQueryType = searchType;
+		
+		searchResult = [NSMutableDictionary dictionaryWithDictionary:[searcher query:keyword withParams:searchParam]];		
 	});
 	
 	dispatch_group_notify(taskGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
@@ -62,6 +82,12 @@
 		if (entries/* && [entries count] */)
 		{
 			[delegate searchResultDidReturn:entries ofType:QDBEntryTypeMovie];
+		}
+		
+		
+		int totalResult = [(NSString *)[(NSDictionary *)[searchResult objectForKey:@"opensearch:totalResults"] objectForKey:@"$t"] intValue];
+		if (totalResult > pageSize * pageIndex) {
+			pageIndex += pageSize;
 		}
 	});
 	
