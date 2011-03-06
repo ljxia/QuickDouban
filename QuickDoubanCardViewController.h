@@ -43,4 +43,6 @@
 #pragma mark delegates
 - (void) mouseUp:(NSEvent *)theEvent;
 
+#pragma mark IBAction
+
 @end

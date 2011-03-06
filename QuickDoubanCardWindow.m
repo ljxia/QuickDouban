@@ -25,16 +25,17 @@
 	if (self)
 	{
 		[self setReleasedWhenClosed:YES];
+		[self setDelegate:self];
+		[self makeFirstResponder:self];
+		
 		
 		cardViewController = [[QuickDoubanCardViewController alloc] initWithNibName:@"QuickDoubanCardView" bundle: nil];
 		
 		[cardViewController setNextResponder:[self nextResponder]];
-		[self setNextResponder:cardViewController];
+		[self makeFirstResponder:cardViewController];
 		
 		[self setContentView:[cardViewController view]];
 	}
-	
-	[self setDelegate:self];
 	
 	NSLog(@"QuickDoubanCardWindow initiated in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 	

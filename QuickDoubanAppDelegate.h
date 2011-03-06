@@ -13,7 +13,6 @@
 @interface QuickDoubanAppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate, SearchControllerDelegate> {
     NSWindow *window;
 	SearchBarWindowController *searchController;
-//	IBOutlet NSView *floatView;
 	NSMutableArray *cardWindows;
 	
 	NSRect cardSize;
@@ -23,7 +22,6 @@
 
 @property (assign) NSWindow *window;
 @property (assign) IBOutlet SearchBarWindowController *searchController;
-//
 @property (retain) NSMutableArray *cardWindows;
 @property NSRect cardSize;
 
@@ -31,5 +29,5 @@
 - (void) show:(BOOL)toShow;
 - (BOOL) clearCards;
 - (void) organizeChildWindows;
-
+- (void)toggle;
 @end

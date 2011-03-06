@@ -148,10 +148,10 @@
 				[delegate arrayKeyPressed:keyChar];
                 return;
             }
-            [super keyDown:theEvent];
+            //[super keyDown:theEvent];
         }
     }
-    [super keyDown:theEvent];
+    //[super keyDown:theEvent];
 }
 
 - (BOOL)control:(NSControl*)control textView:(NSTextView*)textView doCommandBySelector:(SEL)commandSelector

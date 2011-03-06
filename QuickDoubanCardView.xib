@@ -43,7 +43,7 @@
 				<int key="NSvFlags">8448</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="NSProgressIndicator" id="926201452">
+					<object class="NSProgressIndicator" id="779147948">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">1280</int>
 						<object class="NSPSMatrix" key="NSDrawMatrix"/>
@@ -59,16 +59,16 @@
 						<int key="NSpiFlags">28682</int>
 						<double key="NSMaxValue">100</double>
 					</object>
-					<object class="NSCustomView" id="584336008">
+					<object class="NSCustomView" id="737111601">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">278</int>
 						<object class="NSMutableArray" key="NSSubviews">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="NSTextField" id="595668207">
-								<reference key="NSNextResponder" ref="584336008"/>
+								<reference key="NSNextResponder" ref="737111601"/>
 								<int key="NSvFlags">274</int>
 								<string key="NSFrame">{{20, 20}, {263, 260}}</string>
-								<reference key="NSSuperview" ref="584336008"/>
+								<reference key="NSSuperview" ref="737111601"/>
 								<object class="NSShadow" key="NSViewShadow">
 									<reference key="NSShadowColor" ref="225474285"/>
 								</object>
@@ -137,7 +137,7 @@
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">progressIndicator</string>
 						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="926201452"/>
+						<reference key="destination" ref="779147948"/>
 					</object>
 					<int key="connectionID">23</int>
 				</object>
@@ -145,7 +145,7 @@
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">overlayView</string>
 						<reference key="source" ref="1001"/>
-						<reference key="destination" ref="584336008"/>
+						<reference key="destination" ref="737111601"/>
 					</object>
 					<int key="connectionID">25</int>
 				</object>
@@ -182,19 +182,19 @@
 						<reference key="object" ref="1005"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="926201452"/>
-							<reference ref="584336008"/>
+							<reference ref="779147948"/>
+							<reference ref="737111601"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">22</int>
-						<reference key="object" ref="926201452"/>
+						<reference key="object" ref="779147948"/>
 						<reference key="parent" ref="1005"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">24</int>
-						<reference key="object" ref="584336008"/>
+						<reference key="object" ref="737111601"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="595668207"/>
@@ -208,7 +208,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="791206106"/>
 						</object>
-						<reference key="parent" ref="584336008"/>
+						<reference key="parent" ref="737111601"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">3</int>

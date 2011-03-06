@@ -45,26 +45,52 @@
 	
 }
 
+
+- (void)toggle {
+
+	[[NSApplication sharedApplication] activateIgnoringOtherApps:YES];
+	[window makeKeyWindow];
+	
+	if ([window alphaValue] < 0.1)
+	{
+		[self show:YES];
+	}
+	else {
+		[self show:NO];
+	}
+	
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
 	
-	[NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask 
-										   handler:^(NSEvent *incomingEvent){		
-											   if ([incomingEvent type] == NSKeyDown) {
-												   
-												   //NSLog(@"%d",[incomingEvent keyCode]);
-
-												   if ([[incomingEvent charactersIgnoringModifiers] isEqualTo: @" "] 
-													   && (0 != ([incomingEvent modifierFlags] & (NSCommandKeyMask | NSAlternateKeyMask)))
-													   )
-												   {
-													   [NSApp activateIgnoringOtherApps:YES];
-												   }
-											   }											   
-											   
-										   }];
+	NSStatusItem *statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain]; //Create new status item instance
+	[statusItem setHighlightMode:YES]; //This does something, I'm sure of it.
+	//[statusItem setImage:[[NSImage alloc] initByReferencingFile:@"icon.png"]];
+	[statusItem setTitle:@"Db"];
+	[statusItem setTarget:self];
+	[statusItem setEnabled:YES]; //Self explanatory
+	[statusItem setAction:@selector(toggle)];
+	
+	
+//	[NSEvent addGlobalMonitorForEventsMatchingMask:NSKeyDownMask 
+//										   handler:^(NSEvent *incomingEvent){		
+//											   if ([incomingEvent type] == NSKeyDown) {
+//												   
+//												   //NSLog(@"%d",[incomingEvent keyCode]);
+//
+//												   if ([[incomingEvent charactersIgnoringModifiers] isEqualTo: @" "] 
+//													   && (0 != ([incomingEvent modifierFlags] & (NSCommandKeyMask | NSAlternateKeyMask)))
+//													   )
+//												   {
+//													   [NSApp activateIgnoringOtherApps:YES];
+//												   }
+//											   }											   
+//											   
+//										   }];
 }
 
+	 
 - (void) show:(BOOL)toShow {
 	if (toShow)
 	{

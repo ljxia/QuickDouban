@@ -173,6 +173,14 @@
 
 - (void) keyUp:(NSEvent *)theEvent {
 
+	if ([theEvent keyCode] == 53)
+	{
+		[[[SearchBarWindowController sharedSearchBar] window] makeKeyWindow];
+	}
+}
+
+- (void) keyDown:(NSEvent *)theEvent {
+
 	if ([theEvent modifierFlags] & NSNumericPadKeyMask) { // arrow keys have this mask
         NSString *theArrow = [theEvent charactersIgnoringModifiers];
         unichar keyChar = 0;
@@ -189,7 +197,7 @@
 			}
 			
             if ( keyChar == NSLeftArrowFunctionKey ) {
-                NSLog(@"left");
+                //NSLog(@"left");
 				//[[[self view] window] invalidateCursorRectsForView:self];
 				
 				QuickDoubanCardWindow *window = (QuickDoubanCardWindow *)[adjacentWindows objectAtIndex:QDBWindowLeft];
@@ -199,7 +207,7 @@
                 return;
             }
             if ( keyChar == NSRightArrowFunctionKey ) {
-                NSLog(@"right");
+                //NSLog(@"right");
                 //[[[self view] window] invalidateCursorRectsForView:self];
 				
 				QuickDoubanCardWindow *window = (QuickDoubanCardWindow *)[adjacentWindows objectAtIndex:QDBWindowRight];
@@ -209,7 +217,7 @@
                 return;
             }
             if ( keyChar == NSUpArrowFunctionKey ) {
-                NSLog(@"up");
+                //NSLog(@"up");
                 //[[[self view] window] invalidateCursorRectsForView:self];
 				
 				QuickDoubanCardWindow *window = (QuickDoubanCardWindow *)[adjacentWindows objectAtIndex:QDBWindowUp];
@@ -219,7 +227,7 @@
                 return;
             }
             if ( keyChar == NSDownArrowFunctionKey ) {
-                NSLog(@"down");
+                //NSLog(@"down");
                 //[[[self view] window] invalidateCursorRectsForView:self];
 				
 				QuickDoubanCardWindow *window = (QuickDoubanCardWindow *)[adjacentWindows objectAtIndex:QDBWindowDown];
@@ -228,7 +236,7 @@
 				}
                 return;
             }
-            [super keyUp:theEvent];
+            //[super keyDown:theEvent];
         }
     }
 	else {
@@ -237,17 +245,9 @@
 			[self openInBrowser];
 			return;
 		}
-		else if ([theEvent keyCode] == 53) {//escape
-			[[[SearchBarWindowController sharedSearchBar] window] makeKeyWindow];
-			return;
-		}
-		
 	}
-
 	
-	
-    [super keyUp:theEvent];
+    //[super keyDown:theEvent];
 }
-
 
 @end
