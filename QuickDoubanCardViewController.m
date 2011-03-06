@@ -35,7 +35,7 @@
 	NSString *titleText = [[entryData objectForKey:@"title"] objectForKey:@"$t"];
 	[titleField setStringValue:titleText];	
 	
-	[progressIndicator startAnimation:self];
+	
 
 	dispatch_queue_t displayQueue = dispatch_queue_create("displayQueue", NULL);
 	dispatch_group_t displayGroup = dispatch_group_create();
@@ -44,24 +44,38 @@
 	dispatch_group_async(displayGroup, displayQueue, ^{
 		NSString *imageUrlString = [(NSDictionary *)[url objectAtIndex:2] objectForKey:@"@href"];
 		imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"/spic/" withString:@"/lpic/"];
-		imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"default-small" withString:@"default-medium"];
-		NSURL *imageUrl = [NSURL URLWithString:imageUrlString];
+		//imageUrlString = [imageUrlString stringByReplacingOccurrencesOfString:@"default-small" withString:@"default-medium"];
 		
-		cardImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, [[self view] frame].size.width, [[self view] frame].size.height)];
-		
-		NSLog(@"Starting to load %@",imageUrlString);
-		
-		@try {
-			cardImage = [[NSImage alloc] initWithContentsOfURL:imageUrl];
-			[cardImage setDelegate:self];
-			[cardImageView setImage:cardImage];
+		NSRange rangeOfPlaceholder = [imageUrlString rangeOfString:@"default-small"];
+		if (rangeOfPlaceholder.location == NSNotFound) {
+			
+			[progressIndicator startAnimation:self];
+			
+			NSURL *imageUrl = [NSURL URLWithString:imageUrlString];
+			
+			cardImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, [[self view] frame].size.width, [[self view] frame].size.height)];
+			
+			NSLog(@"Starting to load %@",imageUrlString);
+			
+			@try {
+				cardImage = [[NSImage alloc] initWithContentsOfURL:imageUrl];
+				[cardImage setDelegate:self];
+				[cardImageView setImage:cardImage];
+			}
+			@catch (NSException * e) {
+				NSLog(@"Exception %@", e);
+			}
+			@finally {
+				//[imageUrl autorelease];
+			}
 		}
-		@catch (NSException * e) {
-			NSLog(@"Exception %@", e);
+		else {
+			cardImageView = nil;
+			cardImage = nil;
+			[overlayView setAlphaValue:0.5];
 		}
-		@finally {
-			//[imageUrl autorelease];
-		}
+
+
 	});
 	
 	
@@ -135,7 +149,12 @@
 	}
 	else {
 		//NSLog(@"Deactivate View %@", [self view]);
-		[overlayView setAlphaValue:0];
+		if (!cardImage) {
+			[overlayView setAlphaValue:0.5];
+		}
+		else {
+			[overlayView setAlphaValue:0];
+		}
 	}
 
 }
