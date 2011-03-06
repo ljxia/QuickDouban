@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "OverlayView.h"
+#import "SearchBarWindowController.h"
 
 @interface QuickDoubanCardViewController : NSViewController <NSImageDelegate> {
 	IBOutlet NSTextField *titleField;
@@ -19,6 +20,8 @@
 	NSImage *cardImage;
 	NSDictionary *entryData;
 	NSArray *url;
+	
+	BOOL active;
 }
 
 @property (retain) IBOutlet OverlayView *overlayView;
@@ -31,7 +34,11 @@
 @property (retain) NSArray *url;
 @property (retain) NSDictionary *entryData;
 
+@property BOOL active;
+
 - (void) setData:(NSDictionary *)data;
+- (void) makeActive:(BOOL) isActive;
+- (void) openInBrowser;
 
 #pragma mark delegates
 - (void) mouseUp:(NSEvent *)theEvent;

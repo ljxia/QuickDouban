@@ -12,7 +12,7 @@
 
 @protocol SearchControllerDelegate;
 
-@interface SearchBarWindowController : NSWindowController {
+@interface SearchBarWindowController : NSWindowController <NSWindowDelegate> {
 	id <SearchControllerDelegate> delegate;
 	IBOutlet NSTextField *searchTextField;
 	IBOutlet NSButton *toggleBook;
@@ -51,5 +51,6 @@
 
 - (void)searchResultDidReturn:(NSArray *)entries ofType:(QDBEntryType)type;
 - (void)escapeKeyPressed;
+- (void)arrayKeyPressed:(unichar)keyChar;
 
 @end

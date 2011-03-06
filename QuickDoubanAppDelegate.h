@@ -23,6 +23,7 @@
 @property (retain) NSMutableArray *cardWindows;
 
 - (void) show:(BOOL)toShow;
+- (BOOL) clearCards;
 - (void) organizeChildWindows;
 
 @end

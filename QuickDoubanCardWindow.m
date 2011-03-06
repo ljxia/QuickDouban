@@ -13,6 +13,8 @@
 
 @synthesize cardViewController;
 @synthesize entryData;
+@synthesize active;
+@synthesize adjacentWindows;
 
 - (QuickDoubanCardWindow *) initWithContentRect:(NSRect)contentRect styleMask:(NSUInteger)aStyle backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag {
 	NSLog(@"\n\nNew Window: %@\n", self);
@@ -32,6 +34,8 @@
 		[self setContentView:[cardViewController view]];
 	}
 	
+	[self setDelegate:self];
+	
 	NSLog(@"QuickDoubanCardWindow initiated in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 	
 	return self;
@@ -46,6 +50,27 @@
 	if (entryData) {
 		[cardViewController setData:entryData];
 	}
+}
+
+- (BOOL) canBecomeMainWindow {
+	return YES;
+}
+
+- (BOOL) canBecomeKeyWindow {
+	return YES;
+}
+
+- (void) makeActive:(BOOL) isActive {
+	[self setActive:isActive];
+	[cardViewController makeActive:isActive];
+}
+
+- (void) windowDidBecomeKey:(NSNotification *)notification {
+	[self makeActive:YES];
+}
+
+- (void) windowDidResignKey:(NSNotification *)notification {
+	[self makeActive:NO];
 }
 
 @end

@@ -8,6 +8,7 @@
 
 #import "QuickDoubanCardViewController.h"
 #import "QuickDoubanBase.h"
+#import "QuickDoubanCardWindow.h"
 
 @implementation QuickDoubanCardViewController
 
@@ -19,6 +20,8 @@
 @synthesize cardImage;
 @synthesize cardImageView;
 @synthesize overlayView;
+
+@synthesize active;
 
 - (void) setData:(NSDictionary *)data {
 	
@@ -78,19 +81,136 @@
 	NSLog(@"QuickDoubanCardViewController start to load view");
 	
 	[super loadView];
-
+	[overlayView setAlphaValue:0];
+	
+	
+	NSTrackingArea *trackingArea = [[NSTrackingArea alloc] initWithRect:[overlayView frame]
+																options:NSTrackingActiveInActiveApp | NSTrackingMouseEnteredAndExited 
+																  owner:self 
+															   userInfo:nil];
+	[[self view] addTrackingArea:trackingArea];
+	
 	NSLog(@"QuickDoubanCardViewController loadView returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 }
 
 - (void) mouseUp:(NSEvent *)theEvent{
 	if ([theEvent clickCount] >= 2) {
-		NSString *entryUrl = [(NSDictionary *)[url objectAtIndex:1] objectForKey:@"@href"];
-		NSLog(@"%@", entryUrl);
-		[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:entryUrl]];
-		[entryUrl release];
-		
-		
+		[self openInBrowser];
+	}
+	else if ([theEvent clickCount] == 1){
+		//[[[self view] window] makeKeyWindow];
+		//NSLog(@"Main window: %@", [[NSApplication sharedApplication] keyWindow]);
 	}
 }
+
+- (void) openInBrowser {
+	NSString *entryUrl = [(NSDictionary *)[url objectAtIndex:1] objectForKey:@"@href"];
+	NSLog(@"%@", entryUrl);
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:entryUrl]];
+	[entryUrl release];
+}
+
+- (void) makeActive:(BOOL) isActive {
+	[self setActive:isActive];
+	
+	if (isActive)
+	{
+		//NSLog(@"Activate View %@", [self view]);
+		[overlayView setAlphaValue:1];
+	}
+	else {
+		//NSLog(@"Deactivate View %@", [self view]);
+		[overlayView setAlphaValue:0];
+	}
+
+}
+
+- (void)mouseEntered:(NSEvent *)theEvent {
+	//NSLog(@"mouse entering card");
+	[[[self view] window] makeKeyWindow];
+}
+
+- (void)mouseExited:(NSEvent *)theEvent {
+	//NSLog(@"mouse leaving card");
+}
+
+- (void) keyUp:(NSEvent *)theEvent {
+
+	if ([theEvent modifierFlags] & NSNumericPadKeyMask) { // arrow keys have this mask
+        NSString *theArrow = [theEvent charactersIgnoringModifiers];
+        unichar keyChar = 0;
+        if ( [theArrow length] == 0 )
+            return;            // reject dead keys
+        if ( [theArrow length] == 1 ) {
+            keyChar = [theArrow characterAtIndex:0];
+			
+			NSArray *adjacentWindows = [(QuickDoubanCardWindow *)[[self view] window] adjacentWindows];
+			
+			if (!adjacentWindows || [adjacentWindows count] < 4)
+			{
+				return;
+			}
+			
+            if ( keyChar == NSLeftArrowFunctionKey ) {
+                NSLog(@"left");
+				//[[[self view] window] invalidateCursorRectsForView:self];
+				
+				QuickDoubanCardWindow *window = (QuickDoubanCardWindow *)[adjacentWindows objectAtIndex:QDBWindowLeft];
+				if (window) {
+					[window makeKeyWindow];
+				}
+                return;
+            }
+            if ( keyChar == NSRightArrowFunctionKey ) {
+                NSLog(@"right");
+                //[[[self view] window] invalidateCursorRectsForView:self];
+				
+				QuickDoubanCardWindow *window = (QuickDoubanCardWindow *)[adjacentWindows objectAtIndex:QDBWindowRight];
+				if (window) {
+					[window makeKeyWindow];
+				}
+                return;
+            }
+            if ( keyChar == NSUpArrowFunctionKey ) {
+                NSLog(@"up");
+                //[[[self view] window] invalidateCursorRectsForView:self];
+				
+				QuickDoubanCardWindow *window = (QuickDoubanCardWindow *)[adjacentWindows objectAtIndex:QDBWindowUp];
+				if (window) {
+					[window makeKeyWindow];
+				}
+                return;
+            }
+            if ( keyChar == NSDownArrowFunctionKey ) {
+                NSLog(@"down");
+                //[[[self view] window] invalidateCursorRectsForView:self];
+				
+				QuickDoubanCardWindow *window = (QuickDoubanCardWindow *)[adjacentWindows objectAtIndex:QDBWindowDown];
+				if (window) {
+					[window makeKeyWindow];
+				}
+                return;
+            }
+            [super keyUp:theEvent];
+        }
+    }
+	else {
+		NSString *keyCode = [theEvent charactersIgnoringModifiers];
+		if ([keyCode length] == 1 && [keyCode characterAtIndex:0] == 13) {//ENTER
+			[self openInBrowser];
+			return;
+		}
+		else if ([theEvent keyCode] == 53) {//escape
+			[[[SearchBarWindowController sharedSearchBar] window] makeKeyWindow];
+			return;
+		}
+		
+	}
+
+	
+	
+    [super keyUp:theEvent];
+}
+
 
 @end

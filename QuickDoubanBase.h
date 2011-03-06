@@ -22,6 +22,13 @@ typedef enum _QDBEntryType {
     QDBEntryTypeList        = 9
 } QDBEntryType;
 
+typedef enum _QDBWindowRef {
+    QDBWindowUp			= 0, 
+    QDBWindowDown       = 1, 
+    QDBWindowLeft      = 2, 
+    QDBWindowRight     = 3
+} QDBWindowRef;
+
 @interface QuickDoubanBase : NSObject {
 	
 }

@@ -24,7 +24,6 @@
 	searchController = [SearchBarWindowController sharedSearchBar];
 	[searchController setDelegate:self];
 	
-	
 	window = [searchController window];
 	
 	[window setBackgroundColor:[NSColor colorWithDeviceRed:0 green:0 blue:0 alpha:0.8]];
@@ -78,6 +77,12 @@
 			
 			
 			[theAnim release];		
+			
+			
+			for (int i = 0; i < [cardWindows count];i++)
+			{
+				[(NSWindow *)[cardWindows objectAtIndex:i] setAlphaValue:1];
+			}
 		}
 	}
 	else {
@@ -94,6 +99,11 @@
 		
 		
 		[theAnim release];
+		
+		for (int i = 0; i < [cardWindows count];i++)
+		{
+			[(NSWindow *)[cardWindows objectAtIndex:i] setAlphaValue:0];
+		}
 	}
 
 }
@@ -109,16 +119,7 @@
 
 - (void)searchResultDidReturn:(NSArray *)entries ofType:(QDBEntryType)type{
 	
-	if ([cardWindows count] > 0) 
-	{
-		NSLog(@"\n\nCleaning out old window cards");
-		for (int i = 0; i < [cardWindows count];i++)
-		{
-			[window removeChildWindow:[cardWindows objectAtIndex:i]];
-			[(NSWindow *)[cardWindows objectAtIndex:i] close];
-		}
-		[cardWindows removeAllObjects];
-	}
+	[self clearCards];
 	
 	//dispatch_queue_t myQueue = dispatch_queue_create("myQueue", NULL);
 	//dispatch_group_t myGroup = dispatch_group_create();
@@ -221,6 +222,53 @@
 
 		[[cardWindow contentView] setFrame:NSMakeRect(0, 0, cardSide, cardSide)];
 		
+		NSWindow *windowIndexes[4];
+		
+		if (i < maxCardInRow) {
+			int j = i;
+			while (j < ([cardWindows count] - 1)) {
+				j += maxCardInRow;
+			}
+			if (j > ([cardWindows count] - 1)) {
+				j -= maxCardInRow;
+			}
+			windowIndexes[QDBWindowUp] = (NSWindow *)[cardWindows objectAtIndex:j];
+		}
+		else {
+			windowIndexes[QDBWindowUp] = (NSWindow *)[cardWindows objectAtIndex:(i - maxCardInRow)];
+		}
+		
+		if ((i + maxCardInRow) > ([cardWindows count] - 1)) { 
+			//last row 
+			windowIndexes[QDBWindowDown] = (NSWindow *)[cardWindows objectAtIndex:(i % maxCardInRow)];
+		}
+		else {
+			windowIndexes[QDBWindowDown] = (NSWindow *)[cardWindows objectAtIndex:(i + maxCardInRow)];
+		}
+		
+//		windowIndexes[QDBWindowLeft] = window;
+//		windowIndexes[QDBWindowRight] = window;
+		
+		if (i == 0) {
+			windowIndexes[QDBWindowLeft] = (NSWindow *)[cardWindows objectAtIndex:([cardWindows count] - 1)];
+		}
+		else {
+			windowIndexes[QDBWindowLeft] = (NSWindow *)[cardWindows objectAtIndex:(i - 1)];
+		}
+		
+		if (i == ([cardWindows count] - 1)) {
+			windowIndexes[QDBWindowRight] = (NSWindow *)[cardWindows objectAtIndex:0];
+		}
+		else {
+			windowIndexes[QDBWindowRight] = (NSWindow *)[cardWindows objectAtIndex:(i + 1)];
+		}
+		
+		[cardWindow setAdjacentWindows:[NSArray arrayWithObjects:
+											windowIndexes[QDBWindowUp],
+											windowIndexes[QDBWindowDown],
+											windowIndexes[QDBWindowLeft],
+											windowIndexes[QDBWindowRight],nil]];
+		
 //		NSDictionary *windowResize;
 //		windowResize = [NSDictionary dictionaryWithObjectsAndKeys:
 //						cardWindow, NSViewAnimationTargetKey,
@@ -249,8 +297,56 @@
 	NSLog(@"organizeChildWindows returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 }
 
+- (BOOL) clearCards {
+	if ([cardWindows count] > 0) 
+	{
+		NSLog(@"\n\nCleaning out old window cards");
+		for (int i = 0; i < [cardWindows count];i++)
+		{
+			[window removeChildWindow:[cardWindows objectAtIndex:i]];
+			[(NSWindow *)[cardWindows objectAtIndex:i] close];
+		}
+		[cardWindows removeAllObjects];
+		return YES;
+	}
+	return NO;
+}
+
 - (void)escapeKeyPressed{
-	[self show:NO];
+	
+	if (![self clearCards])
+	{
+		[self show:NO];
+	}
+}
+
+- (void)arrayKeyPressed:(unichar)keyChar {
+	if ( keyChar == NSLeftArrowFunctionKey ) {
+		
+		return;
+	}
+	if ( keyChar == NSRightArrowFunctionKey ) {
+		
+		return;
+	}
+	if ( keyChar == NSUpArrowFunctionKey ) {
+		
+		return;
+	}
+	if ( keyChar == NSDownArrowFunctionKey ) {
+		//NSLog(@"received down array");
+		
+		if (cardWindows && [cardWindows count]) {
+			[(NSWindow *)[cardWindows objectAtIndex:0] makeKeyWindow];
+		}
+		
+		return;
+	}
+}
+
+- (void) windowDidBecomeKey:(NSNotification *)notification {
+	NSLog(@"Search bar became key window");
+	[[searchController searchTextField] selectText:self];
 }
 
 @end

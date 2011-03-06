@@ -9,13 +9,20 @@
 #import <Cocoa/Cocoa.h>
 #import "QuickDoubanCardViewController.h"
 
-@interface QuickDoubanCardWindow : NSPanel {
+@interface QuickDoubanCardWindow : NSPanel <NSWindowDelegate> {
 	QuickDoubanCardViewController *cardViewController;
 	NSDictionary *entryData;
+	
+	BOOL active;
+	NSArray *adjacentWindows;
 }
+
 @property (retain) QuickDoubanCardViewController *cardViewController;
 @property (retain) NSDictionary *entryData;
+@property BOOL active;
+@property (retain) NSArray *adjacentWindows;
 
 - (void) setData:(NSDictionary *)data;
+- (void) makeActive:(BOOL) isActive;
 - (void) render;
 @end

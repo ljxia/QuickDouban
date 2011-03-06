@@ -98,6 +98,35 @@
 	}
 }
 
+- (void) keyUp:(NSEvent *)theEvent {
+	if ([theEvent modifierFlags] & NSNumericPadKeyMask) { // arrow keys have this mask
+        NSString *theArrow = [theEvent charactersIgnoringModifiers];
+        unichar keyChar = 0;
+        if ( [theArrow length] == 0 )
+            return;            // reject dead keys
+        if ( [theArrow length] == 1 ) {
+            keyChar = [theArrow characterAtIndex:0];
+            if ( keyChar == NSLeftArrowFunctionKey ) {
+				[delegate arrayKeyPressed:keyChar];
+                return;
+            }
+            if ( keyChar == NSRightArrowFunctionKey ) {
+				[delegate arrayKeyPressed:keyChar];
+                return;
+            }
+            if ( keyChar == NSUpArrowFunctionKey ) {
+				[delegate arrayKeyPressed:keyChar];
+                return;
+            }
+            if ( keyChar == NSDownArrowFunctionKey ) {
+				[delegate arrayKeyPressed:keyChar];
+                return;
+            }
+            [super keyDown:theEvent];
+        }
+    }
+    [super keyDown:theEvent];
+}
 
 - (BOOL)control:(NSControl*)control textView:(NSTextView*)textView doCommandBySelector:(SEL)commandSelector
 {
@@ -127,9 +156,8 @@
     return result;
 }
 
-- (void) release {
-	
-	[super release];
+- (BOOL) canBecomeKeyWindow {
+	return YES;
 }
 
 @end
