@@ -341,7 +341,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC259F6D132429B7009D579E</string>
+										<string>DC25A013132436E5009D579E</string>
 										<key>history</key>
 										<array>
 											<string>DC9F4733130CD93700B81679</string>
@@ -352,7 +352,6 @@
 											<string>DC866D4D1317571A0053100C</string>
 											<string>DC866F21131767700053100C</string>
 											<string>DC866F9F131777F70053100C</string>
-											<string>DC259CDD132330E4009D579E</string>
 											<string>DC259CF413233386009D579E</string>
 											<string>DC259CF513233386009D579E</string>
 											<string>DC259E1613235484009D579E</string>
@@ -363,12 +362,13 @@
 											<string>DC259E8C132360EF009D579E</string>
 											<string>DC259EAF13236492009D579E</string>
 											<string>DC259ED213236772009D579E</string>
-											<string>DC259F3D132426DE009D579E</string>
-											<string>DC259F4F132427DF009D579E</string>
-											<string>DC259F50132427DF009D579E</string>
 											<string>DC259F5A13242855009D579E</string>
-											<string>DC259F651324297E009D579E</string>
-											<string>DC259F661324297E009D579E</string>
+											<string>DC259FC313243134009D579E</string>
+											<string>DC259FFA1324350E009D579E</string>
+											<string>DC25A00413243626009D579E</string>
+											<string>DC25A00A1324369B009D579E</string>
+											<string>DC25A011132436E5009D579E</string>
+											<string>DC25A012132436E5009D579E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -568,10 +568,10 @@
 	<array>
 		<string>DC259EBE13236492009D579E</string>
 		<string>DC259EBF13236492009D579E</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DC9F46F7130CCC1400B81679</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -789,7 +789,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

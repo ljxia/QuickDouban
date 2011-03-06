@@ -118,6 +118,7 @@
 																  owner:self 
 															   userInfo:nil];
 	[[self view] addTrackingArea:trackingArea];
+	//[trackingArea autorelease];
 	
 	NSLog(@"QuickDoubanCardViewController loadView returned in %10.4lf seconds\n",[QuickDoubanBase timer_milePost]);
 }
@@ -248,6 +249,27 @@
 	}
 	
     //[super keyDown:theEvent];
+}
+
+- (void) dealloc {
+	//NSLog(@"dealloc view controller %@",self);
+	
+	[overlayView release]; overlayView=nil;
+	[titleField release]; titleField=nil;
+	[progressIndicator release]; progressIndicator=nil;
+//	
+	if (cardImageView) {
+		[cardImageView release];cardImageView=nil;
+	}
+	
+	if (cardImage) {
+		[cardImage release];cardImage=nil;
+	}
+//	
+	[url release];url=nil;
+	[entryData release];entryData=nil;
+	
+	[super dealloc];
 }
 
 @end

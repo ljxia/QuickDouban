@@ -19,10 +19,12 @@
 
 @property (retain) QuickDoubanCardViewController *cardViewController;
 @property (retain) NSDictionary *entryData;
-@property BOOL active;
 @property (retain) NSArray *adjacentWindows;
+
+@property BOOL active;
 
 - (void) setData:(NSDictionary *)data;
 - (void) makeActive:(BOOL) isActive;
 - (void) render;
+- (void) detachAdjacentWindows;
 @end

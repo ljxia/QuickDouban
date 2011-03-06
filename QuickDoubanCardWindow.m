@@ -74,4 +74,18 @@
 	[self makeActive:NO];
 }
 
+- (void) detachAdjacentWindows {
+	[adjacentWindows release]; adjacentWindows = nil;
+}
+
+- (void) dealloc {
+	NSLog(@"dealloc window %@",self);
+	
+	[cardViewController release]; cardViewController = nil;
+	//[entryData release]; entryData = nil;
+	
+	
+	[super dealloc];
+}
+
 @end

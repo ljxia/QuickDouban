@@ -18,9 +18,9 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1395, 5187}}";
-			sepNavSelRange = "{3246, 0}";
-			sepNavVisRange = "{10257, 1351}";
+			sepNavIntBoundsRect = "{{0, 0}, {1395, 5304}}";
+			sepNavSelRange = "{11014, 0}";
+			sepNavVisRange = "{10555, 1208}";
 			sepNavWindowFrame = "{{38, 17}, {1278, 1375}}";
 		};
 	};
@@ -175,6 +175,73 @@
 			DC259F661324297E009D579E /* PBXTextBookmark */ = DC259F661324297E009D579E /* PBXTextBookmark */;
 			DC259F671324297E009D579E /* PBXTextBookmark */ = DC259F671324297E009D579E /* PBXTextBookmark */;
 			DC259F6D132429B7009D579E /* PBXTextBookmark */ = DC259F6D132429B7009D579E /* PBXTextBookmark */;
+			DC259F7013242CA0009D579E /* PBXTextBookmark */ = DC259F7013242CA0009D579E /* PBXTextBookmark */;
+			DC259F7113242CA0009D579E /* PBXTextBookmark */ = DC259F7113242CA0009D579E /* PBXTextBookmark */;
+			DC259F7213242CA0009D579E /* PBXTextBookmark */ = DC259F7213242CA0009D579E /* PBXTextBookmark */;
+			DC259F7413242D37009D579E /* PBXTextBookmark */ = DC259F7413242D37009D579E /* PBXTextBookmark */;
+			DC259F7513242D37009D579E /* PBXTextBookmark */ = DC259F7513242D37009D579E /* PBXTextBookmark */;
+			DC259F7613242D37009D579E /* PBXTextBookmark */ = DC259F7613242D37009D579E /* PBXTextBookmark */;
+			DC259F7713242D37009D579E /* PBXTextBookmark */ = DC259F7713242D37009D579E /* PBXTextBookmark */;
+			DC259F7E13242E5D009D579E /* PBXTextBookmark */ = DC259F7E13242E5D009D579E /* PBXTextBookmark */;
+			DC259F7F13242E5D009D579E /* PBXTextBookmark */ = DC259F7F13242E5D009D579E /* PBXTextBookmark */;
+			DC259F8013242E5D009D579E /* PBXTextBookmark */ = DC259F8013242E5D009D579E /* PBXTextBookmark */;
+			DC259F8113242E5D009D579E /* PBXTextBookmark */ = DC259F8113242E5D009D579E /* PBXTextBookmark */;
+			DC259F8213242E5D009D579E /* PBXTextBookmark */ = DC259F8213242E5D009D579E /* PBXTextBookmark */;
+			DC259F8913242EF2009D579E /* PBXTextBookmark */ = DC259F8913242EF2009D579E /* PBXTextBookmark */;
+			DC259F8A13242EF2009D579E /* PBXTextBookmark */ = DC259F8A13242EF2009D579E /* PBXTextBookmark */;
+			DC259F8B13242EF2009D579E /* PBXTextBookmark */ = DC259F8B13242EF2009D579E /* PBXTextBookmark */;
+			DC259F9013242F29009D579E /* PBXTextBookmark */ = DC259F9013242F29009D579E /* PBXTextBookmark */;
+			DC259F9513242F55009D579E /* PBXTextBookmark */ = DC259F9513242F55009D579E /* PBXTextBookmark */;
+			DC259F9613242F55009D579E /* PBXTextBookmark */ = DC259F9613242F55009D579E /* PBXTextBookmark */;
+			DC259F9713242F55009D579E /* PBXTextBookmark */ = DC259F9713242F55009D579E /* PBXTextBookmark */;
+			DC259F9813242F55009D579E /* PBXTextBookmark */ = DC259F9813242F55009D579E /* PBXTextBookmark */;
+			DC259F9913242F55009D579E /* PBXTextBookmark */ = DC259F9913242F55009D579E /* PBXTextBookmark */;
+			DC259F9D13242F9D009D579E /* PBXTextBookmark */ = DC259F9D13242F9D009D579E /* PBXTextBookmark */;
+			DC259F9E13242F9D009D579E /* PBXTextBookmark */ = DC259F9E13242F9D009D579E /* PBXTextBookmark */;
+			DC259F9F13242F9D009D579E /* PBXTextBookmark */ = DC259F9F13242F9D009D579E /* PBXTextBookmark */;
+			DC259FA413242FC4009D579E /* PBXTextBookmark */ = DC259FA413242FC4009D579E /* PBXTextBookmark */;
+			DC259FB913243062009D579E /* PBXTextBookmark */ = DC259FB913243062009D579E /* PBXTextBookmark */;
+			DC259FBD132430B5009D579E /* PBXTextBookmark */ = DC259FBD132430B5009D579E /* PBXTextBookmark */;
+			DC259FBE132430B5009D579E /* PBXTextBookmark */ = DC259FBE132430B5009D579E /* PBXTextBookmark */;
+			DC259FBF132430B5009D579E /* PBXTextBookmark */ = DC259FBF132430B5009D579E /* PBXTextBookmark */;
+			DC259FC313243134009D579E /* PBXTextBookmark */ = DC259FC313243134009D579E /* PBXTextBookmark */;
+			DC259FC413243134009D579E /* PBXTextBookmark */ = DC259FC413243134009D579E /* PBXTextBookmark */;
+			DC259FC513243134009D579E /* PBXTextBookmark */ = DC259FC513243134009D579E /* PBXTextBookmark */;
+			DC259FC613243134009D579E /* PBXTextBookmark */ = DC259FC613243134009D579E /* PBXTextBookmark */;
+			DC259FCA13243172009D579E /* PBXTextBookmark */ = DC259FCA13243172009D579E /* PBXTextBookmark */;
+			DC259FCB13243172009D579E /* PBXTextBookmark */ = DC259FCB13243172009D579E /* PBXTextBookmark */;
+			DC259FCC13243172009D579E /* PBXTextBookmark */ = DC259FCC13243172009D579E /* PBXTextBookmark */;
+			DC259FD2132432E0009D579E /* PBXTextBookmark */ = DC259FD2132432E0009D579E /* PBXTextBookmark */;
+			DC259FD3132432E0009D579E /* PBXTextBookmark */ = DC259FD3132432E0009D579E /* PBXTextBookmark */;
+			DC259FD4132432E0009D579E /* PBXTextBookmark */ = DC259FD4132432E0009D579E /* PBXTextBookmark */;
+			DC259FD5132432E0009D579E /* PBXTextBookmark */ = DC259FD5132432E0009D579E /* PBXTextBookmark */;
+			DC259FDA13243310009D579E /* PBXTextBookmark */ = DC259FDA13243310009D579E /* PBXTextBookmark */;
+			DC259FDF13243352009D579E /* PBXTextBookmark */ = DC259FDF13243352009D579E /* PBXTextBookmark */;
+			DC259FE013243352009D579E /* PBXTextBookmark */ = DC259FE013243352009D579E /* PBXTextBookmark */;
+			DC259FE113243352009D579E /* PBXTextBookmark */ = DC259FE113243352009D579E /* PBXTextBookmark */;
+			DC259FE213243352009D579E /* PBXTextBookmark */ = DC259FE213243352009D579E /* PBXTextBookmark */;
+			DC259FE6132433AF009D579E /* PBXTextBookmark */ = DC259FE6132433AF009D579E /* PBXTextBookmark */;
+			DC259FE7132433AF009D579E /* PBXTextBookmark */ = DC259FE7132433AF009D579E /* PBXTextBookmark */;
+			DC259FE8132433AF009D579E /* PBXTextBookmark */ = DC259FE8132433AF009D579E /* PBXTextBookmark */;
+			DC259FEC132433F0009D579E /* PBXTextBookmark */ = DC259FEC132433F0009D579E /* PBXTextBookmark */;
+			DC259FF21324341F009D579E /* PBXTextBookmark */ = DC259FF21324341F009D579E /* PBXTextBookmark */;
+			DC259FF31324341F009D579E /* PBXTextBookmark */ = DC259FF31324341F009D579E /* PBXTextBookmark */;
+			DC259FF41324341F009D579E /* PBXTextBookmark */ = DC259FF41324341F009D579E /* PBXTextBookmark */;
+			DC259FF91324350E009D579E /* PBXTextBookmark */ = DC259FF91324350E009D579E /* PBXTextBookmark */;
+			DC259FFA1324350E009D579E /* PBXTextBookmark */ = DC259FFA1324350E009D579E /* PBXTextBookmark */;
+			DC259FFB1324350E009D579E /* PBXTextBookmark */ = DC259FFB1324350E009D579E /* PBXTextBookmark */;
+			DC259FFC1324350E009D579E /* PBXTextBookmark */ = DC259FFC1324350E009D579E /* PBXTextBookmark */;
+			DC259FFD1324350E009D579E /* PBXTextBookmark */ = DC259FFD1324350E009D579E /* PBXTextBookmark */;
+			DC25A00313243626009D579E /* PBXTextBookmark */ = DC25A00313243626009D579E /* PBXTextBookmark */;
+			DC25A00413243626009D579E /* PBXTextBookmark */ = DC25A00413243626009D579E /* PBXTextBookmark */;
+			DC25A00513243626009D579E /* PBXTextBookmark */ = DC25A00513243626009D579E /* PBXTextBookmark */;
+			DC25A00613243626009D579E /* PBXTextBookmark */ = DC25A00613243626009D579E /* PBXTextBookmark */;
+			DC25A00A1324369B009D579E /* PBXTextBookmark */ = DC25A00A1324369B009D579E /* PBXTextBookmark */;
+			DC25A00B1324369B009D579E /* PBXTextBookmark */ = DC25A00B1324369B009D579E /* PBXTextBookmark */;
+			DC25A00C1324369B009D579E /* PBXTextBookmark */ = DC25A00C1324369B009D579E /* PBXTextBookmark */;
+			DC25A011132436E5009D579E /* PBXTextBookmark */ = DC25A011132436E5009D579E /* PBXTextBookmark */;
+			DC25A012132436E5009D579E /* PBXTextBookmark */ = DC25A012132436E5009D579E /* PBXTextBookmark */;
+			DC25A013132436E5009D579E /* PBXTextBookmark */ = DC25A013132436E5009D579E /* PBXTextBookmark */;
 			DC866D4D1317571A0053100C = DC866D4D1317571A0053100C /* PBXTextBookmark */;
 			DC866F21131767700053100C = DC866F21131767700053100C /* PBXTextBookmark */;
 			DC866F9F131777F70053100C = DC866F9F131777F70053100C /* PBXTextBookmark */;
@@ -310,7 +377,7 @@
 		fRef = DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */;
 		name = "QuickDoubanCardWindow.h: 23";
 		rLen = 15;
-		rLoc = 578;
+		rLoc = 555;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 0;
@@ -707,7 +774,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 249";
 		rLen = 0;
-		rLoc = 7364;
+		rLoc = 7816;
 		rType = 0;
 		vrLen = 1878;
 		vrLoc = 5470;
@@ -767,7 +834,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 75";
 		rLen = 0;
-		rLoc = 1753;
+		rLoc = 2019;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 259;
@@ -777,7 +844,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 173";
 		rLen = 0;
-		rLoc = 7364;
+		rLoc = 7816;
 		rType = 0;
 		vrLen = 1754;
 		vrLoc = 3134;
@@ -787,7 +854,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 188";
 		rLen = 0;
-		rLoc = 5045;
+		rLoc = 5076;
 		rType = 0;
 		vrLen = 1882;
 		vrLoc = 5466;
@@ -797,7 +864,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 173";
 		rLen = 0;
-		rLoc = 5032;
+		rLoc = 5063;
 		rType = 0;
 		vrLen = 1977;
 		vrLoc = 4581;
@@ -837,7 +904,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 173";
 		rLen = 0;
-		rLoc = 5032;
+		rLoc = 5063;
 		rType = 0;
 		vrLen = 1977;
 		vrLoc = 4581;
@@ -847,7 +914,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 240";
 		rLen = 0;
-		rLoc = 7325;
+		rLoc = 7356;
 		rType = 0;
 		vrLen = 1830;
 		vrLoc = 5386;
@@ -857,7 +924,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 240";
 		rLen = 0;
-		rLoc = 7324;
+		rLoc = 7355;
 		rType = 0;
 		vrLen = 1958;
 		vrLoc = 5386;
@@ -867,7 +934,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 214";
 		rLen = 0;
-		rLoc = 6516;
+		rLoc = 6547;
 		rType = 0;
 		vrLen = 1958;
 		vrLoc = 5386;
@@ -917,7 +984,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 214";
 		rLen = 0;
-		rLoc = 6516;
+		rLoc = 6547;
 		rType = 0;
 		vrLen = 1958;
 		vrLoc = 5386;
@@ -927,7 +994,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 239";
 		rLen = 0;
-		rLoc = 7324;
+		rLoc = 7355;
 		rType = 0;
 		vrLen = 1857;
 		vrLoc = 5463;
@@ -937,7 +1004,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 220";
 		rLen = 0;
-		rLoc = 6713;
+		rLoc = 6744;
 		rType = 0;
 		vrLen = 1857;
 		vrLoc = 5463;
@@ -967,7 +1034,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 248";
 		rLen = 0;
-		rLoc = 7364;
+		rLoc = 7816;
 		rType = 0;
 		vrLen = 1831;
 		vrLoc = 5623;
@@ -1007,7 +1074,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 248";
 		rLen = 0;
-		rLoc = 7364;
+		rLoc = 7816;
 		rType = 0;
 		vrLen = 1895;
 		vrLoc = 5559;
@@ -1017,7 +1084,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 222";
 		rLen = 0;
-		rLoc = 6787;
+		rLoc = 6818;
 		rType = 0;
 		vrLen = 1901;
 		vrLoc = 5561;
@@ -1027,7 +1094,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 248";
 		rLen = 0;
-		rLoc = 7364;
+		rLoc = 7816;
 		rType = 0;
 		vrLen = 1922;
 		vrLoc = 5561;
@@ -1037,7 +1104,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 248";
 		rLen = 0;
-		rLoc = 7364;
+		rLoc = 7816;
 		rType = 0;
 		vrLen = 4276;
 		vrLoc = 0;
@@ -1087,7 +1154,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 244";
 		rLen = 0;
-		rLoc = 7364;
+		rLoc = 7816;
 		rType = 0;
 		vrLen = 1986;
 		vrLoc = 5234;
@@ -1097,7 +1164,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 75";
 		rLen = 0;
-		rLoc = 1753;
+		rLoc = 2019;
 		rType = 0;
 		vrLen = 1500;
 		vrLoc = 221;
@@ -1107,7 +1174,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 75";
 		rLen = 0;
-		rLoc = 1753;
+		rLoc = 2019;
 		rType = 0;
 		vrLen = 1500;
 		vrLoc = 221;
@@ -1117,7 +1184,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 89";
 		rLen = 0;
-		rLoc = 1753;
+		rLoc = 2019;
 		rType = 0;
 		vrLen = 1289;
 		vrLoc = 697;
@@ -1137,7 +1204,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 244";
 		rLen = 0;
-		rLoc = 7364;
+		rLoc = 7816;
 		rType = 0;
 		vrLen = 4325;
 		vrLoc = 58;
@@ -1177,7 +1244,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 76";
 		rLen = 0;
-		rLoc = 1753;
+		rLoc = 2019;
 		rType = 0;
 		vrLen = 1467;
 		vrLoc = 292;
@@ -1187,7 +1254,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 244";
 		rLen = 0;
-		rLoc = 7364;
+		rLoc = 7816;
 		rType = 0;
 		vrLen = 4286;
 		vrLoc = 97;
@@ -1197,7 +1264,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 132";
 		rLen = 0;
-		rLoc = 3972;
+		rLoc = 4003;
 		rType = 0;
 		vrLen = 1986;
 		vrLoc = 5234;
@@ -1207,7 +1274,7 @@
 		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
 		name = "QuickDoubanCardWindow.m: 76";
 		rLen = 0;
-		rLoc = 1753;
+		rLoc = 2019;
 		rType = 0;
 		vrLen = 1500;
 		vrLoc = 259;
@@ -1217,7 +1284,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 175";
 		rLen = 0;
-		rLoc = 5030;
+		rLoc = 5061;
 		rType = 0;
 		vrLen = 1986;
 		vrLoc = 5276;
@@ -1227,7 +1294,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 180";
 		rLen = 0;
-		rLoc = 5030;
+		rLoc = 5061;
 		rType = 0;
 		vrLen = 1695;
 		vrLoc = 4246;
@@ -1237,10 +1304,680 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 156";
 		rLen = 0;
-		rLoc = 4584;
+		rLoc = 4615;
 		rType = 0;
 		vrLen = 1733;
 		vrLoc = 4246;
+	};
+	DC259F7013242CA0009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 158";
+		rLen = 0;
+		rLoc = 4638;
+		rType = 0;
+		vrLen = 1701;
+		vrLoc = 4205;
+	};
+	DC259F7113242CA0009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 114";
+		rLen = 0;
+		rLoc = 3246;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 10257;
+	};
+	DC259F7213242CA0009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 355";
+		rLen = 0;
+		rLoc = 11015;
+		rType = 0;
+		vrLen = 1810;
+		vrLoc = 9350;
+	};
+	DC259F7413242D37009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 325";
+		rLen = 0;
+		rLoc = 10008;
+		rType = 0;
+		vrLen = 1823;
+		vrLoc = 9350;
+	};
+	DC259F7513242D37009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 76";
+		rLen = 0;
+		rLoc = 2019;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 260;
+	};
+	DC259F7613242D37009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 158";
+		rLen = 0;
+		rLoc = 4638;
+		rType = 0;
+		vrLen = 1701;
+		vrLoc = 4205;
+	};
+	DC259F7713242D37009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
+		name = "QuickDoubanCardViewController.h: 26";
+		rLen = 0;
+		rLoc = 557;
+		rType = 0;
+		vrLen = 1114;
+		vrLoc = 0;
+	};
+	DC259F7E13242E5D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
+		name = "QuickDoubanCardViewController.h: 43";
+		rLen = 0;
+		rLoc = 1032;
+		rType = 0;
+		vrLen = 1114;
+		vrLoc = 0;
+	};
+	DC259F7F13242E5D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 263";
+		rLen = 0;
+		rLoc = 7813;
+		rType = 0;
+		vrLen = 1861;
+		vrLoc = 5711;
+	};
+	DC259F8013242E5D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */;
+		name = "QuickDoubanCardWindow.h: 20";
+		rLen = 158;
+		rLoc = 413;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 0;
+	};
+	DC259F8113242E5D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 76";
+		rLen = 0;
+		rLoc = 2019;
+		rType = 0;
+		vrLen = 1500;
+		vrLoc = 259;
+	};
+	DC259F8213242E5D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 80";
+		rLen = 0;
+		rLoc = 1996;
+		rType = 0;
+		vrLen = 1508;
+		vrLoc = 364;
+	};
+	DC259F8913242EF2009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 79";
+		rLen = 1;
+		rLoc = 1995;
+		rType = 0;
+		vrLen = 1290;
+		vrLoc = 594;
+	};
+	DC259F8A13242EF2009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 263";
+		rLen = 0;
+		rLoc = 7813;
+		rType = 0;
+		vrLen = 1860;
+		vrLoc = 5711;
+	};
+	DC259F8B13242EF2009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 262";
+		rLen = 0;
+		rLoc = 7463;
+		rType = 0;
+		vrLen = 1693;
+		vrLoc = 5917;
+	};
+	DC259F9013242F29009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 121";
+		rLen = 0;
+		rLoc = 3595;
+		rType = 0;
+		vrLen = 1858;
+		vrLoc = 2848;
+	};
+	DC259F9513242F55009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
+		name = "QuickDoubanCardViewController.h: 43";
+		rLen = 0;
+		rLoc = 1032;
+		rType = 0;
+		vrLen = 1114;
+		vrLoc = 0;
+	};
+	DC259F9613242F55009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 255";
+		rLen = 316;
+		rLoc = 7463;
+		rType = 0;
+		vrLen = 1626;
+		vrLoc = 6066;
+	};
+	DC259F9713242F55009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
+		name = "SearchBarWindowController.m: 151";
+		rLen = 0;
+		rLoc = 4373;
+		rType = 0;
+		vrLen = 1803;
+		vrLoc = 3408;
+	};
+	DC259F9813242F55009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 79";
+		rLen = 1;
+		rLoc = 1995;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 562;
+	};
+	DC259F9913242F55009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 78";
+		rLen = 0;
+		rLoc = 1897;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 562;
+	};
+	DC259F9D13242F9D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 51";
+		rLen = 0;
+		rLoc = 1325;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 562;
+	};
+	DC259F9E13242F9D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 255";
+		rLen = 316;
+		rLoc = 7463;
+		rType = 0;
+		vrLen = 1682;
+		vrLoc = 6010;
+	};
+	DC259F9F13242F9D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 257";
+		rLen = 0;
+		rLoc = 7463;
+		rType = 0;
+		vrLen = 1596;
+		vrLoc = 6066;
+	};
+	DC259FA413242FC4009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 266";
+		rLen = 0;
+		rLoc = 7463;
+		rType = 0;
+		vrLen = 1660;
+		vrLoc = 6010;
+	};
+	DC259FB913243062009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 256";
+		rLen = 0;
+		rLoc = 7463;
+		rType = 0;
+		vrLen = 1650;
+		vrLoc = 6010;
+	};
+	DC259FBD132430B5009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 78";
+		rLen = 33;
+		rLoc = 1861;
+		rType = 0;
+		vrLen = 1387;
+		vrLoc = 523;
+	};
+	DC259FBE132430B5009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 254";
+		rLen = 7;
+		rLoc = 7405;
+		rType = 0;
+		vrLen = 1664;
+		vrLoc = 5996;
+	};
+	DC259FBF132430B5009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 255";
+		rLen = 0;
+		rLoc = 7449;
+		rType = 0;
+		vrLen = 1702;
+		vrLoc = 5996;
+	};
+	DC259FC313243134009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC713177D460053100C /* QuickDoubanCardViewController.h */;
+		name = "QuickDoubanCardViewController.h: 43";
+		rLen = 0;
+		rLoc = 1032;
+		rType = 0;
+		vrLen = 1114;
+		vrLoc = 0;
+	};
+	DC259FC413243134009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 255";
+		rLen = 0;
+		rLoc = 7449;
+		rType = 0;
+		vrLen = 1791;
+		vrLoc = 1282;
+	};
+	DC259FC513243134009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 345";
+		rLen = 0;
+		rLoc = 10660;
+		rType = 0;
+		vrLen = 1852;
+		vrLoc = 9212;
+	};
+	DC259FC613243134009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 355";
+		rLen = 0;
+		rLoc = 11015;
+		rType = 0;
+		vrLen = 1479;
+		vrLoc = 9997;
+	};
+	DC259FCA13243172009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 178";
+		rLen = 0;
+		rLoc = 5203;
+		rType = 0;
+		vrLen = 1880;
+		vrLoc = 4022;
+	};
+	DC259FCB13243172009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 78";
+		rLen = 33;
+		rLoc = 1861;
+		rType = 0;
+		vrLen = 1384;
+		vrLoc = 523;
+	};
+	DC259FCC13243172009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 78";
+		rLen = 33;
+		rLoc = 1861;
+		rType = 0;
+		vrLen = 1479;
+		vrLoc = 99;
+	};
+	DC259FD2132432E0009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 82";
+		rLen = 0;
+		rLoc = 1996;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 697;
+	};
+	DC259FD3132432E0009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 262";
+		rLen = 0;
+		rLoc = 7463;
+		rType = 0;
+		vrLen = 1631;
+		vrLoc = 6182;
+	};
+	DC259FD4132432E0009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
+		name = "SearchBarWindowController.m: 151";
+		rLen = 0;
+		rLoc = 4373;
+		rType = 0;
+		vrLen = 1765;
+		vrLoc = 3446;
+	};
+	DC259FD5132432E0009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 287";
+		rLen = 0;
+		rLoc = 8424;
+		rType = 0;
+		vrLen = 1964;
+		vrLoc = 8115;
+	};
+	DC259FDA13243310009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 358";
+		rLen = 0;
+		rLoc = 11015;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 10599;
+	};
+	DC259FDF13243352009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 358";
+		rLen = 0;
+		rLoc = 11015;
+		rType = 0;
+		vrLen = 1150;
+		vrLoc = 10599;
+	};
+	DC259FE013243352009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 257";
+		rLen = 330;
+		rLoc = 7463;
+		rType = 0;
+		vrLen = 1553;
+		vrLoc = 6291;
+	};
+	DC259FE113243352009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 82";
+		rLen = 0;
+		rLoc = 1996;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 695;
+	};
+	DC259FE213243352009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 70";
+		rLen = 0;
+		rLoc = 1663;
+		rType = 0;
+		vrLen = 1277;
+		vrLoc = 708;
+	};
+	DC259FE6132433AF009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 51";
+		rLen = 0;
+		rLoc = 1325;
+		rType = 0;
+		vrLen = 1277;
+		vrLoc = 708;
+	};
+	DC259FE7132433AF009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 257";
+		rLen = 330;
+		rLoc = 7463;
+		rType = 0;
+		vrLen = 1662;
+		vrLoc = 6182;
+	};
+	DC259FE8132433AF009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 266";
+		rLen = 0;
+		rLoc = 7726;
+		rType = 0;
+		vrLen = 1539;
+		vrLoc = 6291;
+	};
+	DC259FEC132433F0009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 251";
+		rLen = 0;
+		rLoc = 7392;
+		rType = 0;
+		vrLen = 1529;
+		vrLoc = 6291;
+	};
+	DC259FF21324341F009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 251";
+		rLen = 0;
+		rLoc = 7392;
+		rType = 0;
+		vrLen = 1638;
+		vrLoc = 6182;
+	};
+	DC259FF31324341F009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 51";
+		rLen = 0;
+		rLoc = 1325;
+		rType = 0;
+		vrLen = 1288;
+		vrLoc = 697;
+	};
+	DC259FF41324341F009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 81";
+		rLen = 0;
+		rLoc = 1957;
+		rType = 0;
+		vrLen = 1279;
+		vrLoc = 708;
+	};
+	DC259FF91324350E009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 44";
+		rLen = 0;
+		rLoc = 1217;
+		rType = 0;
+		vrLen = 1290;
+		vrLoc = 697;
+	};
+	DC259FFA1324350E009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
+		name = "SearchBarWindowController.m: 151";
+		rLen = 0;
+		rLoc = 4373;
+		rType = 0;
+		vrLen = 1802;
+		vrLoc = 3409;
+	};
+	DC259FFB1324350E009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */;
+		name = "QuickDoubanCardWindow.h: 22";
+		rLen = 0;
+		rLoc = 549;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 0;
+	};
+	DC259FFC1324350E009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 358";
+		rLen = 0;
+		rLoc = 11015;
+		rType = 0;
+		vrLen = 1397;
+		vrLoc = 10289;
+	};
+	DC259FFD1324350E009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 280";
+		rLen = 1084;
+		rLoc = 8424;
+		rType = 0;
+		vrLen = 1811;
+		vrLoc = 8028;
+	};
+	DC25A00313243626009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 77";
+		rLen = 30;
+		rLoc = 1754;
+		rType = 0;
+		vrLen = 1217;
+		vrLoc = 808;
+	};
+	DC25A00413243626009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */;
+		name = "QuickDoubanCardWindow.h: 29";
+		rLen = 21;
+		rLoc = 699;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 0;
+	};
+	DC25A00513243626009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 289";
+		rLen = 0;
+		rLoc = 8681;
+		rType = 0;
+		vrLen = 1857;
+		vrLoc = 8028;
+	};
+	DC25A00613243626009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 359";
+		rLen = 0;
+		rLoc = 11014;
+		rType = 0;
+		vrLen = 1743;
+		vrLoc = 9509;
+	};
+	DC25A00A1324369B009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 359";
+		rLen = 0;
+		rLoc = 11014;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 10555;
+	};
+	DC25A00B1324369B009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 251";
+		rLen = 0;
+		rLoc = 7392;
+		rType = 0;
+		vrLen = 1638;
+		vrLoc = 6182;
+	};
+	DC25A00C1324369B009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 85";
+		rLen = 0;
+		rLoc = 1957;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 811;
+	};
+	DC25A011132436E5009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */;
+		name = "QuickDoubanCardWindow.m: 41";
+		rLen = 0;
+		rLoc = 1200;
+		rType = 0;
+		vrLen = 1217;
+		vrLoc = 808;
+	};
+	DC25A012132436E5009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 251";
+		rLen = 0;
+		rLoc = 7392;
+		rType = 0;
+		vrLen = 1643;
+		vrLoc = 6177;
+	};
+	DC25A013132436E5009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 255";
+		rLen = 0;
+		rLoc = 7418;
+		rType = 0;
+		vrLen = 1645;
+		vrLoc = 6177;
 	};
 	DC804EF5131CC7DF00DE8FD6 /* QuickDoubanAppDelegate.m:203 */ = {
 		isa = PBXFileBreakpoint;
@@ -1270,22 +2007,22 @@
 	DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1395, 2470}}";
-			sepNavSelRange = "{4542, 614}";
-			sepNavVisRange = "{3396, 1807}";
+			sepNavSelRange = "{4373, 0}";
+			sepNavVisRange = "{3409, 1802}";
 		};
 	};
 	DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1390, 994}}";
-			sepNavSelRange = "{578, 15}";
-			sepNavVisRange = "{0, 694}";
+			sepNavIntBoundsRect = "{{0, 0}, {1395, 818}}";
+			sepNavSelRange = "{699, 21}";
+			sepNavVisRange = "{0, 727}";
 		};
 	};
 	DC805226131E209B00DE8FD6 /* QuickDoubanCardWindow.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1395, 1014}}";
-			sepNavSelRange = "{1753, 0}";
-			sepNavVisRange = "{259, 1500}";
+			sepNavIntBoundsRect = "{{0, 0}, {1395, 1196}}";
+			sepNavSelRange = "{1200, 0}";
+			sepNavVisRange = "{808, 1217}";
 		};
 	};
 	DC80558A1320AB3C00DE8FD6 /* QuickDoubanBase.m */ = {
@@ -1399,17 +2136,16 @@
 	};
 	DC866FC713177D460053100C /* QuickDoubanCardViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1395, 843}}";
-			sepNavSelRange = "{700, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1395, 820}}";
+			sepNavSelRange = "{1032, 0}";
 			sepNavVisRange = "{0, 1114}";
 		};
 	};
 	DC866FC813177D460053100C /* QuickDoubanCardViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{540, 2508}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 7370}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1395, 2301}}";
-			sepNavSelRange = "{2077, 0}";
-			sepNavVisRange = "{1739, 1733}";
+			sepNavIntBoundsRect = "{{0, 0}, {1395, 3666}}";
+			sepNavSelRange = "{7418, 0}";
+			sepNavVisRange = "{6177, 1645}";
 			sepNavWindowFrame = "{{15, 38}, {1278, 1375}}";
 		};
 	};

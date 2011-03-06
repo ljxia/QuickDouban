@@ -175,9 +175,9 @@
 															   backing:NSBackingStoreBuffered 
 																 defer:YES];
 			
-			[cardWindow retain];
+			//[cardWindow retain];
 		
-			NSLog(@"retain new card window");
+			//NSLog(@"retain new card window");
 		
 			[cardWindow setBackgroundColor:[NSColor colorWithDeviceRed:1 green:1 blue:1 alpha:0.6]];
 			[cardWindow setAlphaValue:0];
@@ -271,6 +271,12 @@
 		
 		NSWindow *windowIndexes[4];
 		
+		windowIndexes[QDBWindowUp] = nil;
+		windowIndexes[QDBWindowDown] = nil;
+		windowIndexes[QDBWindowLeft] = nil;
+		windowIndexes[QDBWindowRight] = nil;
+		
+		
 		if (i < maxCardInRow) {
 			int j = i;
 			while (j < ([cardWindows count] - 1)) {
@@ -292,9 +298,6 @@
 		else {
 			windowIndexes[QDBWindowDown] = (NSWindow *)[cardWindows objectAtIndex:(i + maxCardInRow)];
 		}
-		
-//		windowIndexes[QDBWindowLeft] = window;
-//		windowIndexes[QDBWindowRight] = window;
 		
 		if (i == 0) {
 			windowIndexes[QDBWindowLeft] = (NSWindow *)[cardWindows objectAtIndex:([cardWindows count] - 1)];
@@ -350,8 +353,10 @@
 		NSLog(@"\n\nCleaning out old window cards");
 		for (int i = 0; i < [cardWindows count];i++)
 		{
-			[window removeChildWindow:[cardWindows objectAtIndex:i]];
-			[(NSWindow *)[cardWindows objectAtIndex:i] close];
+			QuickDoubanCardWindow *cardWindow = (QuickDoubanCardWindow *)[cardWindows objectAtIndex:i];
+			[cardWindow detachAdjacentWindows];
+			[window removeChildWindow:cardWindow];
+			[cardWindow close];
 		}
 		[cardWindows removeAllObjects];
 		return YES;
