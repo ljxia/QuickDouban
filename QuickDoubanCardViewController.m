@@ -266,7 +266,7 @@
 		[cardImage release];cardImage=nil;
 	}
 //	
-	[url release];url=nil;
+	//[url release];url=nil;
 	[entryData release];entryData=nil;
 	
 	[super dealloc];

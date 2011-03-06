@@ -368,7 +368,7 @@
 	
 	if (![self clearCards])
 	{
-		[self show:NO];
+		[self toggle];
 	}
 }
 

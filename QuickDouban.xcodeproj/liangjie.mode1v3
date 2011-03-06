@@ -286,8 +286,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>17</integer>
-									<integer>13</integer>
+									<integer>12</integer>
+									<integer>10</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -329,7 +329,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>QuickDoubanCardViewController.m</string>
+								<string>QuickDoubanAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -337,11 +337,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>QuickDoubanCardViewController.m</string>
+										<string>QuickDoubanAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DC25A013132436E5009D579E</string>
+										<string>DC25A02313243B26009D579E</string>
 										<key>history</key>
 										<array>
 											<string>DC9F4733130CD93700B81679</string>
@@ -366,9 +366,9 @@
 											<string>DC259FC313243134009D579E</string>
 											<string>DC259FFA1324350E009D579E</string>
 											<string>DC25A00413243626009D579E</string>
-											<string>DC25A00A1324369B009D579E</string>
 											<string>DC25A011132436E5009D579E</string>
-											<string>DC25A012132436E5009D579E</string>
+											<string>DC25A02113243B26009D579E</string>
+											<string>DC25A02213243B26009D579E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -566,6 +566,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>DC25A02413243B26009D579E</string>
 		<string>DC259EBE13236492009D579E</string>
 		<string>DC259EBF13236492009D579E</string>
 		<string>DC9F46F7130CCC1400B81679</string>
