@@ -69,6 +69,21 @@
 		
 		if (cardImage) {
 			[[self view] addSubview:cardImageView positioned:NSWindowBelow relativeTo:overlayView];	
+			
+			float aspectRatio = [cardImage size].width / [cardImage size].height;
+			NSRect newImageFrame;
+			if (aspectRatio > 1) { 
+				//landscape
+				float newWidth = [[self view] frame].size.height * aspectRatio;
+				newImageFrame = NSMakeRect(-(newWidth - [[self view] frame].size.width)/2, 0, newWidth, [[self view] frame].size.height);
+			}
+			else {
+				//portrait
+				float newHeight = [[self view] frame].size.width / aspectRatio;
+				newImageFrame = NSMakeRect(0, -(newHeight - [[self view] frame].size.height)/2, [[self view] frame].size.width, newHeight);
+			}
+
+			[cardImageView setFrame:newImageFrame];
 			[cardImageView setImageScaling:NSScaleToFit];
 			[progressIndicator stopAnimation:self];		
 		}

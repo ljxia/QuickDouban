@@ -19,7 +19,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1390, 4550}}";
 			sepNavSelRange = "{3443, 0}";
-			sepNavVisRange = "{2509, 2410}";
+			sepNavVisRange = "{2509, 2419}";
 			sepNavWindowFrame = "{{38, 17}, {1278, 1375}}";
 		};
 	};
@@ -53,7 +53,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1212,
+					1217,
 					20,
 					48,
 					43,
@@ -773,6 +773,11 @@
 			DC259D7513233D77009D579E /* PBXTextBookmark */ = DC259D7513233D77009D579E /* PBXTextBookmark */;
 			DC259D7613233D77009D579E /* PBXTextBookmark */ = DC259D7613233D77009D579E /* PBXTextBookmark */;
 			DC259D7713233D77009D579E /* PBXTextBookmark */ = DC259D7713233D77009D579E /* PBXTextBookmark */;
+			DC259D7913233F3D009D579E /* PBXTextBookmark */ = DC259D7913233F3D009D579E /* PBXTextBookmark */;
+			DC259D7A13233F3D009D579E /* PBXTextBookmark */ = DC259D7A13233F3D009D579E /* PBXTextBookmark */;
+			DC259D7B13233F3D009D579E /* PBXTextBookmark */ = DC259D7B13233F3D009D579E /* PBXTextBookmark */;
+			DC259D8213234441009D579E /* PBXTextBookmark */ = DC259D8213234441009D579E /* PBXTextBookmark */;
+			DC259D86132344B4009D579E /* PBXTextBookmark */ = DC259D86132344B4009D579E /* PBXTextBookmark */;
 			DC805357131E301000DE8FD6 = DC805357131E301000DE8FD6 /* PBXTextBookmark */;
 			DC8055571320A7E800DE8FD6 = DC8055571320A7E800DE8FD6 /* PBXTextBookmark */;
 			DC8055861320AB1000DE8FD6 = DC8055861320AB1000DE8FD6 /* PBXTextBookmark */;
@@ -918,7 +923,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2323;
 		vrLoc = 648;
@@ -928,7 +933,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 102";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2501;
 		vrLoc = 1359;
@@ -962,7 +967,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2603;
 		vrLoc = 1308;
@@ -972,7 +977,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 110";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2758;
 		vrLoc = 1308;
@@ -992,7 +997,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 115";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2598;
 		vrLoc = 1308;
@@ -1012,7 +1017,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 113";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2587;
 		vrLoc = 1308;
@@ -1072,7 +1077,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 113";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2587;
 		vrLoc = 1308;
@@ -1082,7 +1087,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 102";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2501;
 		vrLoc = 1304;
@@ -1102,7 +1107,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 110";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2480;
 		vrLoc = 1304;
@@ -1122,7 +1127,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 107";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2484;
 		vrLoc = 1304;
@@ -1142,7 +1147,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 98";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2482;
 		vrLoc = 1304;
@@ -1162,7 +1167,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 98";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2486;
 		vrLoc = 1304;
@@ -1182,7 +1187,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 81";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2895;
 		vrLoc = 833;
@@ -1202,7 +1207,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 120";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2187;
 		vrLoc = 2105;
@@ -1232,7 +1237,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 120";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 2105;
@@ -1242,7 +1247,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 100";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2190;
 		vrLoc = 2105;
@@ -1262,7 +1267,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 134";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2081;
 		vrLoc = 2105;
@@ -1282,7 +1287,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 125";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2055;
 		vrLoc = 2131;
@@ -1302,7 +1307,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 130";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2058;
 		vrLoc = 2131;
@@ -1322,7 +1327,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 109";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2059;
 		vrLoc = 2131;
@@ -1342,7 +1347,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 131";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2038;
 		vrLoc = 2154;
@@ -1362,7 +1367,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 131";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2038;
 		vrLoc = 2154;
@@ -1412,7 +1417,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 131";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2063;
 		vrLoc = 2131;
@@ -1422,7 +1427,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 128";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2069;
 		vrLoc = 2131;
@@ -1442,7 +1447,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 125";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2084;
 		vrLoc = 2131;
@@ -1462,7 +1467,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 110";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2072;
 		vrLoc = 2131;
@@ -1482,7 +1487,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 124";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2089;
 		vrLoc = 2131;
@@ -1502,7 +1507,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 109";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2092;
 		vrLoc = 2131;
@@ -1522,7 +1527,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 136";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2089;
 		vrLoc = 2131;
@@ -1542,7 +1547,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 106";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2085;
 		vrLoc = 2131;
@@ -1562,7 +1567,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 135";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2064;
 		vrLoc = 2131;
@@ -1582,7 +1587,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 111";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2105;
 		vrLoc = 2131;
@@ -1602,7 +1607,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 111";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2065;
 		vrLoc = 2131;
@@ -1622,7 +1627,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 111";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2056;
 		vrLoc = 2131;
@@ -1642,7 +1647,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2056;
 		vrLoc = 2131;
@@ -1662,7 +1667,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 106";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2060;
 		vrLoc = 2131;
@@ -1682,7 +1687,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2037;
 		vrLoc = 2272;
@@ -1702,7 +1707,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 95";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2043;
 		vrLoc = 2245;
@@ -1722,7 +1727,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 126";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2031;
 		vrLoc = 2245;
@@ -1742,7 +1747,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 113";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2085;
 		vrLoc = 2164;
@@ -1762,7 +1767,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 106";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2093;
 		vrLoc = 2164;
@@ -1782,7 +1787,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 121";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2095;
 		vrLoc = 2164;
@@ -1802,7 +1807,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 121";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2095;
 		vrLoc = 2164;
@@ -1822,7 +1827,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 121";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2084;
 		vrLoc = 2164;
@@ -1842,7 +1847,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 121";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2086;
 		vrLoc = 2164;
@@ -1862,7 +1867,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 109";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2087;
 		vrLoc = 2164;
@@ -1882,7 +1887,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 121";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2085;
 		vrLoc = 2164;
@@ -1902,7 +1907,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 112";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2200;
 		vrLoc = 2164;
@@ -1922,7 +1927,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 110";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2140;
 		vrLoc = 2164;
@@ -1942,7 +1947,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 141";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2153;
 		vrLoc = 2164;
@@ -1972,7 +1977,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 136";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2012;
 		vrLoc = 2443;
@@ -1982,7 +1987,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 136";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2006;
 		vrLoc = 2443;
@@ -2012,7 +2017,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 136";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2012;
 		vrLoc = 2443;
@@ -2022,7 +2027,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 111";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2197;
 		vrLoc = 2245;
@@ -2042,7 +2047,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 133";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2194;
 		vrLoc = 2245;
@@ -2072,7 +2077,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 133";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2199;
 		vrLoc = 2245;
@@ -2082,7 +2087,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 111";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2289;
 		vrLoc = 2191;
@@ -2102,7 +2107,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 108";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2288;
 		vrLoc = 2191;
@@ -2122,7 +2127,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 121";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2288;
 		vrLoc = 2191;
@@ -2142,7 +2147,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 137";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2319;
 		vrLoc = 2187;
@@ -2162,7 +2167,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 124";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2291;
 		vrLoc = 2187;
@@ -2182,7 +2187,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 124";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2295;
 		vrLoc = 2187;
@@ -2202,7 +2207,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 111";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2296;
 		vrLoc = 2187;
@@ -2222,7 +2227,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 143";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2237;
 		vrLoc = 2299;
@@ -2242,7 +2247,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 114";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2305;
 		vrLoc = 2299;
@@ -2262,7 +2267,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 129";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2207;
 		vrLoc = 2299;
@@ -2282,7 +2287,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 115";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2209;
 		vrLoc = 2299;
@@ -2302,7 +2307,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 130";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2306;
 		vrLoc = 2347;
@@ -2342,7 +2347,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 55";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2237;
 		vrLoc = 909;
@@ -2432,7 +2437,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 81";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2273;
 		vrLoc = 606;
@@ -2452,7 +2457,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 89";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2280;
 		vrLoc = 606;
@@ -2472,7 +2477,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 53";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2268;
 		vrLoc = 606;
@@ -2492,7 +2497,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 53";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2269;
 		vrLoc = 605;
@@ -2622,7 +2627,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 53";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2286;
 		vrLoc = 587;
@@ -2872,7 +2877,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 77";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2277;
 		vrLoc = 606;
@@ -2892,7 +2897,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 89";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2312;
 		vrLoc = 606;
@@ -2912,7 +2917,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 53";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2324;
 		vrLoc = 606;
@@ -2952,7 +2957,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 53";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2325;
 		vrLoc = 605;
@@ -3012,7 +3017,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 53";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2325;
 		vrLoc = 605;
@@ -3022,7 +3027,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 44";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2091;
 		vrLoc = 226;
@@ -3062,7 +3067,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 44";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2219;
 		vrLoc = 769;
@@ -3102,7 +3107,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 108";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2214;
 		vrLoc = 0;
@@ -3156,7 +3161,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 66";
 		rLen = 0;
-		rLoc = 2548;
+		rLoc = 3162;
 		rType = 0;
 		vrLen = 2288;
 		vrLoc = 931;
@@ -3166,7 +3171,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 117";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2686;
 		vrLoc = 0;
@@ -3186,7 +3191,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 73";
 		rLen = 0;
-		rLoc = 2548;
+		rLoc = 3162;
 		rType = 0;
 		vrLen = 2246;
 		vrLoc = 994;
@@ -3196,7 +3201,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 117";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2702;
 		vrLoc = 0;
@@ -3226,7 +3231,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 96";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2173;
 		vrLoc = 152;
@@ -3256,7 +3261,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 106";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2701;
 		vrLoc = 0;
@@ -3286,7 +3291,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 96";
 		rLen = 0;
-		rLoc = 2665;
+		rLoc = 3279;
 		rType = 0;
 		vrLen = 2173;
 		vrLoc = 152;
@@ -3296,7 +3301,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 68";
 		rLen = 0;
-		rLoc = 2548;
+		rLoc = 3162;
 		rType = 0;
 		vrLen = 2286;
 		vrLoc = 716;
@@ -3306,7 +3311,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 106";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2704;
 		vrLoc = 0;
@@ -3366,7 +3371,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 114";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2200;
 		vrLoc = 931;
@@ -3376,7 +3381,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 109";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2218;
 		vrLoc = 992;
@@ -3386,7 +3391,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3406,7 +3411,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 109";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2218;
 		vrLoc = 992;
@@ -3446,7 +3451,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3476,7 +3481,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3546,7 +3551,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3566,7 +3571,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 110";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2177;
 		vrLoc = 1047;
@@ -3606,7 +3611,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3646,7 +3651,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 109";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2234;
 		vrLoc = 994;
@@ -3676,7 +3681,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3726,7 +3731,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3766,7 +3771,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3796,7 +3801,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3816,7 +3821,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3856,7 +3861,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2704;
 		vrLoc = 0;
@@ -3896,7 +3901,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2704;
 		vrLoc = 0;
@@ -3926,7 +3931,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3966,7 +3971,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -3986,7 +3991,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2703;
 		vrLoc = 0;
@@ -4066,7 +4071,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4106,7 +4111,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4146,7 +4151,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4186,7 +4191,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4206,7 +4211,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4246,7 +4251,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4286,7 +4291,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4306,7 +4311,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4326,7 +4331,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4376,7 +4381,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4396,7 +4401,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4416,7 +4421,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4436,7 +4441,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4486,7 +4491,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4526,7 +4531,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4546,7 +4551,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4586,7 +4591,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4626,7 +4631,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4666,7 +4671,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2698;
 		vrLoc = 0;
@@ -4686,7 +4691,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4736,7 +4741,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4756,7 +4761,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4806,7 +4811,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2679;
 		vrLoc = 0;
@@ -4866,7 +4871,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2630;
 		vrLoc = 0;
@@ -4916,7 +4921,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2630;
 		vrLoc = 0;
@@ -4966,7 +4971,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 123";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2732;
 		vrLoc = 0;
@@ -4986,7 +4991,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 123";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2710;
 		vrLoc = 0;
@@ -5026,7 +5031,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 123";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2660;
 		vrLoc = 0;
@@ -5056,7 +5061,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 85";
 		rLen = 0;
-		rLoc = 2108;
+		rLoc = 2722;
 		rType = 0;
 		vrLen = 2169;
 		vrLoc = 898;
@@ -5066,7 +5071,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 123";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2634;
 		vrLoc = 0;
@@ -5086,7 +5091,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 123";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2633;
 		vrLoc = 0;
@@ -5106,7 +5111,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 120";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2585;
 		vrLoc = 0;
@@ -5126,7 +5131,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 122";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2590;
 		vrLoc = 0;
@@ -5146,7 +5151,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 124";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2590;
 		vrLoc = 0;
@@ -5166,7 +5171,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 124";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2592;
 		vrLoc = 0;
@@ -5246,7 +5251,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5266,7 +5271,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5286,7 +5291,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5306,7 +5311,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5326,7 +5331,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5376,7 +5381,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5416,7 +5421,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5436,7 +5441,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5456,7 +5461,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5476,7 +5481,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5496,7 +5501,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5516,7 +5521,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5536,7 +5541,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5556,7 +5561,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5576,7 +5581,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5606,7 +5611,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5626,7 +5631,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 93";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2563;
 		vrLoc = 0;
@@ -5676,7 +5681,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 94";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2588;
 		vrLoc = 0;
@@ -5686,7 +5691,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 82";
 		rLen = 0;
-		rLoc = 2548;
+		rLoc = 3162;
 		rType = 0;
 		vrLen = 2292;
 		vrLoc = 297;
@@ -5696,7 +5701,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 96";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2600;
 		vrLoc = 0;
@@ -5720,7 +5725,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 82";
 		rLen = 0;
-		rLoc = 2550;
+		rLoc = 3164;
 		rType = 0;
 		vrLen = 2280;
 		vrLoc = 297;
@@ -5770,7 +5775,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 94";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2588;
 		vrLoc = 0;
@@ -5810,7 +5815,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 94";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2588;
 		vrLoc = 0;
@@ -5840,7 +5845,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 82";
 		rLen = 0;
-		rLoc = 2550;
+		rLoc = 3164;
 		rType = 0;
 		vrLen = 2256;
 		vrLoc = 321;
@@ -5850,7 +5855,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 101";
 		rLen = 0;
-		rLoc = 3558;
+		rLoc = 4172;
 		rType = 0;
 		vrLen = 2209;
 		vrLoc = 562;
@@ -5860,7 +5865,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 103";
 		rLen = 0;
-		rLoc = 3618;
+		rLoc = 4232;
 		rType = 0;
 		vrLen = 2615;
 		vrLoc = 0;
@@ -5870,7 +5875,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 102";
 		rLen = 0;
-		rLoc = 3618;
+		rLoc = 4232;
 		rType = 0;
 		vrLen = 2211;
 		vrLoc = 558;
@@ -5880,7 +5885,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 103";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2614;
 		vrLoc = 0;
@@ -5890,7 +5895,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 101";
 		rLen = 0;
-		rLoc = 3610;
+		rLoc = 4224;
 		rType = 0;
 		vrLen = 2268;
 		vrLoc = 558;
@@ -5900,7 +5905,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 103";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2652;
 		vrLoc = 0;
@@ -5930,7 +5935,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 95";
 		rLen = 195;
-		rLoc = 3425;
+		rLoc = 4039;
 		rType = 0;
 		vrLen = 2272;
 		vrLoc = 560;
@@ -5960,7 +5965,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 103";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2652;
 		vrLoc = 0;
@@ -5990,7 +5995,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 85";
 		rLen = 0;
-		rLoc = 2406;
+		rLoc = 3020;
 		rType = 0;
 		vrLen = 2408;
 		vrLoc = 596;
@@ -6000,7 +6005,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 109";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2750;
 		vrLoc = 0;
@@ -6010,7 +6015,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 88";
 		rLen = 0;
-		rLoc = 2546;
+		rLoc = 3160;
 		rType = 0;
 		vrLen = 2419;
 		vrLoc = 596;
@@ -6020,7 +6025,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 110";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2777;
 		vrLoc = 0;
@@ -6040,7 +6045,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 88";
 		rLen = 0;
-		rLoc = 2546;
+		rLoc = 3160;
 		rType = 0;
 		vrLen = 2492;
 		vrLoc = 596;
@@ -6050,7 +6055,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 88";
 		rLen = 0;
-		rLoc = 2514;
+		rLoc = 3128;
 		rType = 0;
 		vrLen = 2454;
 		vrLoc = 596;
@@ -6060,7 +6065,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 110";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2770;
 		vrLoc = 0;
@@ -6080,7 +6085,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 100";
 		rLen = 0;
-		rLoc = 3423;
+		rLoc = 4037;
 		rType = 0;
 		vrLen = 2436;
 		vrLoc = 761;
@@ -6110,7 +6115,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 113";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2796;
 		vrLoc = 0;
@@ -6130,7 +6135,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 111";
 		rLen = 0;
-		rLoc = 3618;
+		rLoc = 4232;
 		rType = 0;
 		vrLen = 2265;
 		vrLoc = 897;
@@ -6150,7 +6155,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 80";
 		rLen = 0;
-		rLoc = 2226;
+		rLoc = 2840;
 		rType = 0;
 		vrLen = 2323;
 		vrLoc = 839;
@@ -6160,7 +6165,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 108";
 		rLen = 0;
-		rLoc = 3541;
+		rLoc = 4155;
 		rType = 0;
 		vrLen = 2391;
 		vrLoc = 839;
@@ -6170,7 +6175,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 117";
 		rLen = 0;
-		rLoc = 6074;
+		rLoc = 6688;
 		rType = 0;
 		vrLen = 2011;
 		vrLoc = 1271;
@@ -6180,7 +6185,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 116";
 		rLen = 0;
-		rLoc = 3636;
+		rLoc = 4250;
 		rType = 0;
 		vrLen = 2009;
 		vrLoc = 1271;
@@ -6190,7 +6195,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 120";
 		rLen = 0;
-		rLoc = 3660;
+		rLoc = 4274;
 		rType = 0;
 		vrLen = 1991;
 		vrLoc = 1520;
@@ -6200,7 +6205,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 147";
 		rLen = 0;
-		rLoc = 5378;
+		rLoc = 5992;
 		rType = 0;
 		vrLen = 2519;
 		vrLoc = 2208;
@@ -6210,7 +6215,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 106";
 		rLen = 0;
-		rLoc = 3541;
+		rLoc = 4155;
 		rType = 0;
 		vrLen = 2467;
 		vrLoc = 2297;
@@ -6240,7 +6245,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 114";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2561;
 		vrLoc = 2208;
@@ -6250,7 +6255,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 102";
 		rLen = 0;
-		rLoc = 2847;
+		rLoc = 3461;
 		rType = 0;
 		vrLen = 2622;
 		vrLoc = 2208;
@@ -6260,7 +6265,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 102";
 		rLen = 0;
-		rLoc = 2924;
+		rLoc = 3538;
 		rType = 0;
 		vrLen = 2640;
 		vrLoc = 2208;
@@ -6270,7 +6275,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 104";
 		rLen = 0;
-		rLoc = 3423;
+		rLoc = 4037;
 		rType = 0;
 		vrLen = 2640;
 		vrLoc = 2208;
@@ -6320,7 +6325,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 101";
 		rLen = 0;
-		rLoc = 2838;
+		rLoc = 3452;
 		rType = 0;
 		vrLen = 2641;
 		vrLoc = 2206;
@@ -6330,7 +6335,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 110";
 		rLen = 0;
-		rLoc = 3541;
+		rLoc = 4155;
 		rType = 0;
 		vrLen = 2644;
 		vrLoc = 2208;
@@ -6340,7 +6345,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 103";
 		rLen = 0;
-		rLoc = 2924;
+		rLoc = 3538;
 		rType = 0;
 		vrLen = 2694;
 		vrLoc = 2067;
@@ -6350,7 +6355,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 115";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2694;
 		vrLoc = 2067;
@@ -6390,7 +6395,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 102";
 		rLen = 0;
-		rLoc = 2924;
+		rLoc = 3538;
 		rType = 0;
 		vrLen = 2645;
 		vrLoc = 2067;
@@ -6400,7 +6405,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3661;
+		rLoc = 4275;
 		rType = 0;
 		vrLen = 2473;
 		vrLoc = 2090;
@@ -6420,7 +6425,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 2413;
-		rLoc = 3660;
+		rLoc = 4274;
 		rType = 0;
 		vrLen = 2473;
 		vrLoc = 2090;
@@ -6490,7 +6495,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 128";
 		rLen = 0;
-		rLoc = 3618;
+		rLoc = 4232;
 		rType = 0;
 		vrLen = 2385;
 		vrLoc = 2109;
@@ -6550,7 +6555,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 123";
 		rLen = 0;
-		rLoc = 3540;
+		rLoc = 4154;
 		rType = 0;
 		vrLen = 2493;
 		vrLoc = 2111;
@@ -6600,7 +6605,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 123";
 		rLen = 0;
-		rLoc = 3540;
+		rLoc = 4154;
 		rType = 0;
 		vrLen = 2208;
 		vrLoc = 2079;
@@ -6610,7 +6615,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 123";
 		rLen = 0;
-		rLoc = 3540;
+		rLoc = 4154;
 		rType = 0;
 		vrLen = 2212;
 		vrLoc = 2513;
@@ -6660,7 +6665,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 104";
 		rLen = 0;
-		rLoc = 2851;
+		rLoc = 3465;
 		rType = 0;
 		vrLen = 2372;
 		vrLoc = 2318;
@@ -6670,7 +6675,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 117";
 		rLen = 0;
-		rLoc = 3353;
+		rLoc = 3967;
 		rType = 0;
 		vrLen = 2444;
 		vrLoc = 2318;
@@ -6680,7 +6685,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 117";
 		rLen = 0;
-		rLoc = 3353;
+		rLoc = 3967;
 		rType = 0;
 		vrLen = 2460;
 		vrLoc = 2318;
@@ -6720,7 +6725,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3417;
+		rLoc = 4031;
 		rType = 0;
 		vrLen = 2188;
 		vrLoc = 2629;
@@ -6780,7 +6785,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 118";
 		rLen = 0;
-		rLoc = 3417;
+		rLoc = 4031;
 		rType = 0;
 		vrLen = 2183;
 		vrLoc = 2629;
@@ -6790,7 +6795,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 130";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4234;
 		rType = 0;
 		vrLen = 2297;
 		vrLoc = 2515;
@@ -6800,7 +6805,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 123";
 		rLen = 0;
-		rLoc = 3467;
+		rLoc = 4081;
 		rType = 0;
 		vrLen = 2306;
 		vrLoc = 2515;
@@ -6810,7 +6815,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 115";
 		rLen = 0;
-		rLoc = 3329;
+		rLoc = 3943;
 		rType = 0;
 		vrLen = 2306;
 		vrLoc = 2515;
@@ -6930,7 +6935,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 115";
 		rLen = 0;
-		rLoc = 3329;
+		rLoc = 3943;
 		rType = 0;
 		vrLen = 2306;
 		vrLoc = 2515;
@@ -7010,7 +7015,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 115";
 		rLen = 0;
-		rLoc = 3329;
+		rLoc = 3943;
 		rType = 0;
 		vrLen = 2500;
 		vrLoc = 581;
@@ -7020,7 +7025,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 164";
 		rLen = 0;
-		rLoc = 6073;
+		rLoc = 6687;
 		rType = 0;
 		vrLen = 2310;
 		vrLoc = 2515;
@@ -7030,7 +7035,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 103";
 		rLen = 0;
-		rLoc = 2846;
+		rLoc = 3460;
 		rType = 0;
 		vrLen = 2196;
 		vrLoc = 2629;
@@ -7070,7 +7075,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 168";
 		rLen = 0;
-		rLoc = 6078;
+		rLoc = 6692;
 		rType = 0;
 		vrLen = 1060;
 		vrLoc = 739;
@@ -7120,7 +7125,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 177;
+		rLoc = 192;
 		rType = 1;
 	};
 	DC259CD9132330E3009D579E /* PBXTextBookmark */ = {
@@ -7128,7 +7133,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 159";
 		rLen = 0;
-		rLoc = 5175;
+		rLoc = 5789;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 4254;
@@ -7237,7 +7242,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 179";
 		rLen = 0;
-		rLoc = 5568;
+		rLoc = 6182;
 		rType = 0;
 		vrLen = 2343;
 		vrLoc = 3282;
@@ -7307,7 +7312,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 179";
 		rLen = 0;
-		rLoc = 5568;
+		rLoc = 6182;
 		rType = 0;
 		vrLen = 2346;
 		vrLoc = 3279;
@@ -7317,7 +7322,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 147";
 		rLen = 0;
-		rLoc = 4199;
+		rLoc = 4813;
 		rType = 0;
 		vrLen = 2383;
 		vrLoc = 3279;
@@ -7327,7 +7332,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 147";
 		rLen = 0;
-		rLoc = 4199;
+		rLoc = 4813;
 		rType = 0;
 		vrLen = 2330;
 		vrLoc = 3377;
@@ -7397,7 +7402,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 133";
 		rLen = 5;
-		rLoc = 3631;
+		rLoc = 4245;
 		rType = 0;
 		vrLen = 2329;
 		vrLoc = 3374;
@@ -7407,7 +7412,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 193";
 		rLen = 0;
-		rLoc = 5720;
+		rLoc = 6334;
 		rType = 0;
 		vrLen = 2367;
 		vrLoc = 3377;
@@ -7417,7 +7422,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 194";
 		rLen = 8;
-		rLoc = 5745;
+		rLoc = 6359;
 		rType = 0;
 		vrLen = 2286;
 		vrLoc = 3495;
@@ -7427,7 +7432,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 195";
 		rLen = 0;
-		rLoc = 5784;
+		rLoc = 6398;
 		rType = 0;
 		vrLen = 2313;
 		vrLoc = 3495;
@@ -7437,7 +7442,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 198";
 		rLen = 0;
-		rLoc = 5852;
+		rLoc = 6466;
 		rType = 0;
 		vrLen = 2349;
 		vrLoc = 3495;
@@ -7447,7 +7452,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 197";
 		rLen = 0;
-		rLoc = 5849;
+		rLoc = 6463;
 		rType = 0;
 		vrLen = 2352;
 		vrLoc = 3495;
@@ -7467,7 +7472,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 106";
 		rLen = 22;
-		rLoc = 2931;
+		rLoc = 3545;
 		rType = 0;
 		vrLen = 2119;
 		vrLoc = 2064;
@@ -7477,7 +7482,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 203";
 		rLen = 0;
-		rLoc = 6037;
+		rLoc = 6651;
 		rType = 0;
 		vrLen = 2308;
 		vrLoc = 3619;
@@ -7517,7 +7522,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 161";
 		rLen = 0;
-		rLoc = 4525;
+		rLoc = 5139;
 		rType = 0;
 		vrLen = 2341;
 		vrLoc = 3586;
@@ -7527,7 +7532,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 204";
 		rLen = 0;
-		rLoc = 5904;
+		rLoc = 6518;
 		rType = 0;
 		vrLen = 2318;
 		vrLoc = 3622;
@@ -7537,7 +7542,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 199";
 		rLen = 0;
-		rLoc = 5859;
+		rLoc = 6473;
 		rType = 0;
 		vrLen = 2263;
 		vrLoc = 3744;
@@ -7547,7 +7552,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 203";
 		rLen = 0;
-		rLoc = 5946;
+		rLoc = 6560;
 		rType = 0;
 		vrLen = 2331;
 		vrLoc = 3744;
@@ -7577,7 +7582,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 203";
 		rLen = 0;
-		rLoc = 5946;
+		rLoc = 6560;
 		rType = 0;
 		vrLen = 2415;
 		vrLoc = 3660;
@@ -7587,7 +7592,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 205";
 		rLen = 0;
-		rLoc = 6030;
+		rLoc = 6644;
 		rType = 0;
 		vrLen = 2301;
 		vrLoc = 3744;
@@ -7597,7 +7602,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 199";
 		rLen = 0;
-		rLoc = 5849;
+		rLoc = 6463;
 		rType = 0;
 		vrLen = 2301;
 		vrLoc = 3744;
@@ -7657,7 +7662,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 204";
 		rLen = 0;
-		rLoc = 6003;
+		rLoc = 6617;
 		rType = 0;
 		vrLen = 2306;
 		vrLoc = 3744;
@@ -7667,7 +7672,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 199";
 		rLen = 0;
-		rLoc = 5808;
+		rLoc = 6422;
 		rType = 0;
 		vrLen = 2425;
 		vrLoc = 3621;
@@ -7677,7 +7682,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 199";
 		rLen = 0;
-		rLoc = 5808;
+		rLoc = 6422;
 		rType = 0;
 		vrLen = 2425;
 		vrLoc = 3621;
@@ -7707,7 +7712,7 @@
 		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
 		name = "QuickDoubanCardViewController.m: 204";
 		rLen = 0;
-		rLoc = 6019;
+		rLoc = 6633;
 		rType = 0;
 		vrLen = 2455;
 		vrLoc = 3619;
@@ -7851,6 +7856,56 @@
 		rType = 0;
 		vrLen = 2410;
 		vrLoc = 2509;
+	};
+	DC259D7913233F3D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */;
+		name = "QuickDoubanAppDelegate.m: 122";
+		rLen = 0;
+		rLoc = 3443;
+		rType = 0;
+		vrLen = 2419;
+		vrLoc = 2509;
+	};
+	DC259D7A13233F3D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 204";
+		rLen = 0;
+		rLoc = 6633;
+		rType = 0;
+		vrLen = 2453;
+		vrLoc = 3621;
+	};
+	DC259D7B13233F3D009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 59";
+		rLen = 0;
+		rLoc = 1756;
+		rType = 0;
+		vrLen = 2350;
+		vrLoc = 152;
+	};
+	DC259D8213234441009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 83";
+		rLen = 0;
+		rLoc = 2577;
+		rType = 0;
+		vrLen = 2490;
+		vrLoc = 387;
+	};
+	DC259D86132344B4009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC866FC813177D460053100C /* QuickDoubanCardViewController.m */;
+		name = "QuickDoubanCardViewController.m: 77";
+		rLen = 0;
+		rLoc = 2214;
+		rType = 0;
+		vrLen = 2490;
+		vrLoc = 387;
 	};
 	DC804EF5131CC7DF00DE8FD6 /* QuickDoubanAppDelegate.m:171 */ = {
 		isa = PBXFileBreakpoint;
@@ -8146,9 +8201,10 @@
 	};
 	DC866FC813177D460053100C /* QuickDoubanCardViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1390, 2795}}";
-			sepNavSelRange = "{6019, 0}";
-			sepNavVisRange = "{3619, 2455}";
+			sepNavFolds = "{\n    c =     (\n                {\n            c =             (\n                                {\n                    r = \"{4328, 1998}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{6335, 318}\";\n                    s = 0;\n                }\n            );\n            r = \"{4272, 2416}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 6697}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1395, 1924}}";
+			sepNavSelRange = "{2214, 0}";
+			sepNavVisRange = "{387, 2490}";
 			sepNavWindowFrame = "{{15, 38}, {1278, 1375}}";
 		};
 	};
