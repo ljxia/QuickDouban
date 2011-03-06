@@ -15,6 +15,7 @@
 		DC217E9C13106CC90084C7CD /* RestService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC217E9B13106CC90084C7CD /* RestService.m */; };
 		DC217EC11310771C0084C7CD /* BaseDoubanSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */; };
 		DC259BC01322FE21009D579E /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC259BBF1322FE21009D579E /* OverlayView.m */; };
+		DC259E87132360DD009D579E /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DC259E86132360DD009D579E /* icon.icns */; };
 		DC804F0E131CC85100DE8FD6 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC804F0D131CC85100DE8FD6 /* Quartz.framework */; };
 		DC805017131DF0C800DE8FD6 /* SearchBarWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */; };
 		DC80501C131DF0F700DE8FD6 /* SearchBarWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC80501B131DF0F700DE8FD6 /* SearchBarWindowController.xib */; };
@@ -55,6 +56,7 @@
 		DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDoubanSearcher.m; sourceTree = "<group>"; };
 		DC259BBE1322FE21009D579E /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
 		DC259BBF1322FE21009D579E /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		DC259E86132360DD009D579E /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = SOURCE_ROOT; };
 		DC804F0D131CC85100DE8FD6 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		DC805015131DF0C800DE8FD6 /* SearchBarWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarWindowController.h; sourceTree = "<group>"; };
 		DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarWindowController.m; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DC259E86132360DD009D579E /* icon.icns */,
 				8D1107310486CEB800E47090 /* QuickDouban-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -335,6 +338,7 @@
 				DC8053E3131F4A6E00DE8FD6 /* movie.png in Resources */,
 				DC8053E4131F4A6E00DE8FD6 /* music_alt.png in Resources */,
 				DC8053E5131F4A6E00DE8FD6 /* music.png in Resources */,
+				DC259E87132360DD009D579E /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

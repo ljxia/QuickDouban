@@ -2,9 +2,10 @@
 {
 	089C165DFE840E0CC02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1151, 673}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1395, 847}}";
 			sepNavSelRange = "{45, 0}";
 			sepNavVisRange = "{0, 45}";
+			sepNavWindowFrame = "{{15, 38}, {1278, 1375}}";
 		};
 	};
 	256AC3D80F4B6AC300CF3369 /* QuickDoubanAppDelegate.h */ = {
@@ -17,9 +18,9 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* QuickDoubanAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1380, 4940}}";
-			sepNavSelRange = "{447, 0}";
-			sepNavVisRange = "{149, 639}";
+			sepNavIntBoundsRect = "{{0, 0}, {1214, 4771}}";
+			sepNavSelRange = "{6685, 1}";
+			sepNavVisRange = "{6602, 749}";
 			sepNavWindowFrame = "{{38, 17}, {1278, 1375}}";
 		};
 	};
@@ -31,7 +32,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = DC9F46E6130CCC0500B81679 /* QuickDouban */;
 		activeTarget = 8D1107260486CEB800E47090 /* QuickDouban */;
 		addToTargets = (
@@ -875,6 +876,14 @@
 			DC259E7813235BCB009D579E /* PBXTextBookmark */ = DC259E7813235BCB009D579E /* PBXTextBookmark */;
 			DC259E7913235BCB009D579E /* PBXTextBookmark */ = DC259E7913235BCB009D579E /* PBXTextBookmark */;
 			DC259E7A13235BCB009D579E /* PBXTextBookmark */ = DC259E7A13235BCB009D579E /* PBXTextBookmark */;
+			DC259E8113235F8A009D579E /* PBXTextBookmark */ = DC259E8113235F8A009D579E /* PBXTextBookmark */;
+			DC259E8213235F8A009D579E /* PBXTextBookmark */ = DC259E8213235F8A009D579E /* PBXTextBookmark */;
+			DC259E8313235F8A009D579E /* PlistBookmark */ = DC259E8313235F8A009D579E /* PlistBookmark */;
+			DC259E8413235F8A009D579E /* PBXTextBookmark */ = DC259E8413235F8A009D579E /* PBXTextBookmark */;
+			DC259E8C132360EF009D579E /* PlistBookmark */ = DC259E8C132360EF009D579E /* PlistBookmark */;
+			DC259E8D132360EF009D579E /* PBXBookmark */ = DC259E8D132360EF009D579E /* PBXBookmark */;
+			DC259E8E132360EF009D579E /* PBXBookmark */ = DC259E8E132360EF009D579E /* PBXBookmark */;
+			DC259E8F132360EF009D579E /* PBXTextBookmark */ = DC259E8F132360EF009D579E /* PBXTextBookmark */;
 			DC805357131E301000DE8FD6 = DC805357131E301000DE8FD6 /* PBXTextBookmark */;
 			DC8055571320A7E800DE8FD6 = DC8055571320A7E800DE8FD6 /* PBXTextBookmark */;
 			DC8055861320AB1000DE8FD6 = DC8055861320AB1000DE8FD6 /* PBXTextBookmark */;
@@ -980,7 +989,7 @@
 	};
 	DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1531, 1224}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 1247}}";
 			sepNavSelRange = "{1271, 0}";
 			sepNavVisRange = "{0, 1889}";
 		};
@@ -8964,6 +8973,76 @@
 		vrLen = 1889;
 		vrLoc = 0;
 	};
+	DC259E8113235F8A009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */;
+		name = "SearchBarWindowController.m: 49";
+		rLen = 0;
+		rLoc = 1257;
+		rType = 0;
+		vrLen = 2212;
+		vrLoc = 501;
+	};
+	DC259E8213235F8A009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 3";
+		rLen = 0;
+		rLoc = 45;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	DC259E8313235F8A009D579E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* QuickDouban-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	DC259E8413235F8A009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */;
+		name = "BaseDoubanSearcher.m: 45";
+		rLen = 0;
+		rLoc = 1271;
+		rType = 0;
+		vrLen = 1889;
+		vrLoc = 0;
+	};
+	DC259E8C132360EF009D579E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* QuickDouban-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	DC259E8D132360EF009D579E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DC259E86132360DD009D579E /* icon.icns */;
+	};
+	DC259E8E132360EF009D579E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DC259E86132360DD009D579E /* icon.icns */;
+	};
+	DC259E8F132360EF009D579E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC217EC01310771C0084C7CD /* BaseDoubanSearcher.m */;
+		name = "BaseDoubanSearcher.m: 45";
+		rLen = 0;
+		rLoc = 1271;
+		rType = 0;
+		vrLen = 1889;
+		vrLoc = 0;
+	};
 	DC804EF5131CC7DF00DE8FD6 /* QuickDoubanAppDelegate.m:177 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
@@ -8991,9 +9070,9 @@
 	};
 	DC805016131DF0C800DE8FD6 /* SearchBarWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1395, 2379}}";
-			sepNavSelRange = "{1757, 0}";
-			sepNavVisRange = "{501, 2182}";
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 2522}}";
+			sepNavSelRange = "{5060, 15}";
+			sepNavVisRange = "{4327, 802}";
 		};
 	};
 	DC805225131E209B00DE8FD6 /* QuickDoubanCardWindow.h */ = {
