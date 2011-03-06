@@ -18,6 +18,7 @@
 @synthesize window;
 @synthesize searchController;
 @synthesize cardWindows;
+@synthesize cardSize;
 
 - (void)awakeFromNib{
 	
@@ -36,6 +37,8 @@
 	cardWindows = [[NSMutableArray alloc] initWithCapacity:100]; 
 	
 	[[searchController progressIndicator] setUsesThreadedAnimation:YES];
+	
+	[self determineBestCardSize];
 	
 }
 
@@ -134,12 +137,12 @@
 			
 			NSDictionary *entry = (NSDictionary *)[entries objectAtIndex:i];
 		
-			NSRect windowRect = NSMakeRect([window frame].size.width / 2, 0, 300, 300);
+			NSRect windowRect = NSMakeRect([window frame].size.width / 2, 0, cardSize.size.width, cardSize.size.width);
 			
 			windowRect.origin = [window convertBaseToScreen:windowRect.origin];
 
 		    QuickDoubanCardWindow *cardWindow = [[QuickDoubanCardWindow alloc] initWithContentRect:windowRect 
-															 styleMask:NSHUDWindowMask | NSUtilityWindowMask
+															 styleMask:NSHUDWindowMask | NSUtilityWindowMask | NSBorderlessWindowMask 
 															   backing:NSBackingStoreBuffered 
 																 defer:YES];
 			
@@ -179,14 +182,26 @@
 	//});
 }
 
+- (void) determineBestCardSize {
+	NSRect screenFrame = [[NSScreen mainScreen] frame];
+	NSLog(@"\n\nScreen %d, %d", (int)screenFrame.size.width, (int)screenFrame.size.height);
+	
+	int cardMargin = screenFrame.size.width > 1600 ? 25 : 15;
+	int screenMargin = screenFrame.size.width > 1600 ? 40 : 30;
+	int cardInRow = screenFrame.size.width > 1600 ? 8 : 6;
+	int cardSide = (int)((screenFrame.size.width - screenMargin * 2) / cardInRow) - cardMargin;
+	
+	cardSize = NSMakeRect(0, 0, cardSide, cardSide);
+}
+
 - (void) organizeChildWindows
 {	
 	[QuickDoubanBase timer_start];
 	NSRect screenFrame = [[NSScreen mainScreen] frame];
 	
-	NSLog(@"\n\nScreen %d, %d", (int)screenFrame.size.width, (int)screenFrame.size.height);
+	//NSLog(@"\n\nScreen %d, %d", (int)screenFrame.size.width, (int)screenFrame.size.height);
 	
-	int cardSide = 300;
+	int cardSide = cardSize.size.width;
 	int cardMargin = 30;
 	int screenMargin = 50;
 	int maxCardInRow = (int)((screenFrame.size.width - screenMargin * 2) / (cardMargin + cardSide));

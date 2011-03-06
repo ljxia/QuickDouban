@@ -53,7 +53,7 @@
 			
 			NSURL *imageUrl = [NSURL URLWithString:imageUrlString];
 			
-			cardImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, [[self view] frame].size.width, [[self view] frame].size.height)];
+			cardImageView = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, [[self view] frame].size.width + 1, [[self view] frame].size.height + 1)];
 			
 			NSLog(@"Starting to load %@",imageUrlString);
 			
@@ -82,8 +82,6 @@
 	dispatch_group_notify( displayGroup, displayQueue, ^{
 		
 		if (cardImage) {
-			[[self view] addSubview:cardImageView positioned:NSWindowBelow relativeTo:overlayView];	
-			
 			float aspectRatio = [cardImage size].width / [cardImage size].height;
 			NSRect newImageFrame;
 			if (aspectRatio > 1) { 
@@ -99,7 +97,11 @@
 
 			[cardImageView setFrame:newImageFrame];
 			[cardImageView setImageScaling:NSScaleToFit];
+			[[[self view] animator] addSubview:cardImageView positioned:NSWindowBelow relativeTo:overlayView];
+			
 			[progressIndicator stopAnimation:self];		
+			
+			[overlayView setAlphaValue:0];
 		}
 	});
 	
@@ -110,7 +112,8 @@
 	NSLog(@"QuickDoubanCardViewController start to load view");
 	
 	[super loadView];
-	[overlayView setAlphaValue:0];
+	[overlayView setFrame:NSMakeRect(0, 0, [[self view] frame].size.width + 1, [[self view] frame].size.height + 1)];
+	[overlayView setAlphaValue:0.5];
 	
 	
 	NSTrackingArea *trackingArea = [[NSTrackingArea alloc] initWithRect:[overlayView frame]
@@ -145,15 +148,18 @@
 	if (isActive)
 	{
 		//NSLog(@"Activate View %@", [self view]);
-		[overlayView setAlphaValue:1];
+		[[overlayView animator] setAlphaValue:1];
+		//[overlayView setAlphaValue:1];
 	}
 	else {
 		//NSLog(@"Deactivate View %@", [self view]);
 		if (!cardImage) {
-			[overlayView setAlphaValue:0.5];
+			[[overlayView animator] setAlphaValue:0.5];
+			//[overlayView setAlphaValue:0.5];
 		}
 		else {
-			[overlayView setAlphaValue:0];
+			[[overlayView animator] setAlphaValue:0];
+			//[overlayView setAlphaValue:0];
 		}
 	}
 

@@ -22,7 +22,7 @@
 - (void)drawRect:(NSRect)dirtyRect {
 	// Fill in background Color
     CGContextRef context = (CGContextRef) [[NSGraphicsContext currentContext] graphicsPort];
-    CGContextSetRGBFillColor(context, 0,0,0,0.6);
+    CGContextSetRGBFillColor(context, 0,0,0,0.7);
     CGContextFillRect(context, NSRectToCGRect(dirtyRect));
 }
 
