@@ -234,8 +234,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -342,7 +340,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DCBEE56B13247EAA009BD4A6</string>
+										<string>DCBEE57B132489AE009BD4A6</string>
 										<key>history</key>
 										<array>
 											<string>DC9F4733130CD93700B81679</string>
@@ -568,12 +566,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DCBEE55113247ABC009BD4A6</string>
+		<string>DCBEE57C132489AE009BD4A6</string>
 		<string>DCBEE55213247ABC009BD4A6</string>
 		<string>DCBEE55313247ABC009BD4A6</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>DC9F46F7130CCC1400B81679</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -669,7 +667,7 @@
 			<key>WindowToolGUID</key>
 			<string>DC9F46F7130CCC1400B81679</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
