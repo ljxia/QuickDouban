@@ -32,7 +32,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = DC9F46E6130CCC0500B81679 /* QuickDouban */;
 		activeTarget = 8D1107260486CEB800E47090 /* QuickDouban */;
 		addToTargets = (
@@ -161,6 +161,7 @@
 			DCBEE56813247E62009BD4A6 /* PlistBookmark */ = DCBEE56813247E62009BD4A6 /* PlistBookmark */;
 			DCBEE56B13247EAA009BD4A6 /* PlistBookmark */ = DCBEE56B13247EAA009BD4A6 /* PlistBookmark */;
 			DCBEE57B132489AE009BD4A6 /* PlistBookmark */ = DCBEE57B132489AE009BD4A6 /* PlistBookmark */;
+			DCBEE57F132489EB009BD4A6 /* PlistBookmark */ = DCBEE57F132489EB009BD4A6 /* PlistBookmark */;
 		};
 		sourceControlManager = DC9F4703130CCC1400B81679 /* Source Control */;
 		userBuildSettings = {
@@ -957,6 +958,17 @@
 		rLoc = 9223372036854775807;
 	};
 	DCBEE57B132489AE009BD4A6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* QuickDouban-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/liangjie/Projects/Mac/QuickDouban/QuickDouban-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	DCBEE57F132489EB009BD4A6 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* QuickDouban-Info.plist */;
 		fallbackIsa = PBXBookmark;
